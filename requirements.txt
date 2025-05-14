@@ -2,5 +2,5 @@ streamlit
 langchain-google-genai
 python-dotenv
 asyncio
-browser-use
+browser-use[memory]
 pydantic
