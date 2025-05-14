@@ -1,0 +1,18 @@
+{
+  "student_id": "1210291",
+  "student_name": "Andrew Sorge",
+  "entries": [
+    {
+      "author": "Andrew Sorge",
+      "post_date": "2025-05-06T16:58:32-06:00",
+      "content": "Hi Joey,\n \nWe chose the same thing to discuss. In the organizations you have witnessed this, did you witness both intuitive-only approaches and data-driven approaches? Were there ever times were decision makers made the right call solely off intuition? I love your real-life example you shared. Great job! Did you provide a data analysis showing how Macs have a longer lifespan or what? Along with your post there is a phrase that I like... it is \"Trust, but verify\". I think this was the case in your example, and it turned the whole situation upside down. Some examples I have seen where data has changed minds is with percentage of college graduates who make a good living vs those who do not attend college. These days there is a big social trend about how college is no longer necessary and rather a waste of time. The data proves otherwise."
+    },
+    {
+      "author": "Andrew Sorge",
+      "post_date": "2025-05-06T16:53:30-06:00",
+      "content": "Hi everyone,\n \nThis week I would love to discuss how relying solely on intuition in the workplace is increasingly risky and not a good idea - especially in a data-rich world where better decisions come from better information. While intuition is shaped by experience, it’s also limited by personal bias and lacks the scalability that data analytics provides. For example, companies like Amazon use predictive analytics to anticipate customer needs and tailor marketing efforts, something no gut feeling could replicate with the same accuracy. As discussed in our book, data-driven organizations outperform those that lean on instinct by grounding decisions in evidence, identifying trends, and reducing uncertainty. Embedding analytics into everyday decision-making not only increases efficiency but also helps leaders avoid costly assumptions—making data not just helpful, but essential. I think this is paramount and something I am guilty of doing in the past (relying solely on intuition and brushing aside data). \nMy question is this - How can an individual measure something like confidence or expected/anticipated success? I feel this would lower anxiety levels for students around the world as well as employees."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

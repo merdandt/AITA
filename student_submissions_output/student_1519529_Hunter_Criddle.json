@@ -1,0 +1,18 @@
+{
+  "student_id": "1519529",
+  "student_name": "Hunter Criddle",
+  "entries": [
+    {
+      "author": "Hunter Criddle",
+      "post_date": "2025-05-05T20:14:11-06:00",
+      "content": "I found the section regarding the 5 types of companies based on analytical maturity the most interesting. In my experience, I have seen most companies perform in the “localized analytics” category. I believe this this the worst situation, because a company can believe they are expending massive efforts to be “analytical” and think they are succeeding, but because of silos the analysis returns very few results and does not empower decision making.\nI have seen many companies struggle to coordinate data analytics to achieve a unified purpose, and goals to further the company in success. I’ve been thinking about this since starting the reading and I thought I’d shoot the question out to the group. What are some ways you have seen companies progress pass localized analytics to achieve coordinated efforts, goals, and progress based on data that benefits the organization as a whole?"
+    },
+    {
+      "author": "Hunter Criddle",
+      "post_date": "2025-05-05T20:20:02-06:00",
+      "content": "You bring up a good point, and perhaps the Achilles heal of engineers. Often collecting data in the world of engineering can be expensive and time consuming. I work in the thermal engineering field, and waiting for temperatures to stabilize makes gathering data a long process. I agree that careful planning of data collection is as or more important than the postprocessing of data.\nOne struggle is when there is uncertainty in what data will be valuable and aid in decision making. Often in this scenario, too much data is gathered, generally in the breadth of data gathered and in the process it is determined what is actually needed. However this requires additional testing to gather a depth of data in the field newly \"discovered\". Because of this I feel data collection efforts, specifically in engineering testing, are often given too little schedule to allow for adequate testing. \nThat being said, we always need to know what is \"good enough\" and when to stop."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

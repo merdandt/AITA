@@ -1,0 +1,18 @@
+{
+  "student_id": "1657778",
+  "student_name": "Jacob Mickelsen",
+  "entries": [
+    {
+      "author": "Jacob Mickelsen",
+      "post_date": "2025-05-11T23:02:20-06:00",
+      "content": "Hi Brady,\nI also found it interesting that some companies use internal data to gain a competitive edge. I agree that this is often overlooked as they look outwards for market trends, saturation levels, and pricing factors. The biggest \"bang for your buck\" is often data you already have and do not have to use resources to gather. I see this happen in my work in product management as well, where internal data does not get the attention of external sourced data. I would be curious to see how common this is and what the potential value add can be for those underutilizing this resource. \nThanks,\nJacob"
+    },
+    {
+      "author": "Jacob Mickelsen",
+      "post_date": "2025-05-08T23:25:38-06:00",
+      "content": "Data driven decisions are everywhere and especially important in managerial roles. I work in product management and use data driven decision making daily. I like how there was discussion on the quantifying of intangible data. This is very common when trying to weigh the feature benefits of a new product or the value of a new release. It is difficult to quantify things like perceived customer value, but doing so can radically influence decisions. For example, I know of a product release that did not meet a significant amount of the required competitive features in that market and it failed. The perceived value of the feature set to the customer was not properly evaluated and thus led to the low success of the product. Quantifying intangible data can have vast consequences like shown previously and I am interested in learning if others have found methods they believe are successful in doing so."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

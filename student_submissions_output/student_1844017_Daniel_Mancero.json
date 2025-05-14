@@ -1,0 +1,18 @@
+{
+  "student_id": "1844017",
+  "student_name": "Daniel Mancero",
+  "entries": [
+    {
+      "author": "Daniel Mancero",
+      "post_date": "2025-05-11T22:23:21-06:00",
+      "content": "I totally agree with you. Based on Chapter 1, where it talks about data as a competitive advantage, it's likely that companies notice market peaks after an update is made. I believe it’s similar to tennis—sometimes, a new update is just a new color, and people think it will improve their game, even though the racquet's mechanics haven’t changed at all. Companies analyze data to identify trends and understand where people are most likely to boost their purchasing behavior, allowing them to achieve higher profits."
+    },
+    {
+      "author": "Daniel Mancero",
+      "post_date": "2025-05-11T22:19:14-06:00",
+      "content": "It's great to hear how you're applying analytics in your work!  like chapter one help us undertand how data analytics can become a competitive advantage.Using tools like DCF models for property investments and pivot tables in Excel for organizing transactional data is a great approach. It sounds like you're really making the most of data to help with decision-making, which is crucial for business success.\nHaving a dedicated fund analytics team to filter and analyze data must be extremely helpful too, as it allows you to focus on high-level decisions while relying on solid insights.\nImproving your skills with pivot tables is definitely a valuable step in becoming more proficient at data analysis. The more you practice, the better you’ll be at spotting trends and making informed decisions based on data. Is there any data tools you guys have found useful to improve the decision-making skills?https://www.bing.com/search?q=pivot+tables+useful+for+data+analitics&cvid=52f4d174307642babc2dd09fcf79d133&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEAyCAgJEOkHGPxV0gEINjczMmowajGoAgCwAgA&FORM=ANAB01&PC=HCTS"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

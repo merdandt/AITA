@@ -1,0 +1,18 @@
+{
+  "student_id": "1718921",
+  "student_name": "Hiatt Bean",
+  "entries": [
+    {
+      "author": "Hiatt Bean",
+      "post_date": "2025-05-07T21:25:25-06:00",
+      "content": "David, I agree with your recollection from the readings on the importance of having sound data. I also appreciate your impact analysis from having poor data on key business processes and operations. Like the reading stated, there have been very costly business decisions made off of incorrect data that have cost millions of dollars. I think of being in the aircraft industry and how imperative it is to have clean and consistent data, for not only your profits, but also for customer safety. Thank you for your insightful comment. Keep up the good work!"
+    },
+    {
+      "author": "Hiatt Bean",
+      "post_date": "2025-05-07T21:20:55-06:00",
+      "content": "QUESTION: How have you seen well-organized data and critical analysis of that data impact an important decision you made at work?\nAs context, the reading talked about the importance of first having well-organized data, otherwise, it isn't easy to do analysis. Poorly managed data or inconsistent data can create trust issues with analysis and proposals. It is imperative to have trustworthy data through master data management. Please share how your company organizes its data and the specific decision that was made after analyzing the data."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

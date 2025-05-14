@@ -1,0 +1,18 @@
+{
+  "student_id": "53243",
+  "student_name": "Maegan Hunter",
+  "entries": [
+    {
+      "author": "Maegan Hunter",
+      "post_date": "2025-05-09T15:17:47-06:00",
+      "content": "When I read about Emily and then watched the video that was by far my favorite part of this week's lesson. I think sometimes as adults we over complicate things. This 9 year old was able to create a very simple experiment to show that the practice was questionable. I appreciate your question on how we can build and test data when people are unwilling, that is a valid concern. Or what if they are willing to help but are knowingly sabotaging the data? It makes me wonder if those who are unwilling aren't convinced of their data/project etc that is being tested."
+    },
+    {
+      "author": "Maegan Hunter",
+      "post_date": "2025-05-08T08:42:19-06:00",
+      "content": "I was wondering how a company would implement the 5 stages of analytics maturity when they are just starting out. In my line of work we are constantly analyzing our financial data to make sure we are giving accurate forecasts. However, I have never been in a situation where I have had to create that data from scratch. I'm curious if anyone has had to do so and if they have, how did you know where to start, what data you needed, and did it feel overwhelming trying to determine what it was you needed?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

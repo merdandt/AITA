@@ -1,0 +1,18 @@
+{
+  "student_id": "127372",
+  "student_name": "Brady Bodily",
+  "entries": [
+    {
+      "author": "Brady Bodily",
+      "post_date": "2025-05-08T23:00:22-06:00",
+      "content": "I found it fascinating how some companies use their own internal data, often overlooked, to gain a competitive edge. The example from Cisco was especially intriguing. By identifying customers who would soon need new equipment, they could proactively present solutions before the customers even started looking. This approach could also be extended to supply chain logistics: knowing where products will be needed allows companies to pre-position inventory, reducing shipping times and improving overall customer satisfaction.\nIn my work in software, we track unit test failures over time. While we have analytics available, they’re often underutilized. We could make better use of this data to identify problematic code or even justify refactoring efforts. Persistent test failures might signal overly complex code, and simplifying it could reduce development time and improve maintainability. This LinkedIn article\n    \n\nLinks to an external site. discusses how such failures can be a strong indicator that refactoring is needed.(Used Chat GPT to help clean up the structure. Prompt \"Fix the grammer and sentence structure of this post...\")"
+    },
+    {
+      "author": "Brady Bodily",
+      "post_date": "2025-05-11T15:54:59-06:00",
+      "content": "Hey Shon,While I didn’t conduct any formal ethnographic research, I’ve seen firsthand how environmental changes can affect behavior. At my previous employer, the shift from a rigid 9–5 in-office schedule to flexible remote work led to a documented increase in productivity, employees willingly putting in overtime, and an overall boost in employee satisfaction (measured by quarterly surveys). Observing how people adapted made it clear that autonomy and trust were far more effective drivers of performance than a strict structure."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

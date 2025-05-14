@@ -1,0 +1,18 @@
+{
+  "student_id": "1808375",
+  "student_name": "Jeffrey Hoskins",
+  "entries": [
+    {
+      "author": "Jeffrey Hoskins",
+      "post_date": "2025-05-08T22:03:38-06:00",
+      "content": "Hey Cami, I run into similar questions on my company's \"Pulse Survey\" that is sent out quarterly. As a manager, I am able to see the anonymous responses for my team members who have participated and then I am asked to create goals to improve areas where we scored lower. I really struggle with this task for the same reasons you mentioned. One of our questions, and one my team ranked lower this past quarter, is to respond on a scale from 1 to 6 regarding the employee's agreement with the following statement, \"I am recognized for my contributions to the organization.\" Recognition could mean different things to different individuals, including their compensation. While these types of surveys can have issues with data quality, they can still bring issues and opportunities to the surface. I have even reviewed results with my team members to ask for their thoughts on what we can do better and end up hearing some of the actual meaning of the responses. Perhaps on the next survey you can point out the ambiguity of the context of some of the questions if they provide an open text response for feedback."
+    },
+    {
+      "author": "Jeffrey Hoskins",
+      "post_date": "2025-05-06T21:52:05-06:00",
+      "content": "In this week’s readings, I found the five-stage model of progress interesting and was interest to identify what stage my organization, Zions Bancorporation, could be considered. After learning about each stage I found that at the enterprise level, the company is between stage 4 and stage 5. We have specific elements in place, such as a data warehouse, governance, strict privacy controls. We have a business intelligence competency center, which we call Enterprise Business Intelligence, and several business decisions are made using analytics of our customer segmentation and opportunities to grow our small business relationships.\nWhat I do feel keeps us from being a stage 5 company is that I don’t feel that our analytics has reached an enterprise-wide approach. For example, in my area of banking operations, we leverage some customer and account data from our data warehouse, but we have our own data, be it transactional or non-numerical data, that is not integrated with the data warehouse. So, within my division, I feel like we are operating at stage 2 or stage 3. We have created our own localized pocket of data analytics to serve our needs and purposes and have a vision of where we would like our analytics to be, though, as the readings suggest, this has been a slow effort.\nI wanted to ask a question to gather your thoughts on if this relationship between the enterprise being at stage 4 and my division at stage 2 is healthy? Is there some level of acceptance that this could occur until my division’s data is structured and ready to be integrated into the data warehouse? Do you think there is localized data that may not belong in the data warehouse which would necessitate the need for localized analytics?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

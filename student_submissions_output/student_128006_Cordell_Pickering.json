@@ -1,0 +1,18 @@
+{
+  "student_id": "128006",
+  "student_name": "Cordell Pickering",
+  "entries": [
+    {
+      "author": "Cordell Pickering",
+      "post_date": "2025-05-08T15:16:56-06:00",
+      "content": "Your post is a great example of applying analytics to uncover actionable insights in a small business setting. I think it powerfully illustrates one of the book's main messages, that analytics can drive smarter, more confident decisions, even in areas like contract negotiations that may seem fixed. What struck me most is how data clarified just how unprofitable some of those insurance agreements really were. That kind of transparency gives you leverage and also protects your business from decisions based on assumptions. At Pick PT, we’ve considered analyzing reimbursement patterns by payer as well, but your post makes me think we should accelerate that project. Have you considered visualizing your findings in a dashboard for ongoing monitoring? Tools like Power BI or even Excel dashboards could make those insights easier to share and act on regularly. Our billing company does an excellent jobs of providing this information for us."
+    },
+    {
+      "author": "Cordell Pickering",
+      "post_date": "2025-05-08T15:12:18-06:00",
+      "content": "One point that stood out to me in Analytics at Work is how the authors emphasize leadership as a key driver of successful analytics adoption. It’s not enough to invest in tools or data; leaders need to consistently model and reinforce data-driven thinking across all levels of the organization. The DELTA model helps clarify how enterprise focus and leadership must work together to embed analytics into daily decisions. At Pick PT, we’ve implemented basic EHR reporting tools, but without strong leadership direction, they’re often overlooked in strategy meetings. I believe this shows how analytics can fail to deliver value if they’re treated as an add-on rather than a core part of operations. I’ve seen larger companies like Amazon use analytics not just for optimization but to drive their entire culture and decision-making process. This makes me wonder: how can small businesses begin building a data-driven culture with limited resources and staff?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

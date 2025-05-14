@@ -1,0 +1,23 @@
+{
+  "student_id": "1821846",
+  "student_name": "Matt Hale",
+  "entries": [
+    {
+      "author": "Matt Hale",
+      "post_date": "2025-05-09T12:21:06-06:00",
+      "content": "Thanks for this, Abby. You nailed something a lot of people overlook. Everyone wants a single source of truth, but few are willing to do the work it takes to get there. I’ve seen the same confusion in my organization. Different teams trust different systems, and without clear data ownership or governance, it’s easy to fall into the trap of building reports that don’t align.\nWhat stood out to me in the reading was how important it is to measure the right things. Without structure and accountability around the data, people will shape it to tell whatever story they want. We’ve started creating clearer SOPs and assigning ownership for key data fields, but it’s still early. Reading this made me realize that data governance isn’t just a tech issue. It’s a leadership issue."
+    },
+    {
+      "author": "Matt Hale",
+      "post_date": "2025-05-06T19:45:44-06:00",
+      "content": "One thing that really stood out to me from the first two chapters was the idea that analytics isn’t just about tools or dashboards—it’s about building a culture that actually uses data to make better decisions. Davenport makes it clear: it’s not enough to have the data if no one’s using it to guide behavior. I’ve seen this firsthand. We’ve built some great reporting tools in IT, but without clear direction or consistent follow-through, the insights just sit there. It becomes another system people check occasionally, but it doesn’t drive decisions.\n \nThat’s why I keep coming back to the question: Are we measuring the right things? If the data doesn’t tie back to the behavior we’re trying to encourage, we risk tracking what’s easy instead of what’s useful. Chapter 2’s DELTA model touches on this—especially the “T” for targets. It reminded me how easy it is to get busy measuring everything, and forget that the real goal is clarity, not complexity.\n \nSo here’s my question: How do we make sure the metrics we choose actually reinforce the outcomes and behaviors we want—rather than distract from them?"
+    },
+    {
+      "author": "Matt Hale",
+      "post_date": "2025-05-09T12:24:24-06:00",
+      "content": "Really thoughtful post, Taylor. I think you’re onto something. We have built such a high standard for precision that we forget how much progress was made with rough estimates and simple tools. Eratosthenes did not need perfect data to move science forward. He needed curiosity and a method that made sense. Today, we often hold off on action until the data is flawless, and that hesitation can slow everything down. Progress usually starts with something imperfect but useful."
+    }
+  ],
+  "status": "Successfully extracted 3 entries.",
+  "error": null
+}

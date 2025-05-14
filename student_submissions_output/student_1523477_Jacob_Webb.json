@@ -1,0 +1,18 @@
+{
+  "student_id": "1523477",
+  "student_name": "Jacob Webb",
+  "entries": [
+    {
+      "author": "Jacob Webb",
+      "post_date": "2025-05-07T15:42:49-06:00",
+      "content": "Hey Sharon!\nIn working with data in the past it was important that it was trustworthy. The first thing we usually encounter is to decide what to measure and how. Once you decide what to measure you need to decide how to measure it. We can't measure everything in business with a ruler so sometimes we have to make a new ruler. \nHaving a standard to measure against makes it so everyone is evaluating on the same scale and makes your data more predictable. We also gave everyone access to the data so it was more transparent and one person couldn't manipulate it before running reports."
+    },
+    {
+      "author": "Jacob Webb",
+      "post_date": "2025-05-07T15:37:28-06:00",
+      "content": "As I read it reminded me of an internship I had a few years ago for a solar company. I was thinking about how I've used data in the past and how I've seen other companies use it. I was an intern in the Supply Chain department and saw that during the install of solar jobs some parts were missing and some parts were in excess. This led to wasted time because the installers were waiting on parts and had to make return visits. This also caused errors in ordering too much of particular materials and having surplus that now had to be tracked. Taking the data I reviewed every bill of materials to ensure it matched with what was needed for the install. I found critical errors in the tool we were using to automatically calculate parts and worked to fix that tool. By the end of the internship we had corrected quite a few of the material discrepancies and calculated the savings to be around $880k per yer. We could only fix the problem once we had data that showed errors and gave us a direction to look to fix the issues."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

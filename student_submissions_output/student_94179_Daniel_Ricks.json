@@ -1,0 +1,23 @@
+{
+  "student_id": "94179",
+  "student_name": "Daniel Ricks",
+  "entries": [
+    {
+      "author": "Daniel Ricks",
+      "post_date": "2025-05-08T19:30:25-06:00",
+      "content": "I find the concept of data cubes interesting. I was not clear on how a data cube relates to vectors. I thought they were the same thing.  ChatGPT 4o provided an example that makes sense to me, but I still need to internalize it some more:\nA vector is:\n\n\nA 1D array.\n\n\nSimple. Linear.\n\n\nYou access items with one index: v[i].\n\n\nA data cube is:\n\n\nA multi-dimensional array (usually 3D or more).\n\n\nYou access items with multiple indices: cube[x][y][z].\n\n\n \nI tried to find an example on YouTube that looked fun but failed. If you happen to know of a good one, please share.I 'think' a data cube is any set of vectors that are ordered the same way, so something like:CUBE:V1: Animal, Cat, Yesterday, BlackV2: Animal, Dog, Tomorrow, OrangeV3: Plant, Grass, Today, GreenV4: Plant, Grass, Tomorrow, BrownI would like feedback as to how correct my understanding of Data Cubes is.  I would LOVE intuitive examples.Cheers!"
+    },
+    {
+      "author": "Daniel Ricks",
+      "post_date": "2025-05-08T19:39:55-06:00",
+      "content": "It is interesting. I know that Data Analytics and Statistics are not quite the same thing (despite being related) but I feel they are related enough for my favorite statistics example to have relevance to your post.I took a low-level statistics class years ago where the professor had us throw a ball around the classroom. The ball had a map of the world in it.  Whenever a student caught the ball, they were to state if the point of their right index finger was on land or ocean.  We only tossed the ball about 20 times.  The instructor then got the percentage of times that the result was water. That percent was within a fraction of a percent the same as the amount of the earth's surface is covered by water. My mind was blown and I never forgot it. It was so simple that it seemed like magic."
+    },
+    {
+      "author": "Daniel Ricks",
+      "post_date": "2025-05-11T19:35:48-06:00",
+      "content": "That is an interesting question. Clearly there is value to analyzing data, but there is also a risk to analyzing data that does not benefit the bottom line of the company.\nI think that step one might be to consider what questions are worth answering. Not just that, but how much is the answer worth?  The book 'How to Measure Anything' pointed out how, less accurate, but 'good enough' data gathering and analysis can be done far more quickly and on the cheap compared to a seriously funded study.  I think a small organization should seek out the 'good enough' analysis that would benefit decision makers. It is comparatively low risk for potential high returns - even if the data isn't perfect."
+    }
+  ],
+  "status": "Successfully extracted 3 entries.",
+  "error": null
+}

@@ -1,0 +1,18 @@
+{
+  "student_id": "112717",
+  "student_name": "Joey Maxfield",
+  "entries": [
+    {
+      "author": "Joey Maxfield",
+      "post_date": "2025-05-06T12:53:56-06:00",
+      "content": "Hi Alexis, \nI appreciate your honesty in admitting that not having the right information has led to poor decisions. I have experienced that as well. Also I have seen when having the right data can change behavior and help make right decisions. In my younger years I played lots of video games. My wife didn't like this, and I had a feeling that I should probably reign it in, but I kept telling myself that it was all under control. Nothing changed until I determined I wanted to write a novel, something I had always dreamed of doing. But where would I find the time? I decided that if I had time to play video games, I probably had time to write a novel. So I started tracking how much time I spent playing video games each day. I was shocked when the numbers came back so high. I had no idea I was playing as much as I was. I remember a particular day when I had worked an 8-hour day and then had played video games for 8 hours. Having the tangible numbers that I collected myself -- the cold, hard data -- shocked me into giving up video games for activities that were more important to me. Data is powerful. \nThanks!"
+    },
+    {
+      "author": "Joey Maxfield",
+      "post_date": "2025-05-06T12:47:49-06:00",
+      "content": "Chapter 1 talks about the need for data and analysis in decision making rather than using feelings (hunches or our gut). I've seen this play out in organizations where I've worked. One example I thought I would share happened at a company that only allowed Mac computers to a small and select few employees in creative fields, because they are \"too expensive.\" This belief was held across the entire organization. It wasn't until I created a comparison table that showed prices of the dell computers they were used to buying along side comparable Mac computers that they finally believed that the Mac computers were cheaper. I think it must be human nature that we have assumptions that we don't verify. It's also interesting how showing the data takes away arguments and changes minds quicker and easier than other arguments. \nWhat are some examples you've seen where having data has changed minds and behavior?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

@@ -1,0 +1,18 @@
+{
+  "student_id": "1835344",
+  "student_name": "Alexis Hyder",
+  "entries": [
+    {
+      "author": "Alexis Hyder",
+      "post_date": "2025-05-06T11:11:08-06:00",
+      "content": "1. Offer an alternative or supporting opinion, supported by reason and/or evidence, on something that you found interesting in the readings.\nChapter 2: Data Quality\nA concept that stood out to me in this chapter was that analytics doesn't require perfect data. The \"good enough\" concept seemed a bit ironic when businesses have to make decisions with accurate information. How can an analysis be completed with incomplete data? Qualified analysts can make decisions with the missing data because they fill in the blanks. Perfection will slow down the process, Analysts just require the right data in the right places. \nSupport:\nAt first this concept was difficult to understand because data usually requires accuracy. However, most businesses would never make decisions if they waited for perfect data. The real world does not operate in a space of perfection. For example, customers information might be outdated in the system but that doesn't interfere with the consumer patterns. The company can predict future purchases without knowing if the address on file is accurate.\nQuestion:Is it conflicting that data is expected to be accurate, yet in some cases, missing information is considered good enough? How can data, decision-making, and imperfection coexist while still striving for efficiency?\""
+    },
+    {
+      "author": "Alexis Hyder",
+      "post_date": "2025-05-10T07:03:19-06:00",
+      "content": "Hi Joey,\nThank you for sharing your real-world example! I find this particularly interesting because, for me, data is a way to validate my intuition. In sports, for instance, it’s possible to hide behind the numbers. A player might excel in one area, and as a result, their metrics may appear favorable—showing \"green\" in our system. However, if you actually watched the game, you might notice that the player had little to no impact. They were just a body on the court. So while I believe data is valuable, I also recognize that in certain situations, it can be misleading or skewed.\n\nChatGPT was used to check grammar and clarity."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

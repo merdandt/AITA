@@ -1,0 +1,18 @@
+{
+  "student_id": "156712",
+  "student_name": "Matthew Hobson",
+  "entries": [
+    {
+      "author": "Matthew Hobson",
+      "post_date": "2025-05-08T22:09:56-06:00",
+      "content": "Hi Tyler,\nI appreciate your insight on how false positives like those can be unintentionally introduced. I too have experienced the demoralizing feeling where a metric you took pride in turned out to only be smoke and mirrors.\nTo answer your question though, our data team has designated \"lightweight checkpoints\" built into their workflow and schedule ahead of time. The team is expected to occasionally take a moment to validate key inputs with each other before moving forward. Then a more significant one happens during sprint reviews where a data validation retrospective is held with team members and internal stakeholders. Each task is evaluated to help ensure they have consistent interpretation of the completion criteria. Both of these seem to go a long way in catching issues early."
+    },
+    {
+      "author": "Matthew Hobson",
+      "post_date": "2025-05-08T21:41:31-06:00",
+      "content": "I was reminded of a painful experience while reading Chapter 1’s critique of how analytics can be misused - particularly when decision-makers manipulate data to support ideas or objectives they’ve already decided on. At a previous job in a call center, I witnessed this often. The data and preliminary analysis our team provided to supervisors were frequently reshaped to align with what the COO and floor managers wanted to hear. I believe this type of misuse led to a lack of trust in the data among those who were more familiar with reality, and that it likely played a role in the company’s eventual downfall.\nThe reading also seemed to focus heavily on the capabilities of larger organizations. I imagine smaller companies would struggle to implement similar analytical practices due to limited staff, infrastructure, and capital. In what ways can small businesses with fewer resources start building their analytical capabilities without overextending themselves?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

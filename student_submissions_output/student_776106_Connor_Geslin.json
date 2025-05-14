@@ -1,0 +1,18 @@
+{
+  "student_id": "776106",
+  "student_name": "Connor Geslin",
+  "entries": [
+    {
+      "author": "Connor Geslin",
+      "post_date": "2025-05-11T13:27:24-06:00",
+      "content": "Hi Shylee, I really enjoyed your post and your connection between the book’s ideas and the stock market. I think that is a great real-world example. I agree with your take on how data driven investors tend to outperform those who rely on gut feelings or hype. Only select few people usually are able to cash out on these type of trades and typically it is the data driven trades that succeed in the long run.  I’d even extend your point by highlighting how behavioral finance studies have shown that emotions like fear and greed often lead to irrational decisions, especially during crazy markets. This emotional \nYour example of Renaissance Technologies is especially compelling. It reminds me of how even in businesses outside of finance, using analytics helps strip away personal bias and leads to more informed decision making."
+    },
+    {
+      "author": "Connor Geslin",
+      "post_date": "2025-05-08T22:37:16-06:00",
+      "content": "A topic that stuck out to me in the readings was in chapter 2 focusing on uniqueness.\nIt emphasize that unique data sets not easily replicated by competitors are a way that can give organizations a edge over the competition in analytics. While anyone can access generic industry data or buy third-party information, the value lies in internal data of a company that is deeply tied to a company’s specific processes, customer interactions, or operations.\nFor example, a retailer like Amazon has uniquely detailed customer behavior data from its platform such as what people search for, how long they browse, and what they abandon in their carts. This kind of data is not available to competitors and allows Amazon to personalize recommendations and optimize inventory in ways others can’t do. I think a unique dataset is a great way to set your company apart if used correctly. However, on the flip side I do think to unique of a data set may result skewed or non helpful information."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

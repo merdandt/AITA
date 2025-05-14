@@ -1,0 +1,18 @@
+{
+  "student_id": "1781214",
+  "student_name": "Jamie Seavello",
+  "entries": [
+    {
+      "author": "Jamie Seavello",
+      "post_date": "2025-05-07T19:49:29-06:00",
+      "content": "To get the most out of your business intelligence solutions analyst you will need to ensure they have the support to measure the right things.  I have seen companies where they want everything and anything on the dashboards, available to measure. This has been helpful for some, but others it is overwhelming and can cause people to waste time looking at and fixing items that don't really matter to the company's success.  What gets measured gets managed so we must ensure that what we are measuring brings value.\nAdditionally, how do we get the metrics on the dashboards that are important but appear \"immeasurable?\"  That is something that fascinates me and I think is an area ripe for discovery, especially in areas like HR. How do you measure manager effectiveness? How can you ensure that our recruitment efforts are having the desired impact? I could go on, but I'll just finish by saying that you are right to dig deeper and find the unique information that can give your organization a competitive advantage.  How could you turn the information gathered in informal feedback interviews into something data that is tracked and monitored over time?  What would be the desired outcome from that information?"
+    },
+    {
+      "author": "Jamie Seavello",
+      "post_date": "2025-05-03T13:23:49-06:00",
+      "content": "Data Governance is important in ensuring the data you use is quality.  Garbage in and garbage out is often the term we use for data that is not quality. At my organization, we have a whole team dedicated to fixing errors when they are found in our data. Most of these are caused my human error when entering the information.  I have seen firsthand the issues that are caused when data is missing, inaccurate, or is not well defined. \nLeaders often struggle with investing money into data governance, in my experience, because they believe that smart people can analyze this erroneous information out.  My opinion is that the data should be correct upon entry and that we should update our systems to restrict the entry of bad data. It does take resources and time to update the code and ensure that the restrictions are appropriate, but it can be done.  How have your companies dealt with data integrity, and does your leadership support quality at the source? What helped to make that happen?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

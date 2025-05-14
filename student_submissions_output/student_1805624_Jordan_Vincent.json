@@ -1,0 +1,13 @@
+{
+  "student_id": "1805624",
+  "student_name": "Jordan Vincent",
+  "entries": [
+    {
+      "author": "Jordan Vincent",
+      "post_date": "2025-05-08T17:29:13-06:00",
+      "content": "In the first chapter, the concept of data driven decision making was the most intriguing to me. Data based decision making has been utilized across various platforms, whether that be in business to make a decision for financial planning, or in football coaches use data analytics to decide whether or not to go for it or kick a field goal.  The article claims that Data based decision making, \"shows that statistically, the more data-driven a firm is, the more productive it is—even controlling for a wide range of possible confounding factors.\" Although I believe data based decision making can be very beneficial I don't believe companies should solely rely on this method, there is something about trusting your intuition in situations that remains superior."
+    }
+  ],
+  "status": "Successfully extracted 1 entries.",
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "student_id": "1267955",
+  "student_name": "Cooper Brayton",
+  "entries": [
+    {
+      "author": "Cooper Brayton",
+      "post_date": "2025-05-08T23:09:56-06:00",
+      "content": "Critical thoughts\nOne of the concepts that called out to me the most was for a \"single source of truth\". Half of what I do is just trying to find the correct information from the right people. A good way to illustrate this is that for the last couple of months I have been writing a program that is able to schedule hundreds to thousands of unique composite aircraft parts in a matter of 10 to 20 minutes. The program is right around 1000 lines of code, but only about 70 lines are for the logic of scheduling. The other 900+ lines of code is just pulling in tables from SQL databases, json files from URL addresses, and excel spreadsheets and then joining dataframes, converting files, and filtering obsolete columns. Truly a mess, but it is something that has not been done in the 12+ years of this particular program's existence because of how difficult it is to get trustworthy data, and know the right person to even know where to look for the data. \n \nPart of the reason for this I believe is because the program has been around for a couple of company mergers and buyouts. In the length of the program it has changed hands 3 or 4 times. Each time the company tries to align the systems at work with their enterprise standard. The integration is never seamless so bandaid solutions are used. My favorite quote “There's nothing so permanent as a temporary solution”. But, those bandaid solutions are integrated into the next companies enterprise standard and then more bandaids are introduced to the next integration. It gets out of control fast, and when people eventually leave the company the tribal knowledge of what is an intentional process and what is a necessary work around is lost or the lines are blurred. I can only imagine being able to go to a single source of truth for data, but then again that is part of the reason that keeps my position a necessary job."
+    }
+  ],
+  "status": "Successfully extracted 1 entries.",
+  "error": null
+}

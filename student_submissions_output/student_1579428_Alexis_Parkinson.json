@@ -1,0 +1,18 @@
+{
+  "student_id": "1579428",
+  "student_name": "Alexis Parkinson",
+  "entries": [
+    {
+      "author": "Alexis Parkinson",
+      "post_date": "2025-05-09T19:05:37-06:00",
+      "content": "Hey Joey,\nThanks for the great question! In tense or challenging situations, data can be incredibly helpful—it shifts the focus from emotions or assumptions to facts and numbers. This makes it easier for everyone involved to align more quickly and with less conflict.\nDuring a stressful transition at work, I was paired with a new partner, and I felt like I was doing most of the work, which left me burned out. It was hard to show this to our manager without seeming subjective. So, I worked with our software application team to develop a Power BI dashboard for our workflow. It tracked how many items were received and who handled what. The visual charts and graphs made it easy to see the workload distribution.\nThis data helped us have fact-based conversations instead of emotional ones. It reduced conflict and made our discussions more constructive.\nIn How to Measure Anything, Chapter One, Page 3, begins with a quote that really resonated with me:\n\"When you can measure what you are speaking about, and express it in numbers, you know something about it; but when you cannot express it in numbers, your knowledge is of a meager and unsatisfactory kind; it may be the beginning of knowledge, but you have scarcely in your thoughts advanced to the state of science.\" —Lord Kelvin (1824–1907), British physicist and member of the House of Lords"
+    },
+    {
+      "author": "Alexis Parkinson",
+      "post_date": "2025-05-02T08:57:58-06:00",
+      "content": "Offer an alternative or supporting opinion, supported by reason and/or evidence, on something you found interesting in the readings.\n\nSomething I found interesting in this week’s reading comes from chapter one of the book Analytics at Work by Thomas H. Davenport, Jeanne G. Harris, and Robert Morison. The book lists four typical decision-making errors: 1. not asking the right questions; 2. making incorrect assumptions and failing to test them; 3. using analytics to justify what you want instead of letting facts guide you to the correct answer; and 4. failing to take the time to understand all the alternatives or interrupt the data correctly.\nThese four points have brought attention to my decision-making and how often I fail to take the time to consider each point thoroughly. Lately, I have been faced with significant decisions and have felt uncertain about how to proceed. These four points have given me a sense of direction on what to consider when facing a decision. I have not taken the time to ask the right questions or understand all the alternatives completely, which has led me to make poor decisions."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

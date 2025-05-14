@@ -1,0 +1,23 @@
+{
+  "student_id": "1780451",
+  "student_name": "Scott Edgeworth",
+  "entries": [
+    {
+      "author": "Scott Edgeworth",
+      "post_date": "2025-05-05T22:17:46-06:00",
+      "content": "Content not found"
+    },
+    {
+      "author": "Scott Edgeworth",
+      "post_date": "2025-05-05T22:32:27-06:00",
+      "content": "2. Where appropriate, provide a well-reasoned and respectful counterpoint to the topic or argument posted\nSomething I partially agree with in chapter 1 are the what I'm going to call \"potential\" Benefits of Being Analytical.  The chapter indicates some of the benefits including:\n\nManaging Business in Turbulent Times: Analytics help managers understand business dynamics and respond to economic and marketplace shifts.\nEfficiency and Cost Reduction: Optimization techniques and predictive models can minimize asset requirements and anticipate market shifts.\nRisk Management: Analytics provide precise metrics and models for managing risk.\nImproving Decisions Over Time: Using clear logic and data allows for continuous improvement in decision-making.\n\nThe last point, \"Improving Decisions Over Time\" only works if you don't go down the rabbit hole of \"analysis paralysis\" or waiting until you have enough data to feel safe to make a decision. In business, time is critical, and in my experience, the higher I've moved up in my career the faster I have to make decisions and with less information. The chapter addresses this later, but this is something I had to get comfortable with in my career. Making the best decision I can with the information I have at the time, and not being afraid to be wrong, as most of the time you are not 100% wrong, you are just off a bit, and it's not too hard to course correct most decisions."
+    },
+    {
+      "author": "Scott Edgeworth",
+      "post_date": "2025-05-10T18:37:31-06:00",
+      "content": "Hi Jason,\nI totally understand how when you were looking at the data without really thinking about insights you really weren’t finding what you were looking for.  Data is just that…data…and I did like Figure 1-1 too, as it give some simple context to data, and it makes you think more about intent. \nI am stuck in the upper left corner a lot as a CFO…where I’m just inundated with data and analysis from people…and sometime the analysis I get is really just information. What I have to do, as a CFO, is provide the clarity or intent of what I’m looking for, so the data becomes more than data, it become more of a data puzzle with answers and insights…I just have to know the right questions to ask or the right intent to provide the clarity so I get more than just the data handed back to me!"
+    }
+  ],
+  "status": "Successfully extracted 3 entries.",
+  "error": null
+}

@@ -1,0 +1,18 @@
+{
+  "student_id": "1826056",
+  "student_name": "Sharon Bee",
+  "entries": [
+    {
+      "author": "Sharon Bee",
+      "post_date": "2025-05-11T07:30:09-06:00",
+      "content": "Hi Jenna, this was an interesting article. Netflix has been very successful in catering to what their consumers want and keeping their personalized streaming geared towards their audience. I find it interesting, as you stated, that not only do they target their analytic efforts on their goals of the consumer, but they provide other analytic data such as “Top Ten Movies streaming now” or “TV Shows streamed this month”. This enticement keeps the consumers interested in what others are watching and helps with the algorithms for the entire platform."
+    },
+    {
+      "author": "Sharon Bee",
+      "post_date": "2025-05-07T06:52:00-06:00",
+      "content": "A concept I found interesting in this week’s reading was that organizations who profit from analytics in their business with processes and customer relationships have unique direction, strategy, and manage by fact. They look at all the information before making decisions. Reviewing risk, efficiency, and performance in all aspects of their business as they consider their goals going forward. They understand in order to analysis the data efficiently, the data must be reliable and true. When spending the time at the beginning with good resources and trustworthy information, decisions can be made that not only benefit the transaction taking place but the long-term success of the company.\nMy question is, how do you know your data is trustworthy? What sources should be used to know the information you are using is correct and will provide the most benefit when making decisions?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

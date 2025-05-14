@@ -1,0 +1,18 @@
+{
+  "student_id": "1806842",
+  "student_name": "David Pearl",
+  "entries": [
+    {
+      "author": "David Pearl",
+      "post_date": "2025-05-08T17:36:09-06:00",
+      "content": "Hey Brent! I appreciate your perspectives, as I am getting into Digital Marketing through this MBA program and my job, and now am just starting to realize how much of my digital profile is tracked and used for advertising. Data management is very important in engineering (especially defense), but besides technical data my company doesn't have a process for management.\n1. I read your statement as a conflict between your personal and career perspectives: choosing to opt-out vs. wishing customer opted-in. I've also asked a similar question about how much data we should be able to collect from customers, so I'll focus on your question comparing in-person sales vs. targeted ads. In my mind, the difference between the scenarios described would be the in-person sales rep only knows as much about you as you are willing to tell them right then, perhaps with the addition of the car you drove or the store you came from. I'm not sure how deep digital tracking can go, but to create an analogy, the marketer at least knows where you've been today, they have a good idea of your demographics, and they can make educated guesses about why you came into the store. I think that would be a very odd interaction to have in person!\n2. The last class I took as part of this MBA program was on executive influence and strategy, and a big part of it was how to convince company leadership to consider your proposals. For your situation, as an employee, I think it would be helpful to start finding decisions or questions in your silo that can be answered or improved with data from other silos. Building a cross-disciplinary team to share data with using whatever informal or clunky means at your disposal could also create a team of believers, giving you more support when you go to leadership and present your case."
+    },
+    {
+      "author": "David Pearl",
+      "post_date": "2025-05-08T17:12:01-06:00",
+      "content": "My education and career both have given me an emphasis on facts and data, and the second chapter of Analytics at Work highlights data as a tool for analytics. However, my role at work is now changing and the data I work with sometimes includes the types of customer data mentioned in the text. Unlike in engineering, where all the data I could want is already out there (or could be if I run some experiments on metals or processes), the data here is personal and relates to individuals. This data is much softer, but more importantly, must be collected with permission. I appreciated that the text emphasized following laws and standards in gathering data about customers, but I wonder where the ethical line is and how we should define it. Most of us opt-in to targeted advertising on our computers and devices so we see ads of stuff we might be interested in, but where should that stop? Should we permit companies to gather all of our data, create models and analysis based on it, and predict our next desires, health outcomes, criminal activity? I don't know where American privacy law steps in already, but I look forward to learning more from you all about customer data and what we can and can't do with it."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

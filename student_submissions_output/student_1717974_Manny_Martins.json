@@ -1,0 +1,18 @@
+{
+  "student_id": "1717974",
+  "student_name": "Manny Martins",
+  "entries": [
+    {
+      "author": "Manny Martins",
+      "post_date": "2025-05-08T23:41:07-06:00",
+      "content": "Jordan, I can relate to your post, as i find this to be a common error in coaching, particularly when coaches need to make decisions regarding in-game adjustments. Quite often coaches will delay making a decision, in hopes to get more information to support the decision, or to aid in making a more specific decision. This often leads to allowing opponents additional time to exploit vulnerability, or own team running out of time to make an effective adjustment."
+    },
+    {
+      "author": "Manny Martins",
+      "post_date": "2025-05-08T23:26:06-06:00",
+      "content": "I found the readings relatable because as a coach I have access to a lot of data and use a significant amount of it in the decisions I make, in an effort to increase the chances of achieving the desired outcomes. That being said, I tend to combine data analysis with experience in my decision making -just like the pilot, I utilize the data available to me to determine trends and predict actions, but I make sure to also “lookout the window” and incorporate my experience and instincts.\nFor instance, in pre-game preparation there’s a higher percentage of decisions that are based on data analysis (opponents attacking and defending trends), while in game adjustments are more reliant on personal experience."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

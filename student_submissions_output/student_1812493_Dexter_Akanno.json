@@ -1,0 +1,18 @@
+{
+  "student_id": "1812493",
+  "student_name": "Dexter Akanno",
+  "entries": [
+    {
+      "author": "Dexter Akanno",
+      "post_date": "2025-05-08T10:26:18-06:00",
+      "content": "A question that came up to me as I was going through the reading was: Given that many organizations collect a huge amount of data but fail to use it meaningfully, what cultural, structural, or leadership problems do you think most commonly prevent companies from making decision based off their true data collections and findings. \nThis question arose after reading through the section that says in modern businesses, despite having access to more data than ever before, many companies still make decisions based on intuition or outdated practices. I wondered whether this was because this is just how the company is set up, this is how the people in charge think, or they might just not understand how to use their data better."
+    },
+    {
+      "author": "Dexter Akanno",
+      "post_date": "2025-05-08T10:32:37-06:00",
+      "content": "Hey Matt \nI think you're definitely right that just having data or dashboards doesn’t mean much if people aren’t actually using them to make decisions. I like how you connected it to the DELTA model, especially the part about “targets.”\nI think to answer your question, one way to make sure our metrics support the right behaviors is to always ask why we're tracking something. There has to be a goal or decision of why we care about what we are tracking. I think also including the people who will be using the data is important,t as they will see if the information is relevant or not."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

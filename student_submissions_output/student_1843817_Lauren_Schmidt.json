@@ -1,0 +1,18 @@
+{
+  "student_id": "1843817",
+  "student_name": "Lauren Schmidt",
+  "entries": [
+    {
+      "author": "Lauren Schmidt",
+      "post_date": "2025-05-06T20:42:10-06:00",
+      "content": "In Chapter 1, there is a statement: \"Instead of just putting financial and nonfinancial metrics on scorecards, leading firms are using analytics to determine which factors truly drive financial performance.\" I work at a mid-size (~500 employees) engineering firm and my firm still publishes a quarterly scorecard showing whether or not we met our with goals for the quarter as a way to measure success. I never thought too hard about whether our scorecard could be improved until reading this section of the book. While the scorecard provides some data analysis (for example, 95% of clients say we are responsive to their needs), it doesn't put the analytics to work in my opinion to explain why we are meeting some goals and more importantly, why we aren't meeting other goals. Clearly, my firm is acquiring data (as they should) to calculate these metrics, but I see room for improvement regarding analytical capabilities and taking these metrics (especially the metrics that are poor) to another level to improve the firm as a whole. One area in this arena that my company does well in is applying ethnography through meeting with clients in informal client feedback interviews. Hearing directly from clients identifies problems that they may have with our deliverables, teams, QC process, communication, and more.\nMy firm hired a \"Business Intelligence Solutions Analyst\" in the last year. As far as I know, this is the first time we have had someone in this position at the firm. I am now curious to learn more about what type of analytics he is using and what models he may be building to help us hit our targets. I will plan to meet with him in the near future. After reading the text, I think this position is a prime opportunity to dig deeper into the uniqueness of data and identify a competitive advantage for the firm to add to our existing advantages."
+    },
+    {
+      "author": "Lauren Schmidt",
+      "post_date": "2025-05-11T19:03:29-06:00",
+      "content": "Keven, you make a great point by stating that sometimes we choose the expensive path when it was not really needed. I have seen this happen time and time again at my company. Engineers will spend hours upon hours creating elaborate spreadsheets and models with advanced software in order to make a calculation or QC someone's work. I will say that sometimes the spreadsheets/models are needed, but certainly not every time. There are plenty of instances where the old school way of using paper, pencil, and a calculator will get you what you need in under an hour. Not only is it a simpler method, but it is cheap and fast. Time = money and the more time we spend getting fancy with our measurements when it wasn't needed, the more time lost that could have been spent on another project or in another positive way at the firm."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

@@ -1,0 +1,18 @@
+{
+  "student_id": "1266117",
+  "student_name": "Sammy Geslin",
+  "entries": [
+    {
+      "author": "Sammy Geslin",
+      "post_date": "2025-05-08T22:47:04-06:00",
+      "content": "An interesting and cool concept in Chapter 1 that really caught my attention was  the introduction of the DELTA model . The DETLA model outlines the six key elements organizations need to compete analytically. DELTA stands for Data, Enterprise, Leadership, Targets, Analysts. What’s particularly interesting about this model is how it shifts the focus from just having data or tools to building a full system that enables and supports data driven decision making.\nI found it especially interesting that it highlights Leadership as one of the core elements. Many people assume analytics success comes from hiring some with technical expertise or buying some new fancy software, but Chapter 1 emphasizes that without executive support and Leadership, organizations won’t see results. Leaders drive the cultural change and investment needed for analytics to thrive.\nAdditionally, the idea that analytics can be used not only to explain the past but also to predict trends and the future is something I have always like about data analysis. It shows how analytics is about action and not just insight. This sets the tone for analytics truly can be used in real world scenarios."
+    },
+    {
+      "author": "Sammy Geslin",
+      "post_date": "2025-05-11T14:24:29-06:00",
+      "content": "Jorma, I completely agree on the importance of \"useful\" data. There is so much data out there. Most of the time there is much more than there really is needed. What is important though is how we manipulate that data and whether that data can actually show us something or not. The key really is to focus in on the data points that you think will help you find out or prove the point you are looking for. Sometimes it even seems like there is more useless data then useful. I agree with your point on rabbit holes and that we can get lost going down the wrong path as well when looking into data."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

@@ -1,0 +1,18 @@
+{
+  "student_id": "1780915",
+  "student_name": "Jason Maestri",
+  "entries": [
+    {
+      "author": "Jason Maestri",
+      "post_date": "2025-05-09T15:28:18-06:00",
+      "content": "Scott, that’s a great thought. The concept of having to make more decisions faster and with less data is something that I’ve been dealing with for awhile now. It’s a real challenge for me. I find that developing a framework or set of guidelines that I can use to make decisions helps a lot. It’s kind of like having the bumpers set up\non a bowling lane. If I set the guidelines up right, any decision I make that complies with the framework will be somewhat reasonable in the end. It may not be the best decision I could make, but it will move the business in the right direction and the guards are there to prevent significant damage, should the decision be particularly off track."
+    },
+    {
+      "author": "Jason Maestri",
+      "post_date": "2025-05-07T20:33:23-06:00",
+      "content": "When reading the first few chapters of Analytics at Work, I was struck by the concepts expressed by Figure 1-1, the \"Key Questions Addressed by Analytics.\"  The table succinctly explains the questions that analytics can answer and what dimensions (timeframe and insight vs. information) of data are needed to answer them.  This has already been beneficial for me at work.  When I realized I was dealing with a process failure in my program and wanted to understand how it happened and the cause, I realized that these were questions addressed by this rubric.  When I looked at the table, I noticed that this question was in the lower left corner of the figure, which meant that I needed to find insight from past data.  So, that helped me frame my thinking and hone in on the gathering process data, and then look at that data to try and gain insight from it.  The key here was that, because I was looking for insight, the data itself was not going to give me the answer. I needed to synthesize the answer from all the data points I had available.  \nYes, this was somewhat intuitive, but it was helpful to see it laid out and realize early on that I was on the right path.\nWhat did you take away from this table?  Did it cause you to stop and think like it did me, or am I just an oddball?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

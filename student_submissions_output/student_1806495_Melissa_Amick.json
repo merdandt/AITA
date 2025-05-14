@@ -1,0 +1,23 @@
+{
+  "student_id": "1806495",
+  "student_name": "Melissa Amick",
+  "entries": [
+    {
+      "author": "Melissa Amick",
+      "post_date": "2025-05-04T19:26:12-06:00",
+      "content": "As I read the Emily Rosa Therapeutic Touch science fair experiment, I was left wondering what weight we place on the value or quality of data based on the person providing the information. How do biases prevent us from accepting facts? It seems as if medical professionals, even after being proven wrong, were steadfast in their belief they knew better. Was this because the person proving them wrong was a child and lacked the medical training they had received?\nIn my daily work I am often left verifying data because I do not know the source well. I must first establish trust. How can we best accept facts and data when they are not presented by known sources or those who we feel are not qualified to offer such information? How do you go about establishing a source as dependable and accurate?"
+    },
+    {
+      "author": "Melissa Amick",
+      "post_date": "2025-05-11T14:43:02-06:00",
+      "content": "Cooper, thanks for sharing. Sounds like you have rather daunting task on your hands. I can most relate to your favorite quote about temporary solutions. They are often put in place without following any kind of standard and with little documentation in the hopes they will only be there a short while. Years go by and when something breaks and no one has any idea about the shortcut or how it worked. I deal with this regularly with my company's warehousing system. \nDo you find that your are dealing with multiple versions of reports (everyone saved a copy and personalized it)? I have had this experience as well and it has caused sever failures or made people out to be rock stars when in fact they were failing to do the job. Everyone was using the same report with a different output. The \"single source of truth\" had been lost due to poor security controls on the ability to edit reports."
+    },
+    {
+      "author": "Melissa Amick",
+      "post_date": "2025-05-11T14:55:57-06:00",
+      "content": "Matthew, thank you for sharing. It is interesting to think how small business can implement with limited budgets. I spent some time this last summer learning about Google Analytics and how there are many free tools available and so I think there are economical ways for small business to gather and analyze information. I think the hardest part is knowing what data you need to be looking at, what is available for analysis, and what to do once you have the data. Much like we have learned throughout this first week, we need to clearly define what it is we really need to know and why. This can keep a small business from investing in fancy programs that really provide too much for what needs to be accomplished."
+    }
+  ],
+  "status": "Successfully extracted 3 entries.",
+  "error": null
+}

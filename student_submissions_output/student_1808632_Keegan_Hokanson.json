@@ -1,0 +1,18 @@
+{
+  "student_id": "1808632",
+  "student_name": "Keegan Hokanson",
+  "entries": [
+    {
+      "author": "Keegan Hokanson",
+      "post_date": "2025-05-09T21:42:53-06:00",
+      "content": "Hey Connor, I love your thoughts on this, man! I have to say that I completely agree, and I would actually add one thing, and that is that the uniqueness of data does not have to necessarily be the fact that the data itself is unique, but you could also make the data unique through the process of data refinement. For example, the Air Force has a lot of data on how many parts are down, and which planes are grounded up to this point, and everyone has access to that information, but what my company does is we work to actually forecast when there will be shortage of parts for specific plane models, and start to meet the manufacturing needs before they even arrive. So, I feel that it does not have to necessarily be the source of data that is unique, but I feel that the data can also be unique just because of how you are using the data. I feel that can also allow companies to have a strategic edge on the competition."
+    },
+    {
+      "author": "Keegan Hokanson",
+      "post_date": "2025-05-08T21:18:10-06:00",
+      "content": "Hey team, thanks for hopping on here with me! So, for this week, I have to say that it really surprised me when they described data analytics as observing, or at least observing can be a viable way of obtaining data. This concept just caught me off guard a little, and I am not sure if I agree with it or not. Let's say for a second that we agree with this statement, my main question is, what classifies it then as data? Rather than just observance? Or is observance data alone? Or, as an opposing thought, is it the process of getting the observations onto paper that qualifies it as real data? I would love to hear all of your thoughts on the subject!"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

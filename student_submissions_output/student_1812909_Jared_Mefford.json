@@ -1,0 +1,28 @@
+{
+  "student_id": "1812909",
+  "student_name": "Jared Mefford",
+  "entries": [
+    {
+      "author": "Jared Mefford",
+      "post_date": "2025-05-10T14:58:09-06:00",
+      "content": "I think that is what they are trying to get around. It sounds like they remove the watermark on downloaded data because it is easier to miss interpret the data because the associated filters and such may not be demonstrated in the data once it is downloaded. It is fairly easy to take a graph and miss represent what the data is saying. That is why statistics can be extremely helpful and also on the flipside if you miss interpret/miss represent the statistics then you can prove the opposite of what the data is saying. Context is key when interpreting any data set."
+    },
+    {
+      "author": "Jared Mefford",
+      "post_date": "2025-05-10T15:30:57-06:00",
+      "content": "I think that in the reading when it is talking about an Analytical Competitor it is talking about a company that is more on par with a data collector. That being said I think that the point isn't just to gain data, but they are looking to gain trustworthy data. They work to scrub and make sure the data is clean and can be used to generate reports that can be trusted. At least that is how I take it from the reading. As it states that most companies don't need to become Analytical Competitors, but should aim to utilize data better then they currently are."
+    },
+    {
+      "author": "Jared Mefford",
+      "post_date": "2025-05-07T18:41:06-06:00",
+      "content": "I agree with the section in chapter 2 that is talking about the necessity of quality in the data that is collected. It isn't enough to just be collecting a bunch of data if that data is \"dirty\" or inaccurate. I like the example posed at the end of the quality section about the Montana State Fund. They utilized a watermark in their reports that would only exist if the reports were being used directly from their system, as soon as you download the data that the watermark would be lost. They would only add the watermark to their data that had been verified through auditing. This is just one example of how we can make sure that our data is clean and accurate, it helps to keep things from being tampered with as easily and allows people to reference the data knowing that it is accurate, they even reference a time where individuals were arguing because of partial data and other corrected them and showed a report that contains the data set."
+    },
+    {
+      "author": "Jared Mefford",
+      "post_date": "2025-05-10T15:36:25-06:00",
+      "content": "It is great to hear that you are working with a company that is willing to utilize the data that they have taken  the time to collect. It sounds like they must try to make sure that the data they have obtained is clean if you are able to utilize it when it comes to the supply chain for the company. It also sounds like they have taken the time to develop and in house ERP to help with the utilization of the data they have collected. Do you know the benefit that they have gained by developing an inhouse ERP over attempting to utilize a third party ERP?"
+    }
+  ],
+  "status": "Successfully extracted 4 entries.",
+  "error": null
+}

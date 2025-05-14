@@ -1,0 +1,18 @@
+{
+  "student_id": "1778615",
+  "student_name": "Dominick Karber",
+  "entries": [
+    {
+      "author": "Dominick Karber",
+      "post_date": "2025-05-09T10:09:52-06:00",
+      "content": "I have definitely seen similar challenges in my industry, especially when it comes to deciding which data is most relevant and how to share it in a way that is both timely and actionable. In the funeral and cemetery profession, our teams used to rely heavily on anecdotal feedback or delayed reporting. It led to frustration and slow response times. This year, we introduced a new customer survey process that follows a more structured approach, including closed loop feedback and detailed analytics that track the customer journey from start to finish. While we did not formally call it the DELTA model, many of its elements—especially leadership support and clear targets—were critical to getting the initiative off the ground and making it effective.\nYour point about engineers having their own data methods really resonated with me. Without a shared framework, it is easy for different teams to operate in silos, which limits the impact of the data. Standardizing the process using something like DELTA could definitely help align efforts and avoid wasted time."
+    },
+    {
+      "author": "Dominick Karber",
+      "post_date": "2025-05-09T10:05:12-06:00",
+      "content": "In Chapters 1 and 2 of Analytics at Work, the authors introduce the DELTA framework as a roadmap for embedding analytics into an organization. What stood out to me was the emphasis on \"Leadership\" as a necessary condition. Analytics initiatives rarely succeed without leaders who actively support data-informed thinking. In my own organization, I have seen how leadership’s interest can make the difference between a forgotten report and a fully integrated decision-making tool. Our leadership's commitment to customer feedback resulted in an entirely new customer survey process we rolled out this year, with closed loop feedback and in-depth analytics about the customer journey.\nThis made me reflect on how often organizations treat analytics as a technical upgrade instead of a cultural shift. The idea that it is not about the data itself, but how people use it, aligns with my experience. So my question is: how do organizations best transition from seeing analytics as a side project to making it a core part of strategy, especially when cultural resistance is high?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

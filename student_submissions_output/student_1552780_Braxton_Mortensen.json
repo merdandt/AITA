@@ -1,0 +1,18 @@
+{
+  "student_id": "1552780",
+  "student_name": "Braxton Mortensen",
+  "entries": [
+    {
+      "author": "Braxton Mortensen",
+      "post_date": "2025-05-11T22:38:09-06:00",
+      "content": "Hey Angelica, \nI used to work at a well-established Stage 4/5 company where analytics were deeply embedded in both decision-making and day-to-day operations. Now that I’m with a medium-sized construction company at a much earlier stage, the contrast is pretty clear. In this smaller company, most of our data is used solely for basic reporting, and analytics isn’t really driving strategy—ownership tends to rely on what has always worked in the past.\nThat said, we’ve started experimenting with simple visuals—like job cost dashboards in our accounting software and project variance reports—to help leadership and estimators get more comfortable using data. It’s a small step, but it has started to open the door.\nOne of the bigger challenges I’ve noticed is encouraging people to talk about data in real time, not just reference it after something goes wrong."
+    },
+    {
+      "author": "Braxton Mortensen",
+      "post_date": "2025-05-08T22:27:43-06:00",
+      "content": "In Chapter 2 of Analytics at Work, the authors emphasize that high-quality, integrated data is foundational for effective analytics. This point reminded me of my experience as a Project Manager at Thermo Fisher Scientific, where I managed custom engineering solutions across global accounts. Initially, project cost estimates, operations schedules, customer requirements, and engineering data were siloed in disconnected systems, making it difficult to analyze project health or align pricing with corporate goals.\nTo address this, we localized critical project data within the Salesforce platform. This allowed us to track key performance metrics across departments in a centralized dashboard, giving both sales and leadership real-time visibility into project profitability, pipeline status, and customer alignment. This transformation not only improved operational efficiency, but also empowered data-driven decision-making across departments. The chapter reinforced for me how central data integration is—not just for reporting, but for embedding analytics into daily workflows."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

@@ -1,0 +1,23 @@
+{
+  "student_id": "1804577",
+  "student_name": "Bryson Barnes",
+  "entries": [
+    {
+      "author": "Bryson Barnes",
+      "post_date": "2025-05-07T16:11:43-06:00",
+      "content": "I haven't worked somewhere they've successfully measured something intangible. But within a football program you often can gauge how the team's morale and culture is by their involvement with eachother and the energy that is brought to both practices and workouts. But I agree with your takeaway from Hubbard’s point. Assuming something can’t be measured often becomes an excuse not to try. So starting somewhere small is often all you need to make the things that were intangible, actionable."
+    },
+    {
+      "author": "Bryson Barnes",
+      "post_date": "2025-05-07T16:06:06-06:00",
+      "content": "In the chapters, it emphasizes the importance of high-quality, integrated data as the foundation for successful analytics. What came to my mind was the increasing usage of AI. I found an article from Harvard Business Review titled Why Companies That Wait to Adopt AI May Never Catch Up, which talks about how companies often struggle to scale analytics and AI because their data has become fragmented or poorly managed. This directly supports the book’s point that without clean, consistent, and accessible data, no amount of technology or tools will drive effective results. The article also emphasized the importance the for a strong “data fabric” before companies can fully take advantage of AI. Analytical success doesn't start with tools or talent rather it starts with trusted, integrated data. Without that foundation, companies will always fall short of their analytical goals.\nWhy Companies That Wait to Adopt AI May Never Catch Up\n    \n\nLinks to an external site."
+    },
+    {
+      "author": "Bryson Barnes",
+      "post_date": "2025-05-11T17:14:55-06:00",
+      "content": "Hi Emily! I really enjoyed your post about the cost of bad data. In my current role we use data on a daily basis. My current job is quite unique in comparison to others but I play college football right now. As a quarterback I rely on film breakdowns of defensive coverages, pressures, and front structures to prepare for an opponent. To go through every play a team has played is unrealistic, so I rely on data inputs and summaries of those data inputs to find trends and consistencies in a defensive call. A lack of accuracy and reliability would be detrimental to my job because I can spend countless hours preparing for something to see that may not actually be there due to bad data."
+    }
+  ],
+  "status": "Successfully extracted 3 entries.",
+  "error": null
+}

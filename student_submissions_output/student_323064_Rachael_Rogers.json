@@ -1,0 +1,18 @@
+{
+  "student_id": "323064",
+  "student_name": "Rachael Rogers",
+  "entries": [
+    {
+      "author": "Rachael Rogers",
+      "post_date": "2025-05-07T12:49:35-06:00",
+      "content": "That’s a really cool way to use data! It’s smart how you’re looking at why students are choosing your campus and using that info to guide your next steps. It shows how even basic data can tell you a lot if you know what to look for. I like how you’re connecting certain schools with specific programs – that’s a great way to focus your efforts. Have you thought about other things that might influence why students pick your campus? Like maybe sports, clubs, or even how far the campus is from home? It could be interesting to see how those things play into the data too."
+    },
+    {
+      "author": "Rachael Rogers",
+      "post_date": "2025-05-07T12:47:14-06:00",
+      "content": "After reading Chapters 1 and 2 of How to Measure Anything by Douglas W. Hubbard, what really stood out to me was the idea that anything can be measured, even things we think are intangible like customer satisfaction or employee morale. Hubbard’s point that the main barrier to measurement is our own uncertainty, not the nature of the thing itself, was eye-opening. It made me rethink how often we say something can’t be measured just because we don’t know how.\nA good example is how Amazon uses customer data to measure satisfaction. By analyzing browsing history and feedback, they can quantify how happy a customer is and adjust their strategies. This shows how even something as subjective as satisfaction can be turned into measurable data.\nI found a great article from Harvard Business Review called you cant manage what you cant measure. It reinforces Hubbard’s point by discussing how data-driven decisions help companies perform better. It’s a reminder that just because something is hard to measure doesn’t mean it isn’t worth trying.\nOne thing I’m still thinking about is how precise we really need to be when measuring intangibles. Hubbard suggests that even rough estimates can be useful, but how do we know when “good enough” data is actually good enough? For example, if a company wants to measure employee morale, is a quarterly survey sufficient, or would more frequent checks be more effective? Where do we draw the line between too little and too much data?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

@@ -1,0 +1,23 @@
+{
+  "student_id": "1775247",
+  "student_name": "Abby Mumford",
+  "entries": [
+    {
+      "author": "Abby Mumford",
+      "post_date": "2025-05-08T16:37:12-06:00",
+      "content": "I think this is so true! As a data analyst, I am constantly giving recommendations based on data trends we are seeing. But for every recommendation I give, only a portion of a portion is actually acted on or implemented.\nI wonder what other companies do to encourage small, daily pivots according to what the data is telling us, rather than what we are using as confirmation bias from the data."
+    },
+    {
+      "author": "Abby Mumford",
+      "post_date": "2025-05-01T21:46:30-06:00",
+      "content": "I found the quote by Doug Hubbard in the slides very interesting: \"The perfect, flawlessly integrated, data-managed company is largely a fantasy\". The further discussion on data integrations, quality, and governance applied directly to what I currently do for work. I help manage our Employee Data ERP (Workday). So often I get questions about why the data in Workday doesn't match what is in our other data warehouses. While I have gotten into the weeds a little bit, I have yet to take a step back and look at the bigger picture: Why are they integrated in the first place? \n\"A single source of truth\" is one of those corporate jargon phrases that gets thrown around all too often. However, I don't think my organization is at a point past the localized analytics stage of a company. While each department uses a system as their 'source of truth', the limited integrations between departments' systems can cause confusion and disagreement about which data is the best data to use on various projects. I was reminded of a training I attended as an intern in Wisconsin about data governance within Snowflake. Looking back at that organization and comparing it to my current organization, I realize that we don't have anyone in charge of data governance. \nWhat do your companies do when it comes to data governance? Do you have required trainings, SOPs, or other guardrails? Do you have a full time employee dedicated to governance? I'd be curious to hear how your organizations have tackled this issue."
+    },
+    {
+      "author": "Abby Mumford",
+      "post_date": "2025-05-08T16:38:25-06:00",
+      "content": "Clean data is so important. Just a few months ago a Director asked me to help them do an xlookup and filter a report. It made me feel frustrated at first, but then I realized it is on me to give them clean, quickly digestible data that doesn't require technical manipulation on their part. I think the 'easy to find' part of your comment is critical!"
+    }
+  ],
+  "status": "Successfully extracted 3 entries.",
+  "error": null
+}

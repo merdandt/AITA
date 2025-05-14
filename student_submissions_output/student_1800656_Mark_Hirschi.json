@@ -1,0 +1,18 @@
+{
+  "student_id": "1800656",
+  "student_name": "Mark Hirschi",
+  "entries": [
+    {
+      "author": "Mark Hirschi",
+      "post_date": "2025-05-07T14:51:28-06:00",
+      "content": "This is really a good starting point for this course.  I have always enjoyed the saying \"In god we trust everyone else bring data\"  as the book points out this is key to almost every business large or small.  I currently work for a very large corporation that really struggles with making analytical data driven decisions.  This can really impact the bottom line of a company and make things very inefficient. \nI have two examples that really fall in line with the reading.  One is a new project that a Senior Executive fell in love with the idea and after 12 years the and millions spent the project failed which if we would have spent just a little time analyzing the data it would have been apparent from the beginning.  The other is making decisions to eliminate an approval as it felt like it was slowing down the process when in reality it was saving time by catching issues early.  The big question I have is how to convince a company to be data driven?"
+    },
+    {
+      "author": "Mark Hirschi",
+      "post_date": "2025-05-11T08:42:11-06:00",
+      "content": "I think this is the philosophy of measure twice cut once.  The one for me that needs the most scrutiny is basing decisions off of survey's.  Work sends these survey's out and says they are anonymous but I don't believe anyone answers them like they are.  It gives the impression that things are better than they are or points the company in the wrong direction.  I appreciate the discussion point and see how valuable it is to verify the data so that the correct decision can be made."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

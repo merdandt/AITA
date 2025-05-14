@@ -1,0 +1,18 @@
+{
+  "student_id": "164153",
+  "student_name": "Emily Thompson",
+  "entries": [
+    {
+      "author": "Emily Thompson",
+      "post_date": "2025-05-07T21:40:57-06:00",
+      "content": "What is the cost of bad data?\nhttps://www.youtube.com/watch?v=PszMMUkDB2w\n    \n\nLinks to an external site.\nThis quick video clarifies the cost of bad data, using an example that illustrates a common obstacle: collecting accurate information due to communication gaps. Human interpretation plays a major role—how instructions are understood can directly impact responses and skew the data. To ensure accuracy, data collection methods must address these communication challenges.\nThese obstacles can take many forms and may require tailored solutions. In the example provided, shifting from free-text responses to structured data inputs—like selecting from a list of specific locations—would promote consistency and reduce variability.\nIn my current role, I often collect data from multiple sources, including co-workers and clients, through various channels and formats. This leads to inconsistencies and incomplete entries when I compile the data into a spreadsheet. While a few errors may seem minor, over time they compound and significantly affect the accuracy of my analysis. Recognizing this has shown me the importance of standardization—not just for my work, but for all of us. To improve data integrity across the board, we need to adopt a consistent method for reporting and capturing information, ensuring greater accuracy and reliability in the long term.\nOpenAI. (2025). “Keep the writing voice and keep the edit concise. Make this assessment comprehensive:” [Large language model]. https://chat.openai.com/chat\n    \n\nLinks to an external site."
+    },
+    {
+      "author": "Emily Thompson",
+      "post_date": "2025-05-10T20:48:27-06:00",
+      "content": "Hello Bryson,\nAI is something that I had expected to feel hesitant and fearful of. However, the more I utilize AI, the more I appreciate all the possibilities it presents. I cannot believe how easy AI has made aspects of my life. I was recently introduced to the idea of AI as a secretary/intern. You will have to guide it, teach it, and check it, but it will ultimately help with the workload and get you to your goal with far less effort. I feel your article presented this very thing. AI is a tool that presents an opportunity for forward movement and growth. Using AI in its early years will ensure that the company is successfully utilizing it in the years to come. Ultimately, the hesitation and fear of AI will prevent desirable and long-sustained results, which is something no company wants. \nI had also reviewed the importance of high-quality data, and it became very clear to me that small errors along a chain of data can create massive impacts on data usage and company trajectory. Using AI, I do feel it presents an exciting opportunity to check and maintain the high-quality data that a company needs for success. Perhaps the thought that many companies have is that the early users will be experiencing the major issues, and there is a fear of being the first to fail because of the use of AI. I can appreciate that the misuse of AI could create issues. However, I've never thought it prudent to be afraid of something you don't understand, it is simply an opportunity to learn."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

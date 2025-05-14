@@ -1,0 +1,18 @@
+{
+  "student_id": "1715683",
+  "student_name": "Kalvin Fisher",
+  "entries": [
+    {
+      "author": "Kalvin Fisher",
+      "post_date": "2025-05-11T09:37:16-06:00",
+      "content": "That is a very interesting post and it is easy to correlate with every day life! I definitely agree with you and think that there are many products on the market today that are placebos. The fun thing about placebos however, that that they sometimes work!\nWhile the paddle itself doesn’t make you swing faster, your mind believes it’s capable of doing it so it works!\n \nGreat post!"
+    },
+    {
+      "author": "Kalvin Fisher",
+      "post_date": "2025-05-08T11:04:14-06:00",
+      "content": "In Chapter 2 of Analytics at Work, the book discusses the importance of data quality. I currently work in SAAS as an Account Executive and I have seen how data quality can personally affect us as a business. We pull in all sorts of data daily, from school information and student counts to annual revenue per district, and even something as simple as school names and states. Often when we do this we pull inaccurate data and it can lead to calling a random business, having misleading financial information, and lack of clarity on our end.\n \nTo fix this we have implemented software that sorts the data for us, finds duplicates, and flags inaccurate information. This software costs money but saves us money on the backend by giving us accurate, high-quality data. This leads me to the question, when is it justifiable to spend money to have accurate data as a business?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

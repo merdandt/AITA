@@ -1,0 +1,18 @@
+{
+  "student_id": "671873",
+  "student_name": "Tyler Ransbottom",
+  "entries": [
+    {
+      "author": "Tyler Ransbottom",
+      "post_date": "2025-05-06T02:01:37-06:00",
+      "content": "Hey Melissa,\nI like the questions that you pose in your post because they imply that data gathering and analysis is a complicated task and not an easy solution in all cases.  I've also spent a lot of time wondering who I can trust when it comes to misinformation (especially in this age of social media).  I think you have a good starting point with someone who is qualified or experienced, but it is important to recognize that although this is a good strategy in most cases, you cant trust a source in all cases. I like the quote in the book from Socrates that \"The unexamined life is not worth living.\"  I think that if we should always spend substantial thought examining the information/data that we are getting and think of it from as unbiased perspectives as possible.  Sometimes that requires removing our emotions and viewing the information in separate instances where we know we aren't letting emotion interfere.  Over time you can build your own personal trust and to me that is the data you can count on most if available."
+    },
+    {
+      "author": "Tyler Ransbottom",
+      "post_date": "2025-05-06T01:52:06-06:00",
+      "content": "As I was reading through Chapter 2 I was reminded of an experience at work where our company's analysis of a situation was only as good as the quality of data our team had given them.  We use a task management system called Jira, and one of the metrics it gives for a team is called \"burndown rate\" which basically means how many of your tasks you are able to complete before a deadline.  Our team was doing better than many other teams in this regard, and became apparent when someone from our training said \"I've never seen a burndown rate that good.\" Well, as the book states, \"You may have to undertake some detective work to identify persistent sources of poor-quality data\" applied here.  We had been viewing the requirements in a different lens from other teams and approving our work when it didn't meet the correct criteria.  To our disappointment we were more like the other teams even though our metrics are good.  This reinforces the point that your analysis is only as good as your data. \nWith the busy nature of modern work, what are some ways that you find time to make sure that your data is good?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

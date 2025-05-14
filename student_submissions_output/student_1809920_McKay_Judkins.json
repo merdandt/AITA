@@ -1,0 +1,18 @@
+{
+  "student_id": "1809920",
+  "student_name": "McKay Judkins",
+  "entries": [
+    {
+      "author": "McKay Judkins",
+      "post_date": "2025-05-08T15:26:23-06:00",
+      "content": "Kalvin,\nI think you pose a great question. While accurate, high-quality data is highly valuable, not every business or department will benefit equally from investing in it. The best way to justify spending money on data tools or research is by tying it to a measurable outcome—ideally one that has clear monetary value. If you can calculate the ROI of improved data quality by looking at saved time, increased conversions, or avoided errors, the decision becomes much easier. That said, data efforts should be focused where they have the most direct impact on growth. In some cases, a company may be better off investing in more immediately impactful areas than refining data that doesn’t influence key outcomes.\n*ChatGPT was used for spelling and grammar"
+    },
+    {
+      "author": "McKay Judkins",
+      "post_date": "2025-05-08T15:15:31-06:00",
+      "content": "As the Scottish writer Andrew Lang commented, “Statistics are often used as a drunken man uses a lamppost—for support rather than illumination.” (pg 12)\nI have often often been impressed by how data can be easily twisted or misunderstood when not used correctly. One of my favorite faulty statistical insights is that the more ice cream people consume as whole, the more often people drown. This statement implies a causal effect between eating ice cream and drowning, however it is wrong because it is referring to a correlation but calling it causation. It is more accurate to assume that a hot and sunny day causes higher ice cream consumption (eating it to stay cool) and drowning (because people are swimming more often). \nIn my HR analytics class, I had the opportunity to create a case study. The data for this case study hid several important relationships that the rest of my class had to uncover as they sifted through it. It was very important that we didn't make any assumptions once we say numbers align, but our task was to ask ourselves what comes next and what can we do address these problems. Jumping to conclusions can be a gross oversight when deal with data--the real value being found in how the data is being interpreted, or in other words, what is being illuminated. \nHas there been a time in your life (perhaps professionally) when you thought the data was saying one thing but turned out to say something different?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

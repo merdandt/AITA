@@ -1,0 +1,18 @@
+{
+  "student_id": "1454512",
+  "student_name": "Whitney Morris",
+  "entries": [
+    {
+      "author": "Whitney Morris",
+      "post_date": "2025-05-11T21:55:55-06:00",
+      "content": "Hi Dallin, \nI really appreciate your focus on the DELTA model and especially your point about the critical role of leadership in driving successful analytics initiatives. You're absolutely right that even with talented data teams, without leadership buy-in, the work can go underutilized. Your example from the Space Dynamics Laboratory highlights how even technically rich environments can benefit from better alignment between analytics efforts and strategic goals. As a mid-level manager I think you raise an excellent question. One practical strategy I've seen work well is embedding data literacy training into leadership development programs. Additionally, involving mid-level managers early in the analytics process—when setting Targets or defining KPIs—can build ownership and reduce resistance to change."
+    },
+    {
+      "author": "Whitney Morris",
+      "post_date": "2025-05-08T22:16:03-06:00",
+      "content": "I thought that the five-stage model of progress was interesting, I wouldn’t have ever thought there could be multiple levels of progress and how you would divide them. From my experience at my current company, I have seen us go from a stage one to a stage two. When I first started, we didn’t have any type of analytics on our case closures, however over the last year we have gone from having zero analytics to having the data and measuring KPIs. We are still trying to figure out what data is the most important, how to incorporate it and how to present it to senior leadership currently. To increase our efficiency with our data, I think we need to have multiple data stewards; we currently only have a total of two stewards that present data for their specific workflows however, we have found that the analytics are very surface level, and the information can be found from anyone that looks at the data. I think for our analysis of the data to mean more we should have multiple people look at the data to demonstrate the multiple ways you could interpret and present the data."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

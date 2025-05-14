@@ -1,0 +1,18 @@
+{
+  "student_id": "283928",
+  "student_name": "Natalie Harrison",
+  "entries": [
+    {
+      "author": "Natalie Harrison",
+      "post_date": "2025-05-10T16:08:57-06:00",
+      "content": "You made a great connection between the DELTA model and your real-life experience with the HVAC company. It’s such a clear example of how leadership can make or break the success of analytics efforts and the point about data just sitting in a dashboard really hit home. I also appreciated the article you shared and how it expands the idea of leadership beyond just the C-suite. I think one way to bring skeptical leaders on board is to start small by using analysis to solve a specific, visible problem and clearly show the results. When they see real improvements of cost savings or time efficiency, the numbers will speak for themselves and it becomes harder to dismiss the value of data."
+    },
+    {
+      "author": "Natalie Harrison",
+      "post_date": "2025-05-08T17:56:59-06:00",
+      "content": "An interesting point from the readings was the usefulness of Fermi estimation, especially when time or resources are limited. I’d support the idea that a thoughtful estimate, even with minimal data, can be more valuable than either a pure guess or an overly detailed calculation. In real-world situations, such as business decisions, emergency planning, or strategic thinking, there might not be enough time to gather perfect data. Becoming too focused on perfect accuracy can hinder progress and the pursuit of precise numbers might delay decisions that could have been made effectively with a reasonable approximation. Fermi estimation encourages flexible thinking and highlights the power of breaking down complex problems into manageable parts.  \nI appreciated the article because it highlights how Fermi estimation encourages active engagement with fundamental concepts, fostering critical thinking and logical reasoning. This method promotes deeper understanding by requiring individuals to break down complex problems into core components and assess how each part contributes to the overall picture, rather than relying solely on precise data. \nhttps://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae347/7693667\n    \n\nLinks to an external site."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

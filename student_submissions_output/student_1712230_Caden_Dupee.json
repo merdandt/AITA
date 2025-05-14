@@ -1,0 +1,13 @@
+{
+  "student_id": "1712230",
+  "student_name": "Caden Dupee",
+  "entries": [
+    {
+      "author": "Caden Dupee",
+      "post_date": "2025-05-07T12:20:22-06:00",
+      "content": "One of the interesting topics I liked reading about this week in Analytics at Work, was the part on uniqueness of data.  The example that really stood out and caught my attention was the part about the insurance company Progressive.  They were the first people to start using credit scores as an input to their automobile insurance underwriting.  Two seemingly unrelated data points had a surprising relationship.  If you pay your bills and have a higher credit score, then you are less likely to crash your car.  \nCurrently I am accepted to pharmacy school, and I was thinking of ways where one could apply unique data analysis to have a competitive edge.  I was thinking that an interesting data point to look into may be types of fitness activity.  For example, do people who train in high physical stress activities (i.e. ultra-marathons, rowing, wrestling) have higher likelihoods to need a pharmacies service.  That might not be the best example, but something along those lines.  My question is what do you think could be other unique data points that could catapult a business above its competitors?"
+    }
+  ],
+  "status": "Successfully extracted 1 entries.",
+  "error": null
+}

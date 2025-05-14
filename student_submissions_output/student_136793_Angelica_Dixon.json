@@ -1,0 +1,18 @@
+{
+  "student_id": "136793",
+  "student_name": "Angelica Dixon",
+  "entries": [
+    {
+      "author": "Angelica Dixon",
+      "post_date": "2025-05-09T12:04:49-06:00",
+      "content": "Hello Braxton,\nThank you for sharing your experience at Thermo Fisher Scientific. I’m particularly interested in how a company of that scale effectively can transform from a stage 2 or 3 into a stage 4. I believe too that data should be accessible across departments, it's essential for driving efficiency and informed decision-making."
+    },
+    {
+      "author": "Angelica Dixon",
+      "post_date": "2025-05-08T17:11:45-06:00",
+      "content": "According to MarketingStat.com, companies like Netflix, Google, and Procter & Gamble are leading examples of Level 5 organizations that fully integrate data analytics into their operations. Has anyone here worked in a Stage 4 or 5 enterprise, particularly within their analytics departments?\nFor those in earlier-stage organizations, how is your company currently leveraging data? I work for a small business where our data is primarily used for reporting purposes. I'd love to hear from anyone who has successfully implemented analytics in a Stage 1 or 2 enterprise. What approaches or tools helped move the organization to a more advanced stage?\nSource: https://www.marketingstat.com/from-data-analytics-to-analytical-company/"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

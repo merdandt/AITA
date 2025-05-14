@@ -1,0 +1,23 @@
+{
+  "student_id": "1831240",
+  "student_name": "Brooke Andersen",
+  "entries": [
+    {
+      "author": "Brooke Andersen",
+      "post_date": "2025-05-08T13:58:29-06:00",
+      "content": "Hi Ryan, \nI agree with the importance of getting executives on board with implementing and using data analytics. I realized I have the opposite problem. I am a business owner who uses some data analytics but am not passing that information on to my team as well as I should. I have, unintentionally, been hoarding it just because I wasn't sure if it could be helpful to them. I've realized I am doing too much of the analysis on my own without including them in both the gathering and use of the data. Sharing the data and teaching them how to read and use it will help our business grow stronger!"
+    },
+    {
+      "author": "Brooke Andersen",
+      "post_date": "2025-05-08T13:01:29-06:00",
+      "content": "In the book Analytics at Work, the author shares an example of how Delta Dental of California analyzed its claims data to understand patterns with customers and dentists. This stood out because my husband and I own a dental practice. I am currently working with a company to analyze the payout rates of the different insurance companies we are contracted with and then renegotiate our contracts. While we knew insurance reimbursement rates were low, it wasn't until I recently started doing a deeper analysis that I realized exactly how low they are for some companies. We realized we were losing money in some cases. This prompted us to work towards renegotiating with the companies for better reimbursement rates. Doing this analysis and others will help me gain better insight into our business and areas we can improve."
+    },
+    {
+      "author": "Brooke Andersen",
+      "post_date": "2025-05-09T11:16:34-06:00",
+      "content": "Hi Cordell, \nThanks for your comments. I have not visualized the findings yet. I agree that would give powerful insights into the data. I've only done basic analysis so far and am very excited to use Power BI to get a better understanding of insurance reimbursement. How does insurance apply to your field? Do you struggle to get companies to pay, and how do the reimbursement rates compare? Working with insurance is the most frustrating part of our job.  You mentioned you are trying to support small business owners to prevent burnout. Do you see similar struggles in PT?\nThe average reimbursement from insurance for dental is 50 - 60%. If we are contracted with the company, we write off the balance. It's a massive cut to profits. I just attended a conference where they discussed how to increase your PPO reimbursement rate through negotiation. However, the interesting thing they've found is that most dental offices don't get significantly better rates when you negotiate directly with the insurance company. Negotiation companies that have personal relationships with individuals at the insurance company can get almost full-fee reimbursement. After looking at the data, we see that it's the most effective thing we can do to improve profits. The fee we will pay them to negotiate for us should have a huge ROI."
+    }
+  ],
+  "status": "Successfully extracted 3 entries.",
+  "error": null
+}

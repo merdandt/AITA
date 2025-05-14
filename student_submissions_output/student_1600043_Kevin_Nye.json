@@ -1,0 +1,23 @@
+{
+  "student_id": "1600043",
+  "student_name": "Kevin Nye",
+  "entries": [
+    {
+      "author": "Kevin Nye",
+      "post_date": "2025-05-06T19:08:11-06:00",
+      "content": "Hey Abby, I really liked what you said about the “single source of truth.” I work with financial data and I’ve seen the same thing happen where numbers in one system don’t match another and it turns into a big headache. I think a lot of companies get stuck in that localized analytics stage like you mentioned and don’t realize how much better things could be with real data governance. I know in my company we don’t have a full-time person for data governance either and it shows. We don’t have any required training or SOPs so everyone just kind of does their own thing. I think having someone in charge of it could really help bring some order and consistency."
+    },
+    {
+      "author": "Kevin Nye",
+      "post_date": "2025-05-06T18:58:03-06:00",
+      "content": "After reading Chapters 1 and 2, one thing that stuck with me was how important good data is and not just having it, but making sure it’s clean, easy to find, and meaningful. I work in accounting at Cache Valley Electric and I’ve seen how bad data or unclear reports can slow things down which leads to wrong decisions. What I liked about the DELTA model in Chapter 1 is how it shows that you need more than just good data to make analytics work. You need people who care about using it the right way, clear goals, and support from leaders and coworkers who use it.\nChapter 2 also made me think about how much we overlook where data comes from or how it’s stored. It’s not just about grabbing numbers from a spreadsheet. If data isn’t structured well or easy to access, it won’t help anyone. I wonder how many companies think they’re “data-driven” but are still stuck in stage 1 or 2 without even knowing it.\nWhat stage do you think your company or team is at in the organization progress?"
+    },
+    {
+      "author": "Kevin Nye",
+      "post_date": "2025-05-08T17:27:47-06:00",
+      "content": "Taylor, I really liked your take on Eratosthenes' experiment and how you tied it to today’s obsession with perfect information. I think you're right that people can get so caught up in the imperfections that they miss the bigger picture. In my work, I’ve seen how even slightly messy data gets tossed aside, even if it still has value. It makes me wonder if we’re limiting ourselves by demanding perfection before we act."
+    }
+  ],
+  "status": "Successfully extracted 3 entries.",
+  "error": null
+}

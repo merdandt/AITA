@@ -1,0 +1,18 @@
+{
+  "student_id": "1780775",
+  "student_name": "Anthony Laubacher",
+  "entries": [
+    {
+      "author": "Anthony Laubacher",
+      "post_date": "2025-05-11T21:57:08-06:00",
+      "content": "Hey Braxton, \nI've had similar experiences with data being siloed and a lot of the frustrations that it can cause. It was interesting to hear how you used the Salesforce platform as a way to centralize data and make it accessible for various functions. I really liked the idea from the readings of 'one version of truth' and it seems you were able to do that very well at Thermo Fisher to improve efficiency and streamline worklflows."
+    },
+    {
+      "author": "Anthony Laubacher",
+      "post_date": "2025-05-08T18:40:48-06:00",
+      "content": "One concept I found interesting from Chapter 1 was the idea that analytics can sometimes be impractical due to factors like lack of time, no resources, complex variables, etc. For organizations to know when it makes sense to use analytics, the DELTA model seemed to be a great way to maintain competitive advantages if followed properly. This model focuses on Data, Enterprise, Leadership, Targets, and Analysts and how each of these need to work cohesively together to maintain strong analytics.\nAt the company I work for in the automotive industry, we often find ourselves bogged down with deciding which data is relevant and sometimes spend too much time overanalyzing before sending to the customer. Engineers often have their own methods of data processing and it feels like a bit of a disconnect, where having a structure like the DELTA to follow could help align and standardize things across the company. \nHas anyone seen similar issues in their industry, and if so, have you used anything such as the DELTA model to improve how data is used effectively?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

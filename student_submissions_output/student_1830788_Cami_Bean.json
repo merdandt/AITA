@@ -1,0 +1,18 @@
+{
+  "student_id": "1830788",
+  "student_name": "Cami Bean",
+  "entries": [
+    {
+      "author": "Cami Bean",
+      "post_date": "2025-05-10T10:18:48-06:00",
+      "content": "Yes! I used to believe that leadership in companies went from the top down. Then I thought, maybe things could go from the bottom to the top. One thing that companies tend to overlook are the unofficial authority figures. The outspoken individuals within an organization that can influence those people around them. So, in your situation, I think small businesses can begin this data-driven culture with an internal champion. Find someone who is knowledgeable, driven and wants to see things get better. I have seen things change with someone very low in the company, implement an idea or have a specific skill that has greatly influenced change."
+    },
+    {
+      "author": "Cami Bean",
+      "post_date": "2025-05-08T18:28:42-06:00",
+      "content": "One thing that I found interesting in our readings this week was the importance of quality data, specifically ensuring that decisions aren’t made on false data. My company sends out quarterly surveys to identify many “intangibles” like culture, belonging, work/life balance and trust among colleagues. It is helpful to voice concerns, but sometimes there is ambiguity with the questioning. For example, trust among colleagues. A question would be, “on a scale of 1-5, how much do you trust your colleagues?” It’s difficult to answer, because they don’t specify whether they are referring to teammates, cross-functional partners or headquarters. The answer could be different for each one. Since the questions lack specificity, they are actually receiving inaccurate data, which in turn would make any solutions not necessarily helpful. I like the saying, “garbage in, garbage out.” Taking the time to accurately gather good information will help give good outputs."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

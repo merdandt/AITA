@@ -9,6 +9,7 @@ import sys
 import re
 from pydantic import BaseModel, Field
 from typing import List, Optional, Dict
+from typing import Union
 
 from colorama import init, Fore, Style
 init(autoreset=True)
@@ -16,6 +17,8 @@ init(autoreset=True)
 # Assuming these are your imports from browser_use for the authenticator
 from browser_use import Agent, Controller 
 from browser_use.browser.browser import Browser, BrowserConfig
+from playwright.async_api import Page, FrameLocator, Locator
+
 # from langchain_google_genai import ChatGoogleGenerativeAI # If your Agent uses it
 
 load_dotenv()
@@ -55,220 +58,245 @@ def sanitize_filename(name: str) -> str:
     return name
 
 # --- Core Extraction Function ---
+async def save_debug_html(scope: Union[Page, FrameLocator, Locator], filename_prefix: str, student_id: str):
+    if not os.path.exists(OUTPUT_FOLDER_NAME):
+        os.makedirs(OUTPUT_FOLDER_NAME)
+    
+    safe_student_id = sanitize_filename(student_id or 'UNKNOWN_ID')
+    safe_prefix = sanitize_filename(filename_prefix)
+    filename = os.path.join(OUTPUT_FOLDER_NAME, f"DEBUG_{safe_prefix}_{safe_student_id}.html")
+    html_content = "Could not get HTML content."
+    content_source = "unknown"
+
+    try:
+        if isinstance(scope, Page):
+            html_content = await scope.content()
+            content_source = "Page"
+        elif isinstance(scope, FrameLocator):
+            # For FrameLocator, get content of the frame's page.
+            # Ensure body exists before getting innerHTML of body, or just get frame's page content.
+            # A simple way is to get the outerHTML of the body if it exists.
+            try:
+                html_content = await scope.locator(':root').first.evaluate('el => el.outerHTML') # Get HTML of the root element in frame
+                content_source = "FrameLocator (:root)"
+            except Exception:
+                # Fallback for FrameLocator if :root fails (e.g. if :root is not element)
+                # This might require getting the page and then content,
+                # but FrameLocator itself doesn't directly have .content().
+                # Let's try to get the body of the frame if possible
+                body_in_frame = scope.locator('body').first
+                if await body_in_frame.count() > 0:
+                    html_content = await body_in_frame.inner_html()
+                    content_source = "FrameLocator (body innerHTML)"
+                else: # As a last resort for frame, just indicate it's a frame
+                    html_content = f""
+                    content_source = f"FrameLocator (selector: {scope._selector})"
+        elif isinstance(scope, Locator):
+            if await scope.count() > 0:
+                html_content = await scope.first.evaluate('el => el.outerHTML')
+                content_source = f"Locator ({scope._selector})"
+            else:
+                html_content = f""
+                content_source = f"Locator ({scope._selector} - no elements)"
+        
+        with open(filename, "w", encoding='utf-8') as f_debug:
+            f_debug.write(html_content)
+        log_info(f"Saved debug HTML ({content_source}) to: {filename}")
+    except Exception as e_save:
+        log_error(f"Failed to save debug HTML ({content_source}) to {filename}: {e_save}")
+        traceback.print_exc()
+
+
 async def extract_data_for_current_student(page: Page) -> StudentSubmissionData:
-    log_info("Attempting to extract data for the current student...")
+    log_info(f"Attempting to extract data for student at URL: {page.url}")
     current_student_id = "ID not found"
     current_student_name = "Name not found"
 
     try:
-        # 1. Extract Student ID from URL (most reliable)
+        # Steps 1 & 2: Student ID and Name extraction (assumed mostly correct from logs)
         url = page.url
         student_id_match = re.search(r'student_id=(\d+)', url)
-        if student_id_match:
-            current_student_id = student_id_match.group(1)
-            log_success(f"Student ID from URL: {current_student_id}")
-        else: # Fallback: Try to get student ID from a common dropdown element if URL fails
-            try:
-                dropdown_selector = "select#user_id option[selected]"
-                if await page.locator(dropdown_selector).count() > 0:
-                    current_student_id = await page.locator(dropdown_selector).first.get_attribute("value") or "ID not found"
-                    log_success(f"Student ID from dropdown: {current_student_id}")
-                else:
-                    log_warning("Student ID not in URL and dropdown selector not found.")
-            except Exception as e_id_page:
-                log_warning(f"Could not get student ID from page elements: {e_id_page}")
-
-        # 2. Extract Student Name
-        # Prioritized selector based on your provided HTML for student name.
-        name_selectors = [
-            "span.ui-selectmenu-status span.ui-selectmenu-item-header", # New primary based on provided HTML
-            "#speedgrader_selected_student_label",
-            "span.user_name",
-            "div.userName",
-            "h2.sg-header-primary > span",
-            "button[aria-label^='User view'] > span:not([class*='screenreader'])",
-            "span[data-testid='current-student-name']"
-        ]
+        if student_id_match: current_student_id = student_id_match.group(1)
+        # ... (rest of ID/Name extraction) ...
+        if current_student_id != "ID not found": log_success(f"Student ID: {current_student_id}")
+        name_selectors = ["span.ui-selectmenu-status span.ui-selectmenu-item-header", "#speedgrader_selected_student_label"] # simplified
         for selector in name_selectors:
+            name_element = page.locator(selector).first
+            if await name_element.count() > 0 and await name_element.is_visible(timeout=500):
+                raw_name = await name_element.text_content(); current_student_name = re.split(r'\(ID:|\sAttempt\s\d', raw_name or "")[0].strip(); break
+        if current_student_name != "Name not found": log_success(f"Student Name: {current_student_name}")
+
+
+        # 3. IFRAME DETECTION AND SCOPE SWITCHING
+        submission_scope: Union[Page, FrameLocator] = page
+        log_info(f"Initial submission_scope is main page ({page.url}).")
+        # ... (iframe detection logic as in the previous correct version leading to SUCCESS logs)
+        iframe_sel_to_check = 'iframe#speedgrader_iframe' # Primary target based on logs
+        iframe_locator_on_page = page.locator(iframe_sel_to_check)
+        iframe_focused = False
+        if await iframe_locator_on_page.count() > 0:
+            log_info(f"Iframe element(s) FOUND for selector '{iframe_sel_to_check}'. Using first.")
+            iframe_element = iframe_locator_on_page.first
             try:
-                name_element = page.locator(selector).first
-                await name_element.wait_for(state="visible", timeout=1000) # Slightly longer timeout for primary
-                if await name_element.count() > 0:
-                    raw_name = await name_element.text_content()
-                    if raw_name:
-                        current_student_name = re.split(r'\(ID:|\sAttempt\s\d|,\s*\d+\s*of', raw_name)[0].strip()
-                        log_success(f"Student Name: '{current_student_name}' (using selector: {selector})")
-                        break
-            except Exception:
-                log_debug(f"Student name selector '{selector}' not found/visible or timed out.")
-        if current_student_name == "Name not found":
-            log_warning("Student name could not be extracted.")
-
-        # 3. Determine the correct frame/container for submissions
-        submission_container_scope = page
-        iframe_selectors = [
-            'iframe[id^="discussion_topic_iframe"]',
-            'iframe[title="Rich Text Area"]',
-            'iframe.discussion-embed',
-            'iframe#speedgrader_iframe',
-            'iframe#tool_content'
-        ]
-        found_iframe = False
-        for iframe_selector in iframe_selectors:
-            iframe_loc = page.locator(iframe_selector).first
-            if await iframe_loc.count() > 0 and await iframe_loc.is_visible():
-                log_info(f"Detected iframe ('{iframe_selector}'). Switching scope to iframe content.")
-                try:
-                    frame = iframe_loc.frame_locator(':scope')
-                    await frame.page().wait_for_load_state('domcontentloaded', timeout=10000)
-                    await frame.locator('body').wait_for(state="visible", timeout=5000)
-                    submission_container_scope = frame
-                    found_iframe = True
-                    log_success("Successfully focused on iframe for submissions.")
-                    break
-                except Exception as e_iframe:
-                    log_warning(f"Could not properly access content within iframe '{iframe_selector}': {e_iframe}. Will try main page.")
-                    submission_container_scope = page
-                    found_iframe = False
+                await iframe_element.wait_for(state="visible", timeout=5000)
+                current_frame_scope = iframe_element.frame_locator(':scope')
+                await current_frame_scope.locator('body').wait_for(state="visible", timeout=10000)
+                log_success(f"Successfully focused on iframe '{iframe_sel_to_check}'. New submission_scope is this FrameLocator.")
+                submission_scope = current_frame_scope
+                iframe_focused = True
+                await save_debug_html(submission_scope, f"FOCUSED_IFRAME_{sanitize_filename(iframe_sel_to_check)}", current_student_id)
+            except Exception as e_iframe:
+                log_warning(f"Error interacting with iframe '{iframe_sel_to_check}': {e_iframe}.")
+        if not iframe_focused:
+            log_warning("No specific iframe focused. THIS IS LIKELY THE PROBLEM if content is iframed.")
+            await save_debug_html(page, "NO_IFRAME_FOCUSED_USING_PAGE_SCOPE", current_student_id)
         
-        if not found_iframe:
-            log_info("No specific discussion iframe detected or accessed. Assuming content is on main page or a general content iframe.")
 
-        # 4. Locate the main content area for discussion posts
-        main_content_area_locator = submission_container_scope.locator('div#content.ic-Layout-contentMain').first
-        # Specific container for submissions as per your HTML
-        submission_desc_locator = main_content_area_locator.locator('div.submission_description').first
-
-        search_root_locator = submission_container_scope 
-
-        if await submission_desc_locator.count() > 0 and await submission_desc_locator.is_visible(timeout=3000):
-            log_debug("Found 'div.submission_description'. Searching for entries within it.")
-            search_root_locator = submission_desc_locator
-        elif await main_content_area_locator.count() > 0 and await main_content_area_locator.is_visible(timeout=3000):
-            log_debug("Found 'div#content.ic-Layout-contentMain'. 'submission_description' not found or not visible. Searching for entries within main content.")
-            search_root_locator = main_content_area_locator
+        # 4. LOCATE THE MAIN CONTENT AREA
+        log_info(f"Current submission_scope for content search: {type(submission_scope)}")
+        main_content_container_sel = 'div#content.ic-Layout-contentMain'
+        submission_description_sel = 'div.submission_description'
+        search_root_locator: Union[Page, FrameLocator, Locator] = submission_scope
+        
+        main_content_loc = submission_scope.locator(main_content_container_sel).first
+        if await main_content_loc.count() > 0 and await main_content_loc.is_visible(timeout=7000):
+            log_success(f"'{main_content_container_sel}' is VISIBLE in current scope.")
+            submission_desc_loc = main_content_loc.locator(submission_description_sel).first
+            if await submission_desc_loc.count() > 0 and await submission_desc_loc.is_visible(timeout=5000):
+                log_success(f"'{submission_description_sel}' is VISIBLE. Using it as search_root_locator.")
+                search_root_locator = submission_desc_loc
+            else:
+                log_warning(f"'{submission_description_sel}' not found/visible within '{main_content_container_sel}'. Using parent as search_root.")
+                search_root_locator = main_content_loc
         else:
-            log_warning("'div#content.ic-Layout-contentMain' and 'div.submission_description' not found/visible. Searching directly in current scope.")
+            log_error(f"'{main_content_container_sel}' NOT FOUND or NOT VISIBLE in current scope. Search root will be broader.")
+            await save_debug_html(submission_scope, "MAIN_CONTENT_NOT_FOUND_OR_VISIBLE_IN_SCOPE", current_student_id)
+            # search_root_locator remains submission_scope
+
+        log_info(f"Final search_root_locator type: {type(search_root_locator)}")
+        if search_root_locator != submission_scope:
+             await save_debug_html(search_root_locator, "FINAL_SEARCH_ROOT_LOCATOR", current_student_id)
 
         # 5. Find all discussion entries
-        # Primary selector for entries based on your HTML
         entry_selector = 'div.discussion_entry.communication_message'
         entry_selector_fallback = 'article.discussion-entry, div.comment_holder > div.comment'
-
         discussion_entry_locators = await search_root_locator.locator(entry_selector).all()
         if not discussion_entry_locators:
-            log_debug(f"No entries with '{entry_selector}'. Trying fallback: '{entry_selector_fallback}'")
             discussion_entry_locators = await search_root_locator.locator(entry_selector_fallback).all()
 
         if not discussion_entry_locators:
-            log_warning(f"No discussion entries found for student {current_student_id} ({current_student_name}).")
-            return StudentSubmissionData(student_id=current_student_id, student_name=current_student_name, status="No discussion entries found in specified containers.")
+            log_warning("No discussion entry elements found with ANY selector within the final search_root_locator.")
+            await save_debug_html(search_root_locator, "SEARCH_ROOT_NO_ENTRIES_FOUND_IN_IT", current_student_id)
+            return StudentSubmissionData(student_id=current_student_id, student_name=current_student_name, status="No discussion entry elements found in the determined content area.")
 
-        log_success(f"Found {len(discussion_entry_locators)} potential discussion entry elements.")
+        log_success(f"Found {len(discussion_entry_locators)} potential discussion entry elements. Starting parsing loop...")
         extracted_entries: List[DiscussionEntry] = []
 
-        for i, entry_loc in enumerate(discussion_entry_locators):
-            log_step(i + 1, f"Processing entry {i + 1}/{len(discussion_entry_locators)}")
+        # --- DETAILED PARSING LOOP ---
+        for i, entry_loc_item in enumerate(discussion_entry_locators): # entry_loc_item is a Locator
+            log_step(i + 1, f"Processing entry element {i + 1}/{len(discussion_entry_locators)}")
+            try:
+                await entry_loc_item.wait_for(state="attached", timeout=2000)
+                entry_html_snippet = await entry_loc_item.evaluate_handle('(element) => element.outerHTML.slice(0, 1200)')
+                log_debug(f"Entry {i+1} HTML SNIPPET:\n{await entry_html_snippet.json_value()}")
+            except Exception as e_entry_html: log_warning(f"Could not get HTML snippet for entry {i+1}: {e_entry_html}")
+
+            author_entry = current_student_name if current_student_name != "Name not found" else "Student name not resolved"
+            log_debug(f"Entry {i+1}: Author determined as '{author_entry}'")
+
+            post_date_entry = "Date not found"
+            content_entry = "Content not found"
+
+            # Date Extraction
+            date_sels_map = {
+                'div.header div.post_date.time_ago_date': ['data-timestamp', 'title', 'text'],
+                '.discussion-header-content time': ['datetime', 'title', 'text'],
+                '.posted_at time': ['datetime', 'title', 'text'],
+                # Add other selectors as needed
+            }
+            date_found_for_this_entry = False
+            for date_sel_str_item, attr_priority_item in date_sels_map.items():
+                if date_found_for_this_entry: break
+                log_debug(f"Entry {i+1}: Trying date selector '{date_sel_str_item}'")
+                # Corrected: .first is a property, not a method.
+                # date_element_loc is a Locator pointing to the first match (or none).
+                date_element_loc = entry_loc_item.locator(date_sel_str_item).first
+                
+                if await date_element_loc.count() > 0: # Check if the locator (pointing to first) actually found something
+                    log_debug(f"Entry {i+1}:   FOUND element for date selector '{date_sel_str_item}'.")
+                    try:
+                        # No need for another .first here, date_element_loc already refers to the first element
+                        for attr_type in attr_priority_item:
+                            val = None
+                            if attr_type == 'text':
+                                val = await date_element_loc.text_content()
+                                log_debug(f"Entry {i+1}:     '{date_sel_str_item}' -> text_content(): '{val}'")
+                            else:
+                                val = await date_element_loc.get_attribute(attr_type)
+                                log_debug(f"Entry {i+1}:     '{date_sel_str_item}' -> get_attribute('{attr_type}'): '{val}'")
+                            
+                            if val and val.strip():
+                                post_date_entry = val.strip()
+                                log_success(f"Entry {i+1}:   DATE extracted as '{post_date_entry}' using selector '{date_sel_str_item}' (from '{attr_type}').")
+                                date_found_for_this_entry = True; break 
+                        if date_found_for_this_entry: break
+                    except Exception as e_date_extract:
+                        log_warning(f"Entry {i+1}:     Error processing date element for '{date_sel_str_item}': {e_date_extract}")
+                else:
+                    log_debug(f"Entry {i+1}:   NO element found for date selector '{date_sel_str_item}'.")
+            if not date_found_for_this_entry: log_warning(f"Entry {i+1}: DATE extraction FAILED.")
+
+            # Content Extraction
+            content_sels_list = [
+                'div.content div.message.user_content.enhanced', '.message_body', '.entry_content'
+            ] # Example selectors
+            content_found_for_this_entry = False
+            for content_sel_str_item in content_sels_list:
+                if content_found_for_this_entry: break
+                log_debug(f"Entry {i+1}: Trying content selector '{content_sel_str_item}'")
+                # Corrected: .first is a property
+                content_element_loc = entry_loc_item.locator(content_sel_str_item).first
+
+                if await content_element_loc.count() > 0:
+                    log_debug(f"Entry {i+1}:   FOUND element for content selector '{content_sel_str_item}'.")
+                    try:
+                        extracted_text = await content_element_loc.text_content()
+                        log_debug(f"Entry {i+1}:     Raw text (len {len(extracted_text or '')}): '{(extracted_text or '')[:200]}...'")
+                        if extracted_text and extracted_text.strip():
+                            content_entry = extracted_text.strip()
+                            log_success(f"Entry {i+1}:   CONTENT extracted (len {len(content_entry)}) using '{content_sel_str_item}'.")
+                            content_found_for_this_entry = True; break
+                        else: log_debug(f"Entry {i+1}:     Content element found but text is empty/whitespace.")
+                    except Exception as e_content_extract:
+                        log_warning(f"Entry {i+1}:     Error processing content element for '{content_sel_str_item}': {e_content_extract}")
+                else:
+                    log_debug(f"Entry {i+1}:   NO element found for content selector '{content_sel_str_item}'.")
+            if not content_found_for_this_entry: log_warning(f"Entry {i+1}: CONTENT extraction FAILED.")
             
-            # Author is the student whose page is being viewed
-            author = current_student_name if current_student_name != "Name not found" else "Student name not resolved"
-            if author != "Student name not resolved":
-                log_debug(f"Entry {i+1}: Author='{author}' (current student)")
+            if post_date_entry != "Date not found" or content_entry != "Content not found":
+                extracted_entries.append(DiscussionEntry(author=author_entry, post_date=post_date_entry, content=content_entry))
+                log_success(f"Entry {i+1}: ADDED to extracted_entries list.")
             else:
-                log_warning(f"Entry {i+1}: Author set to default as student name was not resolved for the page.")
+                log_error(f"Entry {i+1}: SKIPPED. No valid date OR content found.")
+        # --- END OF DETAILED PARSING LOOP ---
 
-            post_date, content = "Date not found", "Content not found"
+        if not extracted_entries and discussion_entry_locators: # Found elements, but all failed to parse
+            status_msg = f"Found {len(discussion_entry_locators)} entry elements, but NO meaningful data could be extracted."
+            log_error(status_msg)
+            if discussion_entry_locators: await save_debug_html(discussion_entry_locators[0], "FIRST_ENTRY_PARSE_FAILED", current_student_id)
+            return StudentSubmissionData(student_id=current_student_id, student_name=current_student_name, entries=[], status=status_msg)
+        
+        log_success(f"Extracted {len(extracted_entries)} entries from {len(discussion_entry_locators)} potential elements.")
+        return StudentSubmissionData(student_id=current_student_id, student_name=current_student_name, entries=extracted_entries, status=f"Successfully extracted {len(extracted_entries)} entries.")
 
-            # Extract Date - Prioritizing based on your HTML structure
-            # Primary target: div.post_date.time_ago_date (within div.header.clearfix)
-            # Fallbacks for more general cases are kept.
-            date_sels = [
-                'div.header div.post_date.time_ago_date', # Specific to your HTML
-                '.discussion-header-content time', 
-                '.posted_at time', 
-                '.comment_posted_at time', 
-                '.post_date', # General class
-                'time' # General tag
-            ]
-            for sel_idx, sel in enumerate(date_sels):
-                loc = entry_loc.locator(sel).first
-                if await loc.count() > 0 and await loc.is_visible(timeout=500):
-                    date_val = "Date not found"
-                    if sel_idx == 0: # Specific selector: div.post_date.time_ago_date
-                        timestamp = await loc.get_attribute('data-timestamp')
-                        title_attr = await loc.get_attribute('title')
-                        text_content = await loc.text_content()
-                        if timestamp: date_val = timestamp.strip()
-                        elif title_attr: date_val = title_attr.strip()
-                        elif text_content: date_val = text_content.strip()
-                    else: # Generic time selectors
-                        datetime_attr = await loc.get_attribute('datetime')
-                        title_attr = await loc.get_attribute('title') # Common for time tags
-                        text_content = await loc.text_content()
-                        if datetime_attr: date_val = datetime_attr.strip()
-                        elif title_attr: date_val = title_attr.strip()
-                        elif text_content: date_val = text_content.strip()
-                    
-                    if date_val != "Date not found":
-                        post_date = date_val
-                        break
-            if post_date == "Date not found": log_debug(f"Entry {i+1}: Date not found.")
-            else: log_debug(f"Entry {i+1}: Date='{post_date}'")
-
-            # Extract Content - Prioritizing based on your HTML structure
-            # Primary target: div.message.user_content.enhanced (within div.content)
-            content_sels = [
-                'div.content div.message.user_content.enhanced', # Specific to your HTML
-                '.message_body', 
-                '.comment_body', 
-                '.discussion_entry_content', 
-                '.message-content', 
-                '.entry_content',
-                '.user_content' 
-            ]
-            for sel in content_sels:
-                loc = entry_loc.locator(sel).first
-                if await loc.count() > 0: 
-                    content_text = await loc.text_content()
-                    if content_text: 
-                        content = content_text.strip()
-                        break
-            if content == "Content not found": log_debug(f"Entry {i+1}: Content not found.")
-            else: log_debug(f"Entry {i+1}: Content length={len(content)}")
-            
-            # Only add entry if it has some data beyond a potentially unresolved author
-            if not (author == "Student name not resolved" and post_date == "Date not found" and content == "Content not found"):
-                 if content != "Content not found" or post_date != "Date not found": # Ensure at least content or date is found
-                    extracted_entries.append(DiscussionEntry(author=author, post_date=post_date, content=content))
-                 else:
-                    log_debug(f"Entry {i+1} had no content or date, skipping.")
-            else:
-                log_debug(f"Entry {i+1} had no data at all (including unresolved author), skipping.")
-
-
-        if not extracted_entries:
-            status_msg = "Found entry elements, but no meaningful data (date/content) extracted from them."
-            log_warning(status_msg)
-            return StudentSubmissionData(student_id=current_student_id, student_name=current_student_name, status=status_msg)
-
-        return StudentSubmissionData(
-            student_id=current_student_id,
-            student_name=current_student_name,
-            entries=extracted_entries,
-            status=f"Successfully extracted {len(extracted_entries)} entries."
-        )
-    
     except Exception as e:
-        error_msg = f"CRITICAL Error during extraction for student {current_student_id} ({current_student_name}): {str(e)}"
+        error_msg = f"CRITICAL Error for student {current_student_id} ({current_student_name}): {str(e)}"
         log_error(error_msg)
         traceback.print_exc()
-        return StudentSubmissionData(
-            student_id=current_student_id,
-            student_name=current_student_name,
-            status="Extraction failed with critical error.",
-            error=str(e)
-        )
-        
+        await save_debug_html(page, "CRITICAL_ERROR_PAGE_CONTENT", current_student_id)
+        return StudentSubmissionData(student_id=current_student_id, student_name=current_student_name, status="Extraction failed with critical error.", error=str(e))
+
+                
 # --- Main Execution Logic ---
 browser_manager = Browser()
 # controller = Controller() # Only if authenticator agent needs to register actions not defined elsewhere

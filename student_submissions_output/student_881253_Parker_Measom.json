@@ -1,0 +1,18 @@
+{
+  "student_id": "881253",
+  "student_name": "Parker Measom",
+  "entries": [
+    {
+      "author": "Parker Measom",
+      "post_date": "2025-05-08T19:35:33-06:00",
+      "content": "Hi David, \nThat’s a really insightful question. I think most organizations understand that their data will rarely be perfect, so the focus shifts to determining whether the information is “good enough” to support a well-reasoned decision. This often involves assessing the reliability, timeliness, and completeness of the data in the context of the decision being made. While some companies use formal frameworks or internal benchmarks to evaluate data quality, much of the judgment still depends on experience and the specific circumstances. In fast-paced environments, waiting for perfect data can mean missing valuable opportunities. Which means many organizations are willing to move forward with the best available information, while building in flexibility to adjust their strategy as new data comes to light."
+    },
+    {
+      "author": "Parker Measom",
+      "post_date": "2025-05-07T22:48:22-06:00",
+      "content": "I was most interested in Chapter 2 of How to Measure Anything, especially the section about Emily Rosa’s experiment. I’ve always been fascinated by stories like hers, and I’ve also enjoyed reading about James Randi and his work debunking con-artists. What stood out to me most about Rosa’s experiment was its simplicity. The chapter emphasizes how straightforward her approach was, and yet it still had a major impact.\nIt really got me thinking about work and life in general, and how much more we could achieve by better understanding how to measure things. I tend to overcomplicate problems, but this reminded me that starting with what I already know and applying the simplest possible solution can often take me a long way.\nIn my work, quantifying information seems to be a constant need and I can see how approaching measurement challenges with a simple mindset, and asking basic questions first could lead to quicker, more effective solutions.\nQuestion:\nWhat does Emily Rosa's story tell us about the value of curiosity and asking basic questions, even in professional settings?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

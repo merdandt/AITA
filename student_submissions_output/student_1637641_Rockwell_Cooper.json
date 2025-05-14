@@ -1,0 +1,18 @@
+{
+  "student_id": "1637641",
+  "student_name": "Rockwell Cooper",
+  "entries": [
+    {
+      "author": "Rockwell Cooper",
+      "post_date": "2025-05-11T21:19:05-06:00",
+      "content": "John, \nI think that the question you posed is an interesting one and I think that one concept from this week's reading that would provide a partial answer is the idea of maintaining/creating a culture where data ownership is valued. I think that creating standard policies and naming conventions could go a long way as well, but the company must maintain the attitude that data is important and that dedicating resources to managing it is a worthwhile investment. There are obviously other tools and concepts that would be important to ensure that data is well managed as an organization grows, but I think starting with the right culture and attitude is important."
+    },
+    {
+      "author": "Rockwell Cooper",
+      "post_date": "2025-05-08T22:44:38-06:00",
+      "content": "Hello, all! \nThe first chapter of this week's reading touched on a few concepts that I think my organization in particular does well, and reading a few of the statements in the chapter made me recall specific experiences from my short professional career. I work as a supply chain analyst for a large ecommerce retailer in a competitive and volatile segment of the outdoor industry. My organization takes the concept of \"owning\" all useful data very seriously and I have seen its many benefits on numerous occassions. The organization has an office based in Ukraine whose only goal is to optimize data management from the enterprise perspective. We have our own propreitary ERP software and own all of the information systems that we use. I have seen the benefits of this on supply chain performance because having complete control over this data makes obtaining new information incredibly fast. I have seen this flexibility and agility put to good use by management to make extremely difficult supply chain decisions and bring in revenue that likely could not have been obtained otherwise."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

@@ -1,0 +1,18 @@
+{
+  "student_id": "1512411",
+  "student_name": "Jorma Hayes",
+  "entries": [
+    {
+      "author": "Jorma Hayes",
+      "post_date": "2025-05-08T20:54:29-06:00",
+      "content": "Hey Tanner, I think your definitely on to something there. I feel there is a bell curve to having to little data and then dropping of the other side of timing everyone's bathroom breaks. I see their point, but I would start getting a little anxious as to what else is being observed and then that links like your saying to job performance metrics in which has all its own can of worms too. Having data to help with efficiency and such is seeming to be way better than assumptions and guessing what day you sell the most soda's or whatever. Your also right about how it could end up backfiring on itself with the high turnover rates. It feels at this point in the course it is a double edged sword. Good comment!"
+    },
+    {
+      "author": "Jorma Hayes",
+      "post_date": "2025-05-08T20:43:38-06:00",
+      "content": "Hello, I had a few discussions about the reading with a colleague, and what I was surprised with is that how important DATA is, BUT it has to be useful data. There are tons of ways to collect data but the hard part is sifting through it and finding the answers to your questions. There is an overwhelming amount of \"rabbit holes\" that cost time and money to process the data but in the end leaves you with no real insight, and ways to improve or things you could be doing better. It should be all in the data, and I just didn't realize how critical it is. Also, the reading and putting words to what I have kind of thought for awhile was very helpful. I always knew that most of the answers to grow or start your business was in the data, why else do we need to have a business plan then, your proving that it can work with real research conducted."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

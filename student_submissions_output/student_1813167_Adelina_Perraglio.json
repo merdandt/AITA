@@ -1,0 +1,18 @@
+{
+  "student_id": "1813167",
+  "student_name": "Adelina Perraglio",
+  "entries": [
+    {
+      "author": "Adelina Perraglio",
+      "post_date": "2025-05-11T10:48:07-06:00",
+      "content": "Hi Daniel,\nI also enjoyed the concept of data cubes but had a hard time visualizing it. I’m not sure if this is the best fit, but one example I found when researching this was that it’s like a filing cabinet.\n\nDrawers for different products (shoes, shirts, hats)\nFolders inside each drawer for months (January, February, March)\nPages in each folder for regions (North, South, East)\n\nTo find out how many shirts were sold in March in the South, you would open the shirts drawer, grab the March folder, and flip to the South page, and the answer is easily found.\nI think this example helps me better visualize the way information is organized in data cubes."
+    },
+    {
+      "author": "Adelina Perraglio",
+      "post_date": "2025-05-08T20:56:15-06:00",
+      "content": "As someone without a background in data analytics, it was interesting to learn about the different way companies use the data they collect, with examples from Olive Garden, Coca-Cola, health insurance companies who starting health programs to lower chances of diabetes, or Nike’s analytics using sensors in shoes to track running data. I thought an important aspect of this reading was the emphasis on data integration, and ensuring the data you collect and analyze will have a direct impact on the company. This made me think of how my employer, who manages large amounts of contracts, could benefit from actually analyzing the data collected in our system. This would help the team become more productive and efficient and allow them to be ahead of issues rather than constantly trying to solve issues after they’ve occurred. For example, data collection and analysis of end/renewal dates of contracts would be a great way to minimize delays.\nQuestion: Not every business has the time, money, or staff to effectively manage and analyze data. How can smaller organizations still use analytics in a way that makes sense for them?"
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

@@ -1,0 +1,18 @@
+{
+  "student_id": "816279",
+  "student_name": "Garrett Bowman",
+  "entries": [
+    {
+      "author": "Garrett Bowman",
+      "post_date": "2025-05-11T21:37:41-06:00",
+      "content": "Hi Jamie, thanks for sharing! I really resonante with your point about “garbage in, garbage out” really resonates. At my company, we faced similar data integrity issues, especially as we scaled and brought in new systems. Initially, leadership underestimated how much bad data was costing us in terms of rework, reporting errors, and poor decision-making. It wasn’t until we quantified the downstream impact—missed forecasts, inventory write-offs, and even customer churn—that the case for data governance gained traction.\nWe adopted a “quality at the source” approach by integrating validation rules directly into our ERP and CRM systems. For example, we implemented drop-down menus instead of free text fields, automated required field checks, and added logic to flag anomalies in real-time. What really helped get leadership buy-in was showing how upstream data accuracy reduced firefighting and saved analyst time downstream—turning it from a cost center into an efficiency enabler. Bad data can be frustrating and costly to deal with, but taking the time to clean the data can be a real game changer!"
+    },
+    {
+      "author": "Garrett Bowman",
+      "post_date": "2025-05-08T21:17:36-06:00",
+      "content": "One of the points in Chapter 1 that was interesting for me was the point that “analytical decisions require scrutiny”. Even when there is data or models suggesting something, it’s still worthwhile to view them with some level of skepticism. This is something that I’ve experience in my own work – instead of taking the outcome of the analysis and running, it’s important to ensure that the assumptions and key drivers of the data have also been analyzed by the right people. If the person who is building and maintaining the model is the only one creating and assessing the driving assumptions, the data can be misleading at times.\nThis happened at my company when a member of my team helped update our financial model to look at 12/24/36 month growth curve. When I got into the data, I noticed that many of the drivers were based on historical data sets that weren’t exactly reflective of our current trajectory. One of the key issues was that in a prior year, we had a large customer that helped generate new revenue streams and the projections were including continued growth with them instead of taking their revenue baseline to $0. There were also 2 peaks in prior years where we had run promotions that we wouldn’t be continuing in the future. Once those were identified, we were able to normalize those points and rerun the model."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

@@ -1,0 +1,18 @@
+{
+  "student_id": "1812415",
+  "student_name": "Mike Oakford",
+  "entries": [
+    {
+      "author": "Mike Oakford",
+      "post_date": "2025-05-11T21:52:19-06:00",
+      "content": "Hi Deron, Planning an event of size is an incredible undertaking.  I loved seeing how you referenced the value-of-information steps from How to Measure Anything.  I can see the greatest risks being head-count and if people who showed interest actually arrived and participated so you can recoup the costs of putting on the event. I once attended a conference where the hosts were expecting hundreds of attendees, so they rented an incredible space and invested thousands of dollars into putting the event on for only 30 or so people to attend.  In order for the event to not feel like a total failure to those that travelled to be there they emptied their offices and sent every employee to the conference to make it feel and look more full.  It's a very depressing place to be in. There are great ways to mitigate that risk -- but there are also other ways to define success. On the other hand, I have been to events where they knew that if they even made one sale or gained one new customer the entire operation is worth it.   So make sure success is clearly defined and then poll your guests to understand what value they were looking for most out of this conference experience. Best of luck! I look forward to continuing to learn from you."
+    },
+    {
+      "author": "Mike Oakford",
+      "post_date": "2025-05-08T21:39:08-06:00",
+      "content": "As we started Chapter 1 all I could think of was the movie \"Moneyball\". Maybe it was because I just returned home from my sons little league game, or maybe because of the references in that chapter - but I really believe data and analytics have really changed the game of baseball. When the author mentioned that analytics should \"start with the decision, not the dataset\", I thought about the room of scouts sitting with Billy Beane and Billy changing their method of scouting from who LOOKS like a star or who has the confidence to succeed in the majors because they have a beautiful girlfriend to which on-base metrics predict wins and \"who gets on base\".  Forbes notes in this article (Moneyball 20 Years Later: A Progress Report On Data And Analytics In Professional Sports\n    \n\nLinks to an external site.) that twenty ears after that Oakland Athletics team flipped the script on baseball nearly ever pro-sports team has copied that \"decision-first\" playbook. \nI should also highlight one of my favorite quotes so far from the chapters, when The Scottish writer Andrew Lang commented, “Statistics are often used as a drunken man uses a lamppost—for support rather than illumination.” Hilarious comparison (I wish I could quip like this), but true when you think that so many people only go get data to support their narrative, instead of humbly bending to whatever the un-bias data says. So here is an open ended question for you - when was the last time you saw data manipulated in a way as to prop-up or support the story-tellers narrative? My first answer - political polls.... but we can save politics for another class."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

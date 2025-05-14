@@ -1,0 +1,18 @@
+{
+  "student_id": "1843977",
+  "student_name": "Ryan Enslow",
+  "entries": [
+    {
+      "author": "Ryan Enslow",
+      "post_date": "2025-05-11T09:24:30-06:00",
+      "content": "Stacy,\nWhen I was reading these chapters I came to similar conclusions. I found it difficult to think of something that couldn't be measured, with my background in electrical engineering we find some interesting ways to measure seemingly impossible things. But I came to the conclusion that the more pathos related aspects of a company would be difficult to measure due to the vast amounts of variables that contribute to those problems. As for companies making bad decisions and  not being transparent, sometimes the best learning comes from bad examples and undesired outcomes. I think learning from others mistakes is a great way to excel our own learning and experience while avoiding the pitfalls that others have already fallen into. Thanks for your insights!"
+    },
+    {
+      "author": "Ryan Enslow",
+      "post_date": "2025-05-03T12:12:33-06:00",
+      "content": "A really interesting point throughout the reading is the importance of getting executives on board with the execution of data analytics. I feel like this is so important when becoming a leader and interacting with other executives and leaders. Without executive backing none of the analytics really matter since no action can take place. Finding little wins and evidence for data analytics can go a long way in convincing higher ups to implement analytic decisions. I feel like a  company that uses no analytics is bound to fail in this increasingly competitive stage, you can only roll the dice so many times in your favor."
+    }
+  ],
+  "status": "Successfully extracted 2 entries.",
+  "error": null
+}

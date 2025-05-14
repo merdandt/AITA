@@ -1,0 +1,23 @@
+{
+  "student_id": "1704173",
+  "student_name": "Zane Billings",
+  "entries": [
+    {
+      "author": "Zane Billings",
+      "post_date": "2025-05-11T21:29:30-06:00",
+      "content": "Natalie, I really liked your point about how Fermi estimation can be more valuable than chasing perfect accuracy, especially in time-sensitive situations. I’ve seen this in action at my job—sometimes leadership needs a rough figure to make a quick decision, and getting bogged down in collecting perfect data just slows everything down. I also liked how you highlighted the importance of breaking complex problems into manageable parts. It makes the approach feel more accessible and practical, even for those who might not think of themselves as “numbers people.” That article you shared looks interesting too—I’m going to check it out! Thanks for sharing."
+    },
+    {
+      "author": "Zane Billings",
+      "post_date": "2025-05-07T01:29:39-06:00",
+      "content": "I realize my original post was made with the Htma reading in mind so here is the correct post. \nIn Chapter 1, I found it powerful how the authors described putting analytics to work as a discipline, not just a technology or tool. That distinction helped me think differently about how data can actually influence decisions—if it's part of a consistent, organization-wide effort. Chapter 2 added another layer by stressing that not all data is equal, and that understanding what data matters is just as important as having it. At my workplace, we gather a ton of data, but I’ve noticed we often lack clarity on which metrics actually drive value. That leads to wasted effort or decisions based more on gut feeling than evidence. It made me wonder—how do successful companies figure out which data is most relevant to their goals, especially when there’s so much available?"
+    },
+    {
+      "author": "Zane Billings",
+      "post_date": "2025-05-11T21:30:17-06:00",
+      "content": "That’s a great insight about the DELTA model—and I completely agree that leadership is often the key differentiator between data that drives change and data that just collects dust. Your HVAC example really drives that home. I’ve seen similar situations where the tools were in place, but without someone pushing for their use, nothing changed.\nTo your question: I think one way to bring skeptical leaders on board is by starting small—showing quick wins through pilot projects or simple dashboards that solve a pain point they care about. When they see real, tangible results tied to data (like your fuel cost reduction), it builds credibility. Pairing that with storytelling—connecting data to outcomes and people—can make analytics feel less abstract and more actionable."
+    }
+  ],
+  "status": "Successfully extracted 3 entries.",
+  "error": null
+}
