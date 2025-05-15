@@ -5,57 +5,23 @@ from playwright.async_api import Page
 from dotenv import load_dotenv
 import asyncio
 import os
-import sys
 import re
-from pydantic import BaseModel, Field
-from typing import List, Optional, Dict
-from typing import Union
+from typing import List, Union
 
-from colorama import init, Fore, Style
-init(autoreset=True)
-
+from logger import *
+from models import DiscussionEntry, StudentSubmissionData
+from prompts import AUTH_TASK
 # Assuming these are your imports from browser_use for the authenticator
 from browser_use import Agent, Controller 
 from browser_use.browser.browser import Browser, BrowserConfig
 from playwright.async_api import Page, FrameLocator, Locator
 
-# from langchain_google_genai import ChatGoogleGenerativeAI # If your Agent uses it
+from submission_analizer import run_submission_analysis
+from utils import OUTPUT_FOLDER_NAME, sanitize_filename
 
+# from langchain_google_genai import ChatGoogleGenerativeAI # If your Agent uses it
 load_dotenv()
 
-# --- Define colored logging functions ---
-def log_info(message): print(f"{Fore.CYAN}[INFO] {message}{Style.RESET_ALL}")
-def log_success(message): print(f"{Fore.GREEN}[SUCCESS] {message}{Style.RESET_ALL}")
-def log_warning(message): print(f"{Fore.YELLOW}[WARNING] {message}{Style.RESET_ALL}")
-def log_error(message): print(f"{Fore.RED}[ERROR] {message}{Style.RESET_ALL}")
-def log_debug(message): print(f"{Fore.MAGENTA}[DEBUG] {message}{Style.RESET_ALL}")
-def log_step(step_num, message): print(f"{Fore.BLUE}[STEP {step_num}] {message}{Style.RESET_ALL}")
-
-# --- Pydantic Models ---
-class DiscussionEntry(BaseModel):
-    author: Optional[str] = Field(default="Author not found")
-    post_date: Optional[str] = Field(default="Date not found")
-    content: Optional[str] = Field(default="Content not found")
-
-class StudentSubmissionData(BaseModel):
-    student_id: Optional[str] = Field(default="ID not found")
-    student_name: Optional[str] = Field(default="Name not found")
-    entries: List[DiscussionEntry] = []
-    status: Optional[str] = None
-    error: Optional[str] = None
-
-# --- Constants ---
-OUTPUT_FOLDER_NAME = "student_submissions_output"
-# If GOOGLE_API_KEY is needed by the authenticator agent
-# if not os.getenv('GOOGLE_API_KEY'):
-#     raise ValueError('GOOGLE_API_KEY is not set. Please add it to your environment variables if your Agent uses it.')
-# model = ChatGoogleGenerativeAI(model='gemini-pro') # Or your preferred model for the agent
-
-# --- Helper: Sanitize Filename ---
-def sanitize_filename(name: str) -> str:
-    name = re.sub(r'[^\w\s-]', '', name) # Remove invalid chars
-    name = re.sub(r'\s+', '_', name).strip('_') # Replace spaces with underscores
-    return name
 
 # --- Core Extraction Function ---
 async def extract_data_for_current_student(page: Page) -> StudentSubmissionData:
@@ -313,6 +279,7 @@ sensitive_data = {
 
 model = ChatGoogleGenerativeAI(model='gemini-2.0-flash-lite') # Keep for authenticator
 
+
 async def main():
     all_students_data: List[StudentSubmissionData] = []
     
@@ -324,16 +291,12 @@ async def main():
         # viewport={"width": 1920, "height": 1080}, # Example: set viewport
         # user_agent="Mozilla/5.0 ...", # Example: set user agent
     ) as context: # This is browser_use.BrowserContext
-        
         authenticator_agent = Agent(
-            task="""
-            - Open the URL: https://usu.instructure.com/courses/780705/gradebook/speed_grader?assignment_id=4809230&student_id=1812493
-            - Authenticate using the following credentials:
-            - Enter email: ms_email
-            - Enter password: ms_password
-            - Wait for User to approve login on Authenticator app. Do not proceed until approved.
-            - Ensure you land on the SpeedGrader page for the first student.
-            """,
+            task=AUTH_TASK.format(
+                url="https://usu.instructure.com/courses/780705/gradebook/speed_grader?assignment_id=4809230&student_id=1812493",
+                ms_email="ms_email",
+                ms_password="ms_password",
+            ),
             llm=model, # If your agent uses an LLM
             message_context="You are a browser automation agent for login.",
             browser_context=context,
@@ -448,6 +411,17 @@ async def main():
             log_warning("No student data was collected to compile a report.")
 
         await browser_manager.close()
+        log_info("--- Finished Part 1: Data Extraction. Browser closed. ---")
+
+        # Part 2: Analysis and CSV Generation
+        # This part runs after the browser is closed and the JSON report is (presumably) generated.
+        log_info("--- Starting Part 2: Submission Analysis and CSV Generation ---")
+        # Ensure the model is available here. You might re-initialize if needed,
+        # or ensure the instance from the auth part is passed correctly if you structure it differently.
+        # For simplicity, using the global `model_for_auth_and_analysis` here.
+        await run_submission_analysis(llm_instance=model)
+        log_info("--- Finished Part 2: Submission Analysis and CSV Generation ---")
+    
 
 if __name__ == '__main__':
     try:
