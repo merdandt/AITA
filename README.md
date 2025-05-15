@@ -1,133 +1,156 @@
-# HackerNews Browser Agent - User Guide
+# AITA: Automated Instructure Teaching Assistant
 
-This Docker application scrapes Hacker News (or other websites) and outputs the results in various tabular formats.
+A tool for extracting and analyzing student discussion entries from Canvas using browser automation and AI-powered summarization.
 
-## Quick Start
+## Features
+
+- Automates login to Canvas using browser automation
+- Extracts student discussion entries from SpeedGrader
+- Saves data for each student in individual JSON files
+- Creates a compiled report of all student data
+- Generates AI summaries of student entries using Google's Gemini model
+- Outputs an organized CSV with student information, entries, and summaries
+
+## Requirements
+
+- Python 3.9+
+- Google API key (for Gemini AI)
+- Canvas account credentials
+
+## Installation Instructions
+
+### Common Steps (All Platforms)
+
+1. Clone this repository:
+   ```bash
+   git clone <repository-url>
+   cd AITA
+   ```
+
+2. Create a `.env` file in the project root with the following variables:
+   ```
+   GOOGLE_API_KEY=your_google_api_key
+   MS_EMAIL=your_canvas_email
+   MS_PASSWORD=your_canvas_password
+   ```
+
+### Platform-Specific Installation
+
+#### macOS
+
+1. Create and activate a virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Install Playwright browsers:
+   ```bash
+   playwright install
+   ```
+
+#### Windows
+
+1. Create and activate a virtual environment:
+   ```cmd
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+2. Install dependencies:
+   ```cmd
+   pip install -r requirements.txt
+   ```
+
+3. Install Playwright browsers:
+   ```cmd
+   playwright install
+   ```
+
+#### Linux
+
+1. Create and activate a virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Install Playwright browsers:
+   ```bash
+   playwright install
+   ```
+
+4. Install additional dependencies required by Playwright:
+   ```bash
+   sudo apt update
+   sudo apt install -y libglib2.0-0 libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libdbus-1-3 libxcb1 libxkbcommon0 libatspi2.0-0 libx11-6 libxcomposite1 libxdamage1 libxext6 libxfixes3 libxrandr2 libgbm1 libpango-1.0-0 libcairo2 libasound2
+   ```
+
+## Running the Application
+
+### Script Mode
+
+Run the application using the Python script:
 
 ```bash
-# Basic usage with API key - get 5 posts from Show HN
-docker run -e OPENAI_API_KEY=sk-your-key-here \
-  -v /path/on/your/machine:/app/output \
-  hn-browser-agent
+python app.py
 ```
 
-## Input Parameters
+The script will:
+1. Authenticate to Canvas using your credentials
+2. Navigate through student submissions in SpeedGrader
+3. Extract discussion entries for each student
+4. Save data to JSON files in the `student_submissions_output` folder
+5. Generate AI summaries and create a CSV file with the results
 
-### Required Parameters:
-- **OPENAI_API_KEY**: Your OpenAI API key
+### Jupyter Notebook Mode
 
-### Optional Parameters:
-- **NUM_POSTS**: Number of posts to retrieve (default: 5)
-- **OUTPUT_FORMAT**: Format for saving results (default: markdown)
-- **TASK**: Custom task description
-- **URL**: Specific URL to scrape (for future use)
-- **USERNAME**: Login username (for future use)
-- **PASSWORD**: Login password (for future use)
+1. Start Jupyter Lab or Jupyter Notebook:
+   ```bash
+   jupyter lab
+   # or
+   jupyter notebook
+   ```
 
-## Output Formats
+2. Open the `AITA_Notebook.ipynb` file
 
-The application supports multiple output formats:
-
-- **markdown**: Tabular Markdown format (default)
-- **excel**: Microsoft Excel spreadsheet
-- **csv**: Comma-separated values
-- **json**: JSON format
-- **txt**: Plain text
-
-## Usage Examples
-
-### 1. Get 10 posts in Excel format:
-
-```bash
-docker run \
-  -e OPENAI_API_KEY=sk-your-key-here \
-  -e NUM_POSTS=10 \
-  -e OUTPUT_FORMAT=excel \
-  -v /path/on/your/machine:/app/output \
-  hn-browser-agent
-```
-
-### 2. Custom task with different output format:
-
-```bash
-docker run \
-  -e OPENAI_API_KEY=sk-your-key-here \
-  -e TASK="Go to hackernews and find posts about AI" \
-  -e OUTPUT_FORMAT=csv \
-  -v /path/on/your/machine:/app/output \
-  hn-browser-agent
-```
-
-### 3. Using configuration file:
-
-Create a `config.json` file:
-
-```json
-{
-  "task": "Go to hackernews show hn and give me posts",
-  "api_key": "your-openai-api-key-here",
-  "output_format": "markdown",
-  "num_posts": 10,
-  "url": "https://news.ycombinator.com",
-  "username": "",
-  "password": ""
-}
-```
-
-Run with the config file:
-
-```bash
-docker run \
-  -v /path/to/folder/with/config.json:/app/input \
-  -v /path/on/your/machine:/app/output \
-  hn-browser-agent
-```
+3. Run the cells sequentially to execute the application
 
 ## Output Files
 
-The application will generate files with timestamps in your output directory:
+The application generates the following output files in the `student_submissions_output` folder:
 
-- `results_20250509_123045.md`: Markdown table
-- `results_20250509_123045.xlsx`: Excel spreadsheet
-- `results_20250509_123045.json`: JSON data
-- `results_20250509_123045.csv`: CSV file
-- `results_20250509_123045.txt`: Text file
+- `student_[ID]_[NAME].json`: Individual JSON files for each student
+- `ALL_students_compiled_report.json`: Compiled report of all student data
+- `analyzed_student_submissions.csv`: CSV file with student information, entries, and AI-generated summaries
 
-## Sample Output (Markdown)
+## Customization
 
-| Title | URL | Comments | Hours Since Post |
-|-------|-----|----------|----------------|
-| Show HN: Aberdeen – An elegant approach to reactive UIs | https://aberdeenjs.org | 56 | 3 |
-| Show HN: A backend agnostic Ruby framework for building reactive desktop apps | https://codeberg.org | 3 | 1 |
-| Show HN: Oliphaunt – A Native Mastodon Client for macOS | https://testflight.apple.com | 3 | 0 |
-| Show HN: BlenderQ – A TUI for managing multiple Blender renders | https://github.com/kyletryon | 0 | 0 |
-| Show HN: Hyvector – A fast and modern SVG editor | https://hyvector.com | 38 | 5 |
+To modify the application for different Canvas courses or assignments:
 
-## Building the Docker Image
+1. Update the URL in the `main()` function in `app.py` or in the notebook:
+   ```python
+   url="https://usu.instructure.com/courses/YOUR_COURSE_ID/gradebook/speed_grader?assignment_id=YOUR_ASSIGNMENT_ID&student_id=STARTING_STUDENT_ID"
+   ```
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/hn-browser-agent.git
-cd hn-browser-agent
+2. Adjust the `max_entries` parameter in the `SubmissionAnalyzer` class if you need to extract more than 4 entries per student.
 
-# Build the Docker image
-docker build -t hn-browser-agent .
-```
+## Troubleshooting
 
-## Scheduling Automated Runs
+- **Authentication Issues**: Ensure your Canvas credentials are correct in the `.env` file
+- **Browser Automation**: If browser automation fails, try increasing timeouts in the `extract_data_for_current_student` function
+- **AI Summarization**: Check that your Google API key is valid and has access to the Gemini model
 
-### On Linux with Cron:
+## License
 
-```bash
-# Run daily at 8 AM and get 10 posts in Excel format
-0 8 * * * docker run -e OPENAI_API_KEY=$(cat /secure/path/api_key.txt) -e NUM_POSTS=10 -e OUTPUT_FORMAT=excel -v /data/output:/app/output hn-browser-agent
-```
-
-### On Windows with Task Scheduler:
-
-Create a batch file `run_hn_agent.bat`:
-```batch
-docker run -e OPENAI_API_KEY=sk-your-key-here -e NUM_POSTS=10 -e OUTPUT_FORMAT=excel -v C:\Data\Output:/app/output hn-browser-agent
-```
-
-Then add this batch file as a scheduled task.
+[Specify License]
