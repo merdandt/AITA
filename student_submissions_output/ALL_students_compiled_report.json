@@ -14,7 +14,7 @@
         "content": "Hey Matt \nI think you're definitely right that just having data or dashboards doesn’t mean much if people aren’t actually using them to make decisions. I like how you connected it to the DELTA model, especially the part about “targets.”\nI think to answer your question, one way to make sure our metrics support the right behaviors is to always ask why we're tracking something. There has to be a goal or decision of why we care about what we are tracking. I think also including the people who will be using the data is important,t as they will see if the information is relevant or not."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1812493. (from iframe)",
     "error": null
   },
   {
@@ -37,7 +37,7 @@
         "content": "Matthew, thank you for sharing. It is interesting to think how small business can implement with limited budgets. I spent some time this last summer learning about Google Analytics and how there are many free tools available and so I think there are economical ways for small business to gather and analyze information. I think the hardest part is knowing what data you need to be looking at, what is available for analysis, and what to do once you have the data. Much like we have learned throughout this first week, we need to clearly define what it is we really need to know and why. This can keep a small business from investing in fancy programs that really provide too much for what needs to be accomplished."
       }
     ],
-    "status": "Successfully extracted 3 entries.",
+    "status": "Successfully extracted 3 entries for student 1806495. (from iframe)",
     "error": null
   },
   {
@@ -60,7 +60,7 @@
         "content": "Hi Cordell, \nThanks for your comments. I have not visualized the findings yet. I agree that would give powerful insights into the data. I've only done basic analysis so far and am very excited to use Power BI to get a better understanding of insurance reimbursement. How does insurance apply to your field? Do you struggle to get companies to pay, and how do the reimbursement rates compare? Working with insurance is the most frustrating part of our job.  You mentioned you are trying to support small business owners to prevent burnout. Do you see similar struggles in PT?\nThe average reimbursement from insurance for dental is 50 - 60%. If we are contracted with the company, we write off the balance. It's a massive cut to profits. I just attended a conference where they discussed how to increase your PPO reimbursement rate through negotiation. However, the interesting thing they've found is that most dental offices don't get significantly better rates when you negotiate directly with the insurance company. Negotiation companies that have personal relationships with individuals at the insurance company can get almost full-fee reimbursement. After looking at the data, we see that it's the most effective thing we can do to improve profits. The fee we will pay them to negotiate for us should have a huge ROI."
       }
     ],
-    "status": "Successfully extracted 3 entries.",
+    "status": "Successfully extracted 3 entries for student 1831240. (from iframe)",
     "error": null
   },
   {
@@ -78,7 +78,7 @@
         "content": "In reading the list of decision-making errors in chapter 1 of Analytics at Work, one error stood out to me.  This was the error of postponing decisions because you are always dissatisfied with the data and analysis that you already have.  This happens a lot in engineering, and also in life.  Some reference the Churchill quote, “Perfection is the enemy of progress”, meaning that searching for more perfect or better data can paralyze a person, or an organization to inaction.  This is why it is important to fully define the data that you plan to gather before gathering it.  I have been on plenty of engineering teams where poorly defined data requirements prevent progress on a project."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1681873. (from iframe)",
     "error": null
   },
   {
@@ -101,7 +101,7 @@
         "content": "Hi Emily! I really enjoyed your post about the cost of bad data. In my current role we use data on a daily basis. My current job is quite unique in comparison to others but I play college football right now. As a quarterback I rely on film breakdowns of defensive coverages, pressures, and front structures to prepare for an opponent. To go through every play a team has played is unrealistic, so I rely on data inputs and summaries of those data inputs to find trends and consistencies in a defensive call. A lack of accuracy and reliability would be detrimental to my job because I can spend countless hours preparing for something to see that may not actually be there due to bad data."
       }
     ],
-    "status": "Successfully extracted 3 entries.",
+    "status": "Successfully extracted 3 entries for student 1804577. (from iframe)",
     "error": null
   },
   {
@@ -119,7 +119,7 @@
         "content": "One thing that I found interesting in our readings this week was the importance of quality data, specifically ensuring that decisions aren’t made on false data. My company sends out quarterly surveys to identify many “intangibles” like culture, belonging, work/life balance and trust among colleagues. It is helpful to voice concerns, but sometimes there is ambiguity with the questioning. For example, trust among colleagues. A question would be, “on a scale of 1-5, how much do you trust your colleagues?” It’s difficult to answer, because they don’t specify whether they are referring to teammates, cross-functional partners or headquarters. The answer could be different for each one. Since the questions lack specificity, they are actually receiving inaccurate data, which in turn would make any solutions not necessarily helpful. I like the saying, “garbage in, garbage out.” Taking the time to accurately gather good information will help give good outputs."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1830788. (from iframe)",
     "error": null
   },
   {
@@ -137,7 +137,7 @@
         "content": "QUESTION: How have you seen well-organized data and critical analysis of that data impact an important decision you made at work?\nAs context, the reading talked about the importance of first having well-organized data, otherwise, it isn't easy to do analysis. Poorly managed data or inconsistent data can create trust issues with analysis and proposals. It is imperative to have trustworthy data through master data management. Please share how your company organizes its data and the specific decision that was made after analyzing the data."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1718921. (from iframe)",
     "error": null
   },
   {
@@ -155,7 +155,7 @@
         "content": "David, I appreciate your post and agree with it - it is critical to make sure the data is high-quality and well-structured.  You're in an interesting position where you have data, but the issues you're trying to solve revolve around improving the quality. in the text, they mentioned something that stood out to me: focus on the data collection. This fits into lean methodologies, which I love and embrace! You don't want to move along a product (of data in this case) with errors, as it will compound the problem. Addressing the data collection first will allow the adjustments made at the other points of the data analysis process to be more impactful. Good luck with the project of improving the data!"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 775010. (from iframe)",
     "error": null
   },
   {
@@ -173,7 +173,7 @@
         "content": "A concept I found interesting in this week’s reading was that organizations who profit from analytics in their business with processes and customer relationships have unique direction, strategy, and manage by fact. They look at all the information before making decisions. Reviewing risk, efficiency, and performance in all aspects of their business as they consider their goals going forward. They understand in order to analysis the data efficiently, the data must be reliable and true. When spending the time at the beginning with good resources and trustworthy information, decisions can be made that not only benefit the transaction taking place but the long-term success of the company.\nMy question is, how do you know your data is trustworthy? What sources should be used to know the information you are using is correct and will provide the most benefit when making decisions?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1826056. (from iframe)",
     "error": null
   },
   {
@@ -196,7 +196,7 @@
         "content": "That’s a great insight about the DELTA model—and I completely agree that leadership is often the key differentiator between data that drives change and data that just collects dust. Your HVAC example really drives that home. I’ve seen similar situations where the tools were in place, but without someone pushing for their use, nothing changed.\nTo your question: I think one way to bring skeptical leaders on board is by starting small—showing quick wins through pilot projects or simple dashboards that solve a pain point they care about. When they see real, tangible results tied to data (like your fuel cost reduction), it builds credibility. Pairing that with storytelling—connecting data to outcomes and people—can make analytics feel less abstract and more actionable."
       }
     ],
-    "status": "Successfully extracted 3 entries.",
+    "status": "Successfully extracted 3 entries for student 1704173. (from iframe)",
     "error": null
   },
   {
@@ -214,7 +214,7 @@
         "content": "Hey Shon,While I didn’t conduct any formal ethnographic research, I’ve seen firsthand how environmental changes can affect behavior. At my previous employer, the shift from a rigid 9–5 in-office schedule to flexible remote work led to a documented increase in productivity, employees willingly putting in overtime, and an overall boost in employee satisfaction (measured by quarterly surveys). Observing how people adapted made it clear that autonomy and trust were far more effective drivers of performance than a strict structure."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 127372. (from iframe)",
     "error": null
   },
   {
@@ -232,7 +232,7 @@
         "content": "There were several points and specific words that stood out to me that felt like these chapters were specifically written to address my company. One quote, \"First, even touchy-feely-sounding things like “employee empowerment,” “creativity,” or “strategic alignment” must have observable consequences if they matter at all.\" reminds me of similar mottos and phrases that my company tries to use to guide our goals, but I've never really seen or heard of any way that anyone has attempted to measure how we might be doing on those goals. \n\"For many decision makers, it is simply a habit to default to labeling something as intangible when the measurement method isn’t immediately apparent. This habit can sometimes be seen in the “steering committees” of many organizations. These committees may review proposed investments and decide which to accept or reject.\"\nWe literally have an IT steering committee that meets regularly to discuss ideas and big changes for the company, but no one ever hears or sees anything until these very few and select \"experts\" make some giant decision that massively impacts everyone in the company. Besides some direct costs, I haven't seen anything from the committee notes ever that indicates any other measuring of impacts on the company. In a good and bad way, it looks like this course will teach me many of the things the management in my company is doing wrong."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 186761. (from iframe)",
     "error": null
   },
   {
@@ -250,7 +250,7 @@
         "content": "One of the points in Chapter 1 that was interesting for me was the point that “analytical decisions require scrutiny”. Even when there is data or models suggesting something, it’s still worthwhile to view them with some level of skepticism. This is something that I’ve experience in my own work – instead of taking the outcome of the analysis and running, it’s important to ensure that the assumptions and key drivers of the data have also been analyzed by the right people. If the person who is building and maintaining the model is the only one creating and assessing the driving assumptions, the data can be misleading at times.\nThis happened at my company when a member of my team helped update our financial model to look at 12/24/36 month growth curve. When I got into the data, I noticed that many of the drivers were based on historical data sets that weren’t exactly reflective of our current trajectory. One of the key issues was that in a prior year, we had a large customer that helped generate new revenue streams and the projections were including continued growth with them instead of taking their revenue baseline to $0. There were also 2 peaks in prior years where we had run promotions that we wouldn’t be continuing in the future. Once those were identified, we were able to normalize those points and rerun the model."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 816279. (from iframe)",
     "error": null
   },
   {
@@ -263,7 +263,7 @@
         "content": "Critical thoughts\nOne of the concepts that called out to me the most was for a \"single source of truth\". Half of what I do is just trying to find the correct information from the right people. A good way to illustrate this is that for the last couple of months I have been writing a program that is able to schedule hundreds to thousands of unique composite aircraft parts in a matter of 10 to 20 minutes. The program is right around 1000 lines of code, but only about 70 lines are for the logic of scheduling. The other 900+ lines of code is just pulling in tables from SQL databases, json files from URL addresses, and excel spreadsheets and then joining dataframes, converting files, and filtering obsolete columns. Truly a mess, but it is something that has not been done in the 12+ years of this particular program's existence because of how difficult it is to get trustworthy data, and know the right person to even know where to look for the data. \n \nPart of the reason for this I believe is because the program has been around for a couple of company mergers and buyouts. In the length of the program it has changed hands 3 or 4 times. Each time the company tries to align the systems at work with their enterprise standard. The integration is never seamless so bandaid solutions are used. My favorite quote “There's nothing so permanent as a temporary solution”. But, those bandaid solutions are integrated into the next companies enterprise standard and then more bandaids are introduced to the next integration. It gets out of control fast, and when people eventually leave the company the tribal knowledge of what is an intentional process and what is a necessary work around is lost or the lines are blurred. I can only imagine being able to go to a single source of truth for data, but then again that is part of the reason that keeps my position a necessary job."
       }
     ],
-    "status": "Successfully extracted 1 entries.",
+    "status": "Successfully extracted 1 entries for student 1267955. (from iframe)",
     "error": null
   },
   {
@@ -281,21 +281,32 @@
         "content": "I found the section on the 5 stages of organizational progress in analytics interesting. It occurred to me that I have seen a couple of those stages at work. The clinic I work at was recently bought by another, larger clinic. Seeing how they run business, I have seen more analytics involved than how the clinic was run before. They spend a lot of time and money looking at reports to make business decisions, where before the owner made decisions based on his opinion of how to run the business.\nI found this link talking about the necessity of using analytics specifically in the veterinary field. \nhttps://veterinaryha.org/leveraging-data-analytics-for-business-growth-in-veterinary-practices/#:~:text=Data%20analytics%20is%20a%20game,satisfaction%2C%20and%20ultimately%20boost%20profitability\n    \n\nLinks to an external site..\nI have never thought that analytics would be so applicable in any sort of healthcare field. For the most part, I've always thought that people went to the doctor when they needed it and advertising or changing things about your practice would have little effect. Now, based on my own experience and on the material from this week, I see that analytics can have an impact in any sort of field."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1843987. (from iframe)",
     "error": null
   },
   {
     "student_id": "1693005",
     "student_name": "Derek Clawson",
     "entries": [],
-    "status": "No discussion entry elements found in the determined content area.",
+    "status": "This student does not have a submission for this assignment (explicit indicator).",
     "error": null
   },
   {
     "student_id": "1612551",
     "student_name": "John Cook",
-    "entries": [],
-    "status": "No discussion entry elements found in the determined content area.",
+    "entries": [
+      {
+        "author": "John Cook",
+        "post_date": "2025-05-08T23:48:42-06:00",
+        "content": "One concept that really stood out to me from the reading was in Chapter 2 about data integration. The idea that even with systems like ERP in place, organizations still struggle to get “one version of the truth.” I think it’s interesting, and a little alarming, at how much time companies waste debating whose data is more correct or accurate rather than actually using that data to make informed decisions. The example about Citigroup’s Institutional Bank using a unique identifier for corporate customers since 1974 really shows the level of long-term commitment required for effective data integration.\nIn my opinion, the biggest challenge isn’t just the technical side of integration, but the organizational commitment to maintaining clean, consistent, and well-tagged data over time. Companies need to invest in both tools and people, like Citigroup’s data analysts in Manila, to stay on top of changes in customers, ownership, and even just correcting simple errors like naming inconsistencies.\nThis made me think of a company like Amazon, which merges data from logistics, customer behavior, inventory systems, and more to deliver insights almost in real-time. Without seamless data integration, that level of operational efficiency and personalization would be impossible. Below I will attach a link that shows us the importance of proper data integration and how it can be advantageous for all companies.\nTitle: 7 Data Integration Best Practices You Need to Know https://www.confluent.io/learn/data-integration-best-practices/\n    \n\nLinks to an external site.\nWhy This Resource Supports Data Integration:\nThis article from Confluent outlines essential best practices for data integration, such as:\n\nEstablishes a clear data strategy: Emphasizes the importance of aligning data integration efforts with business objectives.\nImplementing robust data governance: Highlights the need for policies and procedures to ensure data quality and compliance.\nLeveraging scalable technologies: Discusses the benefits of using platforms like Apache Kafka for real-time data streaming and integration.\n\nMy Question: What strategies can companies use to maintain high-quality integrated data over time, especially as they scale, and data sources become more complex and varied?"
+      },
+      {
+        "author": "John Cook",
+        "post_date": "2025-05-11T18:00:53-06:00",
+        "content": "Great post here Rachael! You make a really good point about balancing precision and the usefulness of data. When measuring intangibles like employee morale, “good enough” data should provide actionable insights without putting too much pressure on the team. More frequent surveys could spot different kinds of trends early, but they should be focused on actionable results, rather than perfect accuracy. I think the goal is to gather data that helps make decisions without overcomplicating the process. \nAlso, while data is important, there’s a risk of taking away our own judgment. Data can point to patterns, but ultimately, decisions require context and empathy. These are things that are difficult to quantify in a data set. Finding the right balance between data and human insight is so important for effective leadership and decision-making."
+      }
+    ],
+    "status": "Successfully extracted 2 entries for student 1612551. (from iframe)",
     "error": null
   },
   {
@@ -313,7 +324,7 @@
         "content": "Hello, all! \nThe first chapter of this week's reading touched on a few concepts that I think my organization in particular does well, and reading a few of the statements in the chapter made me recall specific experiences from my short professional career. I work as a supply chain analyst for a large ecommerce retailer in a competitive and volatile segment of the outdoor industry. My organization takes the concept of \"owning\" all useful data very seriously and I have seen its many benefits on numerous occassions. The organization has an office based in Ukraine whose only goal is to optimize data management from the enterprise perspective. We have our own propreitary ERP software and own all of the information systems that we use. I have seen the benefits of this on supply chain performance because having complete control over this data makes obtaining new information incredibly fast. I have seen this flexibility and agility put to good use by management to make extremely difficult supply chain decisions and bring in revenue that likely could not have been obtained otherwise."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1637641. (from iframe)",
     "error": null
   },
   {
@@ -331,21 +342,32 @@
         "content": "You bring up a good point, and perhaps the Achilles heal of engineers. Often collecting data in the world of engineering can be expensive and time consuming. I work in the thermal engineering field, and waiting for temperatures to stabilize makes gathering data a long process. I agree that careful planning of data collection is as or more important than the postprocessing of data.\nOne struggle is when there is uncertainty in what data will be valuable and aid in decision making. Often in this scenario, too much data is gathered, generally in the breadth of data gathered and in the process it is determined what is actually needed. However this requires additional testing to gather a depth of data in the field newly \"discovered\". Because of this I feel data collection efforts, specifically in engineering testing, are often given too little schedule to allow for adequate testing. \nThat being said, we always need to know what is \"good enough\" and when to stop."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1519529. (from iframe)",
     "error": null
   },
   {
     "student_id": "311874",
     "student_name": "Alex Dayley",
     "entries": [],
-    "status": "No discussion entry elements found in the determined content area.",
+    "status": "This student does not have a submission for this assignment (explicit indicator).",
     "error": null
   },
   {
     "student_id": "137507",
     "student_name": "Shon DeCamp",
-    "entries": [],
-    "status": "No discussion entry elements found in the determined content area.",
+    "entries": [
+      {
+        "author": "Shon DeCamp",
+        "post_date": "2025-05-08T17:57:16-06:00",
+        "content": "I understand your point about the tendency to delay decisions in pursuit of perfect data. I think this is where risk analysis has become a significant aspect of project management. It's certainly tempting to seek more comprehensive information, but as you mentioned, this can lead to \"analysis paralysis\" and hinder project progress. \nEstablishing clear data requirements and a defined timeline for data collection and analysis could be a useful strategy to mitigate this issue. This approach would encourage a balance between thoroughness and the need for timely decision-making, preventing projects from becoming stalled indefinitely. One point that stood out from the lectures as our readings this week was step 3 in the Universal Approach to Measurement: \"Compute the value of additional information (if none, make a decision).\" At a certain point in any project a threshold is crossed where either (a) the value of additional information gained by launching, implementing, etc. is greater than the value of information gained through analysis or (b) further analysis is possible but holds little or no value.\nI've always been a fan of setting a time and resource budget in my R&D work. Setting that budget based on project estimations brings a lot of alignment and efficiency for a team and project."
+      },
+      {
+        "author": "Shon DeCamp",
+        "post_date": "2025-05-07T09:01:04-06:00",
+        "content": "I found the mention of both ethnographic and quantitative data intriguing.\nAs a product manager I worked on a software product which coordinated employee schedules with forecasted demand and labor regulations. For one project, I began by interviewing users and also observing their interactions with the software in a contextual inquiry. The outcomes of this analysis suggested that helping users find ideal shifts would be the best area of focus. The quantitative analysis of user behavior yielded significantly different results. Using Splunk and some custom tracking software I was able to visualize user pathways through the application. There was a massive pattern of users repeatedly viewing a particular list, completing an associated form, and starting over again. It became clear that although finding ideal shifts would impact business goals, changing the design for the list, form, repeat experience would have a much more significant impact on system load, user time on task, and other key metrics. I went back and interviewed users about this list, form, repeat experience and learned more critical details about how to design.\nThis and other similar experiences has taught me that quantitative data analysis can help narrow the focus, while ethnographic or observational analysis helps expound on critical areas.\nHave any of you found the opposite to be true? Have you seen ethnographic and observation analysis as a more effective method for selecting an area of focus?"
+      }
+    ],
+    "status": "Successfully extracted 2 entries for student 137507. (from iframe)",
     "error": null
   },
   {
@@ -363,7 +385,7 @@
         "content": "According to MarketingStat.com, companies like Netflix, Google, and Procter & Gamble are leading examples of Level 5 organizations that fully integrate data analytics into their operations. Has anyone here worked in a Stage 4 or 5 enterprise, particularly within their analytics departments?\nFor those in earlier-stage organizations, how is your company currently leveraging data? I work for a small business where our data is primarily used for reporting purposes. I'd love to hear from anyone who has successfully implemented analytics in a Stage 1 or 2 enterprise. What approaches or tools helped move the organization to a more advanced stage?\nSource: https://www.marketingstat.com/from-data-analytics-to-analytical-company/"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 136793. (from iframe)",
     "error": null
   },
   {
@@ -381,7 +403,7 @@
         "content": "Hi Matt, This is such an important topic. In the Shingo MBA program and more broadly the Lean/Six Sigma world we talk a lot about Key Behavioral Indicators, which are the precursors to Key Performance Indicators.\nSo what observable (quantifiable) behaviors have a causal relationship with performance? If it's not immediately clear, we have to do a lot of observing, counting and then running statistical tests to figure it out. Once we do, we train on and attempt to integrate and standardize those behaviors into the work process with a mind toward making it easier to do the right behavior than the wrong one, along with a reliable way consistently measure those behaviors. As we know from HtMA, everything is tangible, and if a behavior strongly affects KPIs, the economic value of going to the trouble of measuring them should be worth it."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1427632. (from iframe)",
     "error": null
   },
   {
@@ -394,7 +416,7 @@
         "content": "One of the interesting topics I liked reading about this week in Analytics at Work, was the part on uniqueness of data.  The example that really stood out and caught my attention was the part about the insurance company Progressive.  They were the first people to start using credit scores as an input to their automobile insurance underwriting.  Two seemingly unrelated data points had a surprising relationship.  If you pay your bills and have a higher credit score, then you are less likely to crash your car.  \nCurrently I am accepted to pharmacy school, and I was thinking of ways where one could apply unique data analysis to have a competitive edge.  I was thinking that an interesting data point to look into may be types of fitness activity.  For example, do people who train in high physical stress activities (i.e. ultra-marathons, rowing, wrestling) have higher likelihoods to need a pharmacies service.  That might not be the best example, but something along those lines.  My question is what do you think could be other unique data points that could catapult a business above its competitors?"
       }
     ],
-    "status": "Successfully extracted 1 entries.",
+    "status": "Successfully extracted 1 entries for student 1712230. (from iframe)",
     "error": null
   },
   {
@@ -407,7 +429,7 @@
         "content": "A good example of a company using \"DELTA\" is Netflix. They are all about looking at the data and using it to have the customers have the best experience. They have large amounts of high quality data, such as watch times, viewing history, and user interactions. Their analytic efforts are targeted at clear business goals, such as recommendation algorithms, and informing content investment decisions. Also, Netflix has skilled analytics and data scientists who design models and dashboards to make the data accessible. Overall, they are highly competitive in the streaming world and they use all of these things to be at the top and have the best data to help customers. \nhttps://www.linkedin.com/pulse/netflix-case-study-data-driven-marketing-strategy-riya-qureshi-41xff/\n    \n\nLinks to an external site."
       }
     ],
-    "status": "Successfully extracted 1 entries.",
+    "status": "Successfully extracted 1 entries for student 1748930. (from iframe)",
     "error": null
   },
   {
@@ -430,7 +452,7 @@
         "content": "Hi Jason,\nI totally understand how when you were looking at the data without really thinking about insights you really weren’t finding what you were looking for.  Data is just that…data…and I did like Figure 1-1 too, as it give some simple context to data, and it makes you think more about intent. \nI am stuck in the upper left corner a lot as a CFO…where I’m just inundated with data and analysis from people…and sometime the analysis I get is really just information. What I have to do, as a CFO, is provide the clarity or intent of what I’m looking for, so the data becomes more than data, it become more of a data puzzle with answers and insights…I just have to know the right questions to ask or the right intent to provide the clarity so I get more than just the data handed back to me!"
       }
     ],
-    "status": "Successfully extracted 3 entries.",
+    "status": "Successfully extracted 3 entries for student 1780451. (from iframe)",
     "error": null
   },
   {
@@ -448,7 +470,7 @@
         "content": "A really interesting point throughout the reading is the importance of getting executives on board with the execution of data analytics. I feel like this is so important when becoming a leader and interacting with other executives and leaders. Without executive backing none of the analytics really matter since no action can take place. Finding little wins and evidence for data analytics can go a long way in convincing higher ups to implement analytic decisions. I feel like a  company that uses no analytics is bound to fail in this increasingly competitive stage, you can only roll the dice so many times in your favor."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1843977. (from iframe)",
     "error": null
   },
   {
@@ -466,7 +488,7 @@
         "content": "In Chapter 2 of Analytics at Work, the book discusses the importance of data quality. I currently work in SAAS as an Account Executive and I have seen how data quality can personally affect us as a business. We pull in all sorts of data daily, from school information and student counts to annual revenue per district, and even something as simple as school names and states. Often when we do this we pull inaccurate data and it can lead to calling a random business, having misleading financial information, and lack of clarity on our end.\n \nTo fix this we have implemented software that sorts the data for us, finds duplicates, and flags inaccurate information. This software costs money but saves us money on the backend by giving us accurate, high-quality data. This leads me to the question, when is it justifiable to spend money to have accurate data as a business?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1715683. (from iframe)",
     "error": null
   },
   {
@@ -484,7 +506,7 @@
         "content": "I thought it was really interesting and useful to learn how important good data is in analytics, along with the fundamentals of good data: structure, uniqueness, integration, quality, access, privacy, and governance. In my job, I work with data all the time, especially each month when I review what my teammates have been working on and track our program’s progress to share with the team and our supervisors. Lately, we’ve been having issues with some data inconsistencies, so this topic really hits close to home. Data analytics is essential for my day-to-day tasks, and if the data isn’t solid and doesn’t check all those boxes, it just looks like a bunch of numbers on a spreadsheet that don’t mean much. The two things that stood out to me the most, especially since I’ve been trying to improve how we capture data, are making sure the data is high-quality and well-structured. That’s key when it comes to planning and running global operations. For example, if we have bad or outdated inventory data for aircraft parts, it can slow down maintenance, ground aircraft, and disrupt missions. And when different bases or countries use inconsistent data formats, it can delay coordination and slow everything down. But when the data is clean and consistent, it helps us make better decisions, improve logistics, and keep everything running smoothly."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1843529. (from iframe)",
     "error": null
   },
   {
@@ -502,7 +524,7 @@
         "content": "I am thankful I don't have to work in the department of fixing bad data by hand as this can be a very tedious work especially with very large datasets. The more we are able to automate the processes and eliminate the human factor I believe can help us to remove this bad data and it's chances for error. But often times this can be the big problem of how to do that without implementing such expensive systems. In my line of work, we can't afford these errors and because I work in aerospace they are willing to invest in ways to remove these errors. If we need a machine that can accurately scan or measure the dimensions on specific tooling that has to have specific fit tolerances, we need to make sure those dimensions and what we measure them are within many degrees of accuracy."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1813495. (from iframe)",
     "error": null
   },
   {
@@ -520,7 +542,7 @@
         "content": "After reading both chapters from Analytics at Work, I have been considering which data maturity stage the company I work for is at.  We do have a large ERP system that brings functional data together, we do have data warehouses, we have functional analysts, and we do use analytics.  However, we still have data quality issues, our data consists only of internal data, I’m not sure we’re using our data for competitive purposes, and we’re still utilizing analytics in a siloed functional capacity.  I believe my company may be entering stage 4 as an analytical company.   Which analytic/data stages are the organizations you work for in?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1827970. (from iframe)",
     "error": null
   },
   {
@@ -538,7 +560,7 @@
         "content": "A topic that stuck out to me in the readings was in chapter 2 focusing on uniqueness.\nIt emphasize that unique data sets not easily replicated by competitors are a way that can give organizations a edge over the competition in analytics. While anyone can access generic industry data or buy third-party information, the value lies in internal data of a company that is deeply tied to a company’s specific processes, customer interactions, or operations.\nFor example, a retailer like Amazon has uniquely detailed customer behavior data from its platform such as what people search for, how long they browse, and what they abandon in their carts. This kind of data is not available to competitors and allows Amazon to personalize recommendations and optimize inventory in ways others can’t do. I think a unique dataset is a great way to set your company apart if used correctly. However, on the flip side I do think to unique of a data set may result skewed or non helpful information."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 776106. (from iframe)",
     "error": null
   },
   {
@@ -556,7 +578,7 @@
         "content": "Jorma, I completely agree on the importance of \"useful\" data. There is so much data out there. Most of the time there is much more than there really is needed. What is important though is how we manipulate that data and whether that data can actually show us something or not. The key really is to focus in on the data points that you think will help you find out or prove the point you are looking for. Sometimes it even seems like there is more useless data then useful. I agree with your point on rabbit holes and that we can get lost going down the wrong path as well when looking into data."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1266117. (from iframe)",
     "error": null
   },
   {
@@ -579,7 +601,7 @@
         "content": "Really thoughtful post, Taylor. I think you’re onto something. We have built such a high standard for precision that we forget how much progress was made with rough estimates and simple tools. Eratosthenes did not need perfect data to move science forward. He needed curiosity and a method that made sense. Today, we often hold off on action until the data is flawless, and that hesitation can slow everything down. Progress usually starts with something imperfect but useful."
       }
     ],
-    "status": "Successfully extracted 3 entries.",
+    "status": "Successfully extracted 3 entries for student 1821846. (from iframe)",
     "error": null
   },
   {
@@ -597,7 +619,7 @@
         "content": "An interesting point from the readings was the usefulness of Fermi estimation, especially when time or resources are limited. I’d support the idea that a thoughtful estimate, even with minimal data, can be more valuable than either a pure guess or an overly detailed calculation. In real-world situations, such as business decisions, emergency planning, or strategic thinking, there might not be enough time to gather perfect data. Becoming too focused on perfect accuracy can hinder progress and the pursuit of precise numbers might delay decisions that could have been made effectively with a reasonable approximation. Fermi estimation encourages flexible thinking and highlights the power of breaking down complex problems into manageable parts.  \nI appreciated the article because it highlights how Fermi estimation encourages active engagement with fundamental concepts, fostering critical thinking and logical reasoning. This method promotes deeper understanding by requiring individuals to break down complex problems into core components and assess how each part contributes to the overall picture, rather than relying solely on precise data. \nhttps://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiae347/7693667\n    \n\nLinks to an external site."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 283928. (from iframe)",
     "error": null
   },
   {
@@ -610,7 +632,7 @@
         "content": "One concept that stood out to me in the first two chapters is the DELTA model introduced in Chapter 2. This framework Data, Enterprise, Leadership, Targets, Analysts, emphasizes that success in analytics is not just about having the best tools or the most data but about aligning organizational culture and leadership with a strategic vision for data use.\nSupporting Opinion:I support the authors’ assertion that Leadership is the most critical element of the DELTA model. Without executive-level champions, analytics initiatives often remain siloed, underfunded, or misunderstood. This is evident in many companies I’ve seen where strong data science teams exist, but leadership does not understand or use their output, which leads to wasted potential. According to a 2022 Harvard Business Review article titled Why So Many Data Science Projects Fail\n    \n\nLinks to an external site., up to 85% of analytics projects never deliver the expected business value—often because they lack executive sponsorship and strategic alignment.\nReal-World Application:At the Space Dynamics Laboratory, where I work as a Software Test Engineer.  Applying the DELTA model could improve our use of test data for performance prediction and system optimization. In particular, clearer Targets, business questions driving analysis, would help ensure that efforts are aligned with leadership needs, such as system readiness or cost forecasting.\nQuestion:How can organizations ensure that mid-level managers, who often serve as the bridge between executives and data teams, are equipped to understand and advocate for analytics efforts? While DELTA emphasizes executive leadership, many analytics initiatives stall at the middle-management level due to lack of data literacy or resistance to change. What are practical strategies to engage this critical layer of the organization?"
       }
     ],
-    "status": "Successfully extracted 1 entries.",
+    "status": "Successfully extracted 1 entries for student 182130. (from iframe)",
     "error": null
   },
   {
@@ -628,7 +650,7 @@
         "content": "Hello, I had a few discussions about the reading with a colleague, and what I was surprised with is that how important DATA is, BUT it has to be useful data. There are tons of ways to collect data but the hard part is sifting through it and finding the answers to your questions. There is an overwhelming amount of \"rabbit holes\" that cost time and money to process the data but in the end leaves you with no real insight, and ways to improve or things you could be doing better. It should be all in the data, and I just didn't realize how critical it is. Also, the reading and putting words to what I have kind of thought for awhile was very helpful. I always knew that most of the answers to grow or start your business was in the data, why else do we need to have a business plan then, your proving that it can work with real research conducted."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1512411. (from iframe)",
     "error": null
   },
   {
@@ -646,7 +668,7 @@
         "content": "I think this is the philosophy of measure twice cut once.  The one for me that needs the most scrutiny is basing decisions off of survey's.  Work sends these survey's out and says they are anonymous but I don't believe anyone answers them like they are.  It gives the impression that things are better than they are or points the company in the wrong direction.  I appreciate the discussion point and see how valuable it is to verify the data so that the correct decision can be made."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1800656. (from iframe)",
     "error": null
   },
   {
@@ -664,7 +686,7 @@
         "content": "I was reminded of a painful experience while reading Chapter 1’s critique of how analytics can be misused - particularly when decision-makers manipulate data to support ideas or objectives they’ve already decided on. At a previous job in a call center, I witnessed this often. The data and preliminary analysis our team provided to supervisors were frequently reshaped to align with what the COO and floor managers wanted to hear. I believe this type of misuse led to a lack of trust in the data among those who were more familiar with reality, and that it likely played a role in the company’s eventual downfall.\nThe reading also seemed to focus heavily on the capabilities of larger organizations. I imagine smaller companies would struggle to implement similar analytical practices due to limited staff, infrastructure, and capital. In what ways can small businesses with fewer resources start building their analytical capabilities without overextending themselves?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 156712. (from iframe)",
     "error": null
   },
   {
@@ -682,7 +704,7 @@
         "content": "Hey team, thanks for hopping on here with me! So, for this week, I have to say that it really surprised me when they described data analytics as observing, or at least observing can be a viable way of obtaining data. This concept just caught me off guard a little, and I am not sure if I agree with it or not. Let's say for a second that we agree with this statement, my main question is, what classifies it then as data? Rather than just observance? Or is observance data alone? Or, as an opposing thought, is it the process of getting the observations onto paper that qualifies it as real data? I would love to hear all of your thoughts on the subject!"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1808632. (from iframe)",
     "error": null
   },
   {
@@ -700,7 +722,7 @@
         "content": "In this week’s readings, I found the five-stage model of progress interesting and was interest to identify what stage my organization, Zions Bancorporation, could be considered. After learning about each stage I found that at the enterprise level, the company is between stage 4 and stage 5. We have specific elements in place, such as a data warehouse, governance, strict privacy controls. We have a business intelligence competency center, which we call Enterprise Business Intelligence, and several business decisions are made using analytics of our customer segmentation and opportunities to grow our small business relationships.\nWhat I do feel keeps us from being a stage 5 company is that I don’t feel that our analytics has reached an enterprise-wide approach. For example, in my area of banking operations, we leverage some customer and account data from our data warehouse, but we have our own data, be it transactional or non-numerical data, that is not integrated with the data warehouse. So, within my division, I feel like we are operating at stage 2 or stage 3. We have created our own localized pocket of data analytics to serve our needs and purposes and have a vision of where we would like our analytics to be, though, as the readings suggest, this has been a slow effort.\nI wanted to ask a question to gather your thoughts on if this relationship between the enterprise being at stage 4 and my division at stage 2 is healthy? Is there some level of acceptance that this could occur until my division’s data is structured and ready to be integrated into the data warehouse? Do you think there is localized data that may not belong in the data warehouse which would necessitate the need for localized analytics?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1808375. (from iframe)",
     "error": null
   },
   {
@@ -718,7 +740,7 @@
         "content": "Jacob,\nThis is an exciting success story about the power of analytics in improving business! I had a similar experience using data in an engineering internship. By analyzing variance data on a manufacturing process, we discovered that one of our steps was creating a disproportionate number of problems. By focusing efforts on improving that step, we were able to reduce errors significantly and save about $77k annually. I would've been over the moon to save $880k! That's phenomenal. And I completely agree - it's almost impossible to fix a problem until you know what the problem is. Careful analysis of the data is a great way to discover what the problems are."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1633503. (from iframe)",
     "error": null
   },
   {
@@ -741,7 +763,7 @@
         "content": "I agree with you, Garret. Data can be very tricky because it is such a nice and useful tool but can be fudged so easily. You can also use the same data to come to different outcomes depending on who is doing the work, who is looking at it, and what the end goal is. I have seen some pretty easy errors made in my time in the workforce as well. At my first accounting job ,the prior staff accountant was cutting corners and our numbers were way off after I fixed the data the executive team was quite happy because they thought they were spending way more on events for clients."
       }
     ],
-    "status": "Successfully extracted 3 entries.",
+    "status": "Successfully extracted 3 entries for student 1811635. (from iframe)",
     "error": null
   },
   {
@@ -759,7 +781,7 @@
         "content": "I was wondering how a company would implement the 5 stages of analytics maturity when they are just starting out. In my line of work we are constantly analyzing our financial data to make sure we are giving accurate forecasts. However, I have never been in a situation where I have had to create that data from scratch. I'm curious if anyone has had to do so and if they have, how did you know where to start, what data you needed, and did it feel overwhelming trying to determine what it was you needed?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 53243. (from iframe)",
     "error": null
   },
   {
@@ -777,7 +799,7 @@
         "content": "Hi Joey,\nThank you for sharing your real-world example! I find this particularly interesting because, for me, data is a way to validate my intuition. In sports, for instance, it’s possible to hide behind the numbers. A player might excel in one area, and as a result, their metrics may appear favorable—showing \"green\" in our system. However, if you actually watched the game, you might notice that the player had little to no impact. They were just a body on the court. So while I believe data is valuable, I also recognize that in certain situations, it can be misleading or skewed.\n\nChatGPT was used to check grammar and clarity."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1835344. (from iframe)",
     "error": null
   },
   {
@@ -795,7 +817,7 @@
         "content": "Hi Sharon! \nTo your question about how to ensure data is trustworthy, I believe it starts with understanding the source of the data. When organizations collect data, they need to evaluate the credibility and accuracy of their sources. This could mean working with reputable vendors, using standard data collection processes, and using quality control checks to identify errors. One method could be cross-referencing it against other trusted data points to verify its accuracy. When organizations commit to thorough data verification and governance, they set themselves up to make decisions that benefit their goals and long term success!"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1615842. (from iframe)",
     "error": null
   },
   {
@@ -818,7 +840,7 @@
         "content": "Hey Dominick,\nWhen I initially read your post I was thinking about cultural resistance, and how I feel like people are unwilling to submit information for data collection, but then I realized you were talking about internal cultural resistance. I personally have to analyze data regularly to identify travel trends and demorgraphics. It isn't my favorite things to do, but seeing the results of that effort pays off. Seeing an increase in sales leading to an overall increase in revenue shows me the value of using data to detemine pricing strategies and promotions, as well as labor hours and operational overhead costs. I think the best way to transition is through transparency. Letting people see the differences that analytics can have on an industry."
       }
     ],
-    "status": "Successfully extracted 3 entries.",
+    "status": "Successfully extracted 3 entries for student 1556274. (from iframe)",
     "error": null
   },
   {
@@ -831,7 +853,7 @@
         "content": "https://etonvs.com/valuation/intangible-asset-valuations/\n    \n\nLinks to an external site.\nwhile looking through the chapters I thought that his article supported your definitions of intangible assets and also the article gave me a great understanding of how to evaluate those assets and gave me a little clearer picture and answered some of my questions!"
       }
     ],
-    "status": "Successfully extracted 1 entries.",
+    "status": "Successfully extracted 1 entries for student 1746094. (from iframe)",
     "error": null
   },
   {
@@ -849,7 +871,7 @@
         "content": "As the Scottish writer Andrew Lang commented, “Statistics are often used as a drunken man uses a lamppost—for support rather than illumination.” (pg 12)\nI have often often been impressed by how data can be easily twisted or misunderstood when not used correctly. One of my favorite faulty statistical insights is that the more ice cream people consume as whole, the more often people drown. This statement implies a causal effect between eating ice cream and drowning, however it is wrong because it is referring to a correlation but calling it causation. It is more accurate to assume that a hot and sunny day causes higher ice cream consumption (eating it to stay cool) and drowning (because people are swimming more often). \nIn my HR analytics class, I had the opportunity to create a case study. The data for this case study hid several important relationships that the rest of my class had to uncover as they sifted through it. It was very important that we didn't make any assumptions once we say numbers align, but our task was to ask ourselves what comes next and what can we do address these problems. Jumping to conclusions can be a gross oversight when deal with data--the real value being found in how the data is being interpreted, or in other words, what is being illuminated. \nHas there been a time in your life (perhaps professionally) when you thought the data was saying one thing but turned out to say something different?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1809920. (from iframe)",
     "error": null
   },
   {
@@ -867,7 +889,7 @@
         "content": "In Chapters 1 and 2 of Analytics at Work, the authors introduce the DELTA framework as a roadmap for embedding analytics into an organization. What stood out to me was the emphasis on \"Leadership\" as a necessary condition. Analytics initiatives rarely succeed without leaders who actively support data-informed thinking. In my own organization, I have seen how leadership’s interest can make the difference between a forgotten report and a fully integrated decision-making tool. Our leadership's commitment to customer feedback resulted in an entirely new customer survey process we rolled out this year, with closed loop feedback and in-depth analytics about the customer journey.\nThis made me reflect on how often organizations treat analytics as a technical upgrade instead of a cultural shift. The idea that it is not about the data itself, but how people use it, aligns with my experience. So my question is: how do organizations best transition from seeing analytics as a side project to making it a core part of strategy, especially when cultural resistance is high?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1778615. (from iframe)",
     "error": null
   },
   {
@@ -885,7 +907,7 @@
         "content": "Out of all the readings and lectures, what I found most interesting was Emily Rosa's therapeutic touch experiment. She tested professional therapeutic touch experts blindly to see if they guessed the hand she was hovering over. They all failed miserably.\nThe placebo effect is where people think something works, so it tricks their mind into seeing results. One example of a company that I can think of that does this is Selkirk. Selkirk is one of the top pickleball brands in the country, and they released several paddles with holes in the throat. They advertised it as being more aerodynamic and helping achieve lightning-fast hands, but in reality, it does nothing. This concept and the look of the paddle trick people into believing this paddle is going to make them play better, so they buy it and think there's a huge difference in their playing. However, nothing has changed about their playing, and the paddle has done nothing.\nWhat do you think about the placebo effect?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1634598. (from iframe)",
     "error": null
   },
   {
@@ -903,7 +925,7 @@
         "content": "One concept I found interesting from Chapter 1 was the idea that analytics can sometimes be impractical due to factors like lack of time, no resources, complex variables, etc. For organizations to know when it makes sense to use analytics, the DELTA model seemed to be a great way to maintain competitive advantages if followed properly. This model focuses on Data, Enterprise, Leadership, Targets, and Analysts and how each of these need to work cohesively together to maintain strong analytics.\nAt the company I work for in the automotive industry, we often find ourselves bogged down with deciding which data is relevant and sometimes spend too much time overanalyzing before sending to the customer. Engineers often have their own methods of data processing and it feels like a bit of a disconnect, where having a structure like the DELTA to follow could help align and standardize things across the company. \nHas anyone seen similar issues in their industry, and if so, have you used anything such as the DELTA model to improve how data is used effectively?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1780775. (from iframe)",
     "error": null
   },
   {
@@ -916,7 +938,7 @@
         "content": "Coming from a technical background, I find data gathering and analysis to be the bedrock of any good decision. I am currently in the beginning stages of a data collection project with my employer. I would like to share this with you all and hear your thoughts on it:\nWe are completing a large inventory across our local organization with the goal of documenting every piece of calibrated equipment with the goal of directly linking each tool with the asset it was used on. Before this endeavor, we had no way of tracking which tools were used on which asset. Often times, when one of our calibrated tools goes in for a calibration cycle, we get a notice indicating it was found out of tolerance (OOT). Whenever an OOT notification comes in, our engineering department must do a risk analysis to determine if we need to issue a recall on the assets that may have been affected. Without the data directly linking the tools to assets, it is extremely hard to determine which assets may be affected.\nIn this case, this data is essential to speeding up the risk analysis process, we would be able to quickly identify which assets may be affected and determine if it poses a risk to aircraft or manpower. The speedy risk analysis process would allow our department to reallocate resources to other projects that will directly impact production by increasing throughput.\nI also imagine that this data will prove useful in predicting when a tool will be found out of tolerance. Currently, calibration cycles are determined by the calendar; it is quite possible that the primary factor for tools falling out of calibration is usage, not time. If we were able to track how much a tool is used between calibration cycles and compare that to when an OOT is issued, we may be able to adjust calibration cycles and reduce down time for our machines and production lines. It is already known that the single greatest constraint to our production lines is calibration cycles. Reducing the number of needed calibration cycles would increase productivity. Predicting when a tool will fall out of calibration will also help eliminate the potential for product recalls, as the tool in question could be sent for a calibration before it falls out of tolerance.\nThis data should prove useful in increasing profit for my organization. When the inventory is complete, at the very least, we will have the foundation to springboard other data collection. Other ideas I have had with this data and for future data collection is determining the degree to which age and wear are affecting our machine capacity, getting insight into which machine(s) are being fully utilized, and potentially predicting when machines will need to be replaced or upgraded.\nIt is fascinating to me how a small increase in data collection capability could provide the information needed make decisions concerning so many different aspects of production."
       }
     ],
-    "status": "Successfully extracted 1 entries.",
+    "status": "Successfully extracted 1 entries for student 1742665. (from iframe)",
     "error": null
   },
   {
@@ -934,7 +956,7 @@
         "content": "When reading the first few chapters of Analytics at Work, I was struck by the concepts expressed by Figure 1-1, the \"Key Questions Addressed by Analytics.\"  The table succinctly explains the questions that analytics can answer and what dimensions (timeframe and insight vs. information) of data are needed to answer them.  This has already been beneficial for me at work.  When I realized I was dealing with a process failure in my program and wanted to understand how it happened and the cause, I realized that these were questions addressed by this rubric.  When I looked at the table, I noticed that this question was in the lower left corner of the figure, which meant that I needed to find insight from past data.  So, that helped me frame my thinking and hone in on the gathering process data, and then look at that data to try and gain insight from it.  The key here was that, because I was looking for insight, the data itself was not going to give me the answer. I needed to synthesize the answer from all the data points I had available.  \nYes, this was somewhat intuitive, but it was helpful to see it laid out and realize early on that I was on the right path.\nWhat did you take away from this table?  Did it cause you to stop and think like it did me, or am I just an oddball?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1780915. (from iframe)",
     "error": null
   },
   {
@@ -952,7 +974,7 @@
         "content": "It's great to hear how you're applying analytics in your work!  like chapter one help us undertand how data analytics can become a competitive advantage.Using tools like DCF models for property investments and pivot tables in Excel for organizing transactional data is a great approach. It sounds like you're really making the most of data to help with decision-making, which is crucial for business success.\nHaving a dedicated fund analytics team to filter and analyze data must be extremely helpful too, as it allows you to focus on high-level decisions while relying on solid insights.\nImproving your skills with pivot tables is definitely a valuable step in becoming more proficient at data analysis. The more you practice, the better you’ll be at spotting trends and making informed decisions based on data. Is there any data tools you guys have found useful to improve the decision-making skills?https://www.bing.com/search?q=pivot+tables+useful+for+data+analitics&cvid=52f4d174307642babc2dd09fcf79d133&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEAyCAgJEOkHGPxV0gEINjczMmowajGoAgCwAgA&FORM=ANAB01&PC=HCTS"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1844017. (from iframe)",
     "error": null
   },
   {
@@ -970,7 +992,7 @@
         "content": "I found the readings relatable because as a coach I have access to a lot of data and use a significant amount of it in the decisions I make, in an effort to increase the chances of achieving the desired outcomes. That being said, I tend to combine data analysis with experience in my decision making -just like the pilot, I utilize the data available to me to determine trends and predict actions, but I make sure to also “lookout the window” and incorporate my experience and instincts.\nFor instance, in pre-game preparation there’s a higher percentage of decisions that are based on data analysis (opponents attacking and defending trends), while in game adjustments are more reliant on personal experience."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1717974. (from iframe)",
     "error": null
   },
   {
@@ -988,7 +1010,7 @@
         "content": "Chapter 1 talks about the need for data and analysis in decision making rather than using feelings (hunches or our gut). I've seen this play out in organizations where I've worked. One example I thought I would share happened at a company that only allowed Mac computers to a small and select few employees in creative fields, because they are \"too expensive.\" This belief was held across the entire organization. It wasn't until I created a comparison table that showed prices of the dell computers they were used to buying along side comparable Mac computers that they finally believed that the Mac computers were cheaper. I think it must be human nature that we have assumptions that we don't verify. It's also interesting how showing the data takes away arguments and changes minds quicker and easier than other arguments. \nWhat are some examples you've seen where having data has changed minds and behavior?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 112717. (from iframe)",
     "error": null
   },
   {
@@ -1006,7 +1028,7 @@
         "content": "I was most interested in Chapter 2 of How to Measure Anything, especially the section about Emily Rosa’s experiment. I’ve always been fascinated by stories like hers, and I’ve also enjoyed reading about James Randi and his work debunking con-artists. What stood out to me most about Rosa’s experiment was its simplicity. The chapter emphasizes how straightforward her approach was, and yet it still had a major impact.\nIt really got me thinking about work and life in general, and how much more we could achieve by better understanding how to measure things. I tend to overcomplicate problems, but this reminded me that starting with what I already know and applying the simplest possible solution can often take me a long way.\nIn my work, quantifying information seems to be a constant need and I can see how approaching measurement challenges with a simple mindset, and asking basic questions first could lead to quicker, more effective solutions.\nQuestion:\nWhat does Emily Rosa's story tell us about the value of curiosity and asking basic questions, even in professional settings?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 881253. (from iframe)",
     "error": null
   },
   {
@@ -1034,7 +1056,7 @@
         "content": "It is great to hear that you are working with a company that is willing to utilize the data that they have taken  the time to collect. It sounds like they must try to make sure that the data they have obtained is clean if you are able to utilize it when it comes to the supply chain for the company. It also sounds like they have taken the time to develop and in house ERP to help with the utilization of the data they have collected. Do you know the benefit that they have gained by developing an inhouse ERP over attempting to utilize a third party ERP?"
       }
     ],
-    "status": "Successfully extracted 4 entries.",
+    "status": "Successfully extracted 4 entries for student 1812909. (from iframe)",
     "error": null
   },
   {
@@ -1052,7 +1074,7 @@
         "content": "Data driven decisions are everywhere and especially important in managerial roles. I work in product management and use data driven decision making daily. I like how there was discussion on the quantifying of intangible data. This is very common when trying to weigh the feature benefits of a new product or the value of a new release. It is difficult to quantify things like perceived customer value, but doing so can radically influence decisions. For example, I know of a product release that did not meet a significant amount of the required competitive features in that market and it failed. The perceived value of the feature set to the customer was not properly evaluated and thus led to the low success of the product. Quantifying intangible data can have vast consequences like shown previously and I am interested in learning if others have found methods they believe are successful in doing so."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1657778. (from iframe)",
     "error": null
   },
   {
@@ -1070,7 +1092,7 @@
         "content": "One idea from the readings that stood out to me was the five-stage model of analytical progress, especially the final stage, Analytical Competitors. At this level, a company doesn’t just use data occasionally. It relies on it as a core part of how it operates and makes decisions. Reaching this point isn’t just about having the right systems in place, it also takes a mindset across the whole organization that values learning from evidence and using it to guide action.\n \nWith that being said, here’s my question: What does it really take for a company to become an Analytical Competitor, and how can it hold onto that advantage in a world where things change so quickly? Is it more about the tools, the people, the leadership, or something else entirely?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1830458. (from iframe)",
     "error": null
   },
   {
@@ -1088,7 +1110,7 @@
         "content": "I thought that the five-stage model of progress was interesting, I wouldn’t have ever thought there could be multiple levels of progress and how you would divide them. From my experience at my current company, I have seen us go from a stage one to a stage two. When I first started, we didn’t have any type of analytics on our case closures, however over the last year we have gone from having zero analytics to having the data and measuring KPIs. We are still trying to figure out what data is the most important, how to incorporate it and how to present it to senior leadership currently. To increase our efficiency with our data, I think we need to have multiple data stewards; we currently only have a total of two stewards that present data for their specific workflows however, we have found that the analytics are very surface level, and the information can be found from anyone that looks at the data. I think for our analysis of the data to mean more we should have multiple people look at the data to demonstrate the multiple ways you could interpret and present the data."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1454512. (from iframe)",
     "error": null
   },
   {
@@ -1106,7 +1128,7 @@
         "content": "In Chapter 2 of Analytics at Work, the authors emphasize that high-quality, integrated data is foundational for effective analytics. This point reminded me of my experience as a Project Manager at Thermo Fisher Scientific, where I managed custom engineering solutions across global accounts. Initially, project cost estimates, operations schedules, customer requirements, and engineering data were siloed in disconnected systems, making it difficult to analyze project health or align pricing with corporate goals.\nTo address this, we localized critical project data within the Salesforce platform. This allowed us to track key performance metrics across departments in a centralized dashboard, giving both sales and leadership real-time visibility into project profitability, pipeline status, and customer alignment. This transformation not only improved operational efficiency, but also empowered data-driven decision-making across departments. The chapter reinforced for me how central data integration is—not just for reporting, but for embedding analytics into daily workflows."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1552780. (from iframe)",
     "error": null
   },
   {
@@ -1129,7 +1151,7 @@
         "content": "Clean data is so important. Just a few months ago a Director asked me to help them do an xlookup and filter a report. It made me feel frustrated at first, but then I realized it is on me to give them clean, quickly digestible data that doesn't require technical manipulation on their part. I think the 'easy to find' part of your comment is critical!"
       }
     ],
-    "status": "Successfully extracted 3 entries.",
+    "status": "Successfully extracted 3 entries for student 1775247. (from iframe)",
     "error": null
   },
   {
@@ -1147,7 +1169,7 @@
         "content": "Hey Natalie!\nYou provided such a wonderful post that portrayed a very important concept for when the Fermi estimation is truly crucial. After going through your whole reading, my mindset on this concept has changed quite a bit. Initially, I struggled to see how the Fermi estimation could be useful for individuals who rely entirely on data for every decision. However, after reflecting on the above post, I have now realized that it can help to complement data-driven approaches rather than disregard them. Thinking more into it, I believe that there could be a great mix of utilizing the knowledge of past data (whatever is in their memory, no research needed) and quick effective decisions with reasonable approximation. Although this will not always work considering everyone cannot remember numbers off of the top of their head, I believe this would apply to those companies that rely too heavily on data within some industries. \nThank you for providing this article, I think it provides a great deal of information on the Fermi estimation. Although it is meant to be useful for the reasons stated in your post, it is important to remember what is still needed for this skill to be successful in the slightest. You provided a great description of what it means to utilize the Fermi estimation, which are things like critical thinking and logical reasoning. I believe that it is important for others to be able to distinguish between different types of reasoning—such as suggestions, educated guesses, and Fermi estimations—especially when considering conclusions that are not solely based on data analytics.\n \nThis was a great post, and I truly appreciate you sharing your thoughts!"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1812310. (from iframe)",
     "error": null
   },
   {
@@ -1170,7 +1192,7 @@
         "content": "Taylor, I really liked your take on Eratosthenes' experiment and how you tied it to today’s obsession with perfect information. I think you're right that people can get so caught up in the imperfections that they miss the bigger picture. In my work, I’ve seen how even slightly messy data gets tossed aside, even if it still has value. It makes me wonder if we’re limiting ourselves by demanding perfection before we act."
       }
     ],
-    "status": "Successfully extracted 3 entries.",
+    "status": "Successfully extracted 3 entries for student 1600043. (from iframe)",
     "error": null
   },
   {
@@ -1188,7 +1210,7 @@
         "content": "As we started Chapter 1 all I could think of was the movie \"Moneyball\". Maybe it was because I just returned home from my sons little league game, or maybe because of the references in that chapter - but I really believe data and analytics have really changed the game of baseball. When the author mentioned that analytics should \"start with the decision, not the dataset\", I thought about the room of scouts sitting with Billy Beane and Billy changing their method of scouting from who LOOKS like a star or who has the confidence to succeed in the majors because they have a beautiful girlfriend to which on-base metrics predict wins and \"who gets on base\".  Forbes notes in this article (Moneyball 20 Years Later: A Progress Report On Data And Analytics In Professional Sports\n    \n\nLinks to an external site.) that twenty ears after that Oakland Athletics team flipped the script on baseball nearly ever pro-sports team has copied that \"decision-first\" playbook. \nI should also highlight one of my favorite quotes so far from the chapters, when The Scottish writer Andrew Lang commented, “Statistics are often used as a drunken man uses a lamppost—for support rather than illumination.” Hilarious comparison (I wish I could quip like this), but true when you think that so many people only go get data to support their narrative, instead of humbly bending to whatever the un-bias data says. So here is an open ended question for you - when was the last time you saw data manipulated in a way as to prop-up or support the story-tellers narrative? My first answer - political polls.... but we can save politics for another class."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1812415. (from iframe)",
     "error": null
   },
   {
@@ -1206,7 +1228,7 @@
         "content": "The first two chapters of Analytics at Work opened my eyes to the different ways analytics can be approached. I strongly support the authors’ viewpoint on data vs feelings, especially when considering the context of stock market investing. In the stock market, there are often two types of investors: those who rely on “vibes” and those who utilize data-driven analysis. The latter group tends to make more consistent and profitable choices. This supports the authors’ claim that data-backed decisions reduce risks and yield better outcomes. For example, firms like Renaissance Technologies, which employ sophisticated algorithms and data models, regularly outcompete investors who rely more on sentiment or intuition.\nOn the other hand, those who invest based on market “hype” or social media trends often face significant losses when the hype dies down or proves inaccurate. The rise and fall of meme stocks, like GameStop, demonstrated that those who invested purely based on online excitement rather than evaluating fundamental data frequently lost money when the market corrected itself. This real-world example aligns with the authors’ argument that using systematic data analysis to inform decisions is more sustainable. While there will always be opportunities to get lucky with meme coins or viral stocks, quantitative analysts have data to back up their choices."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1632739. (from iframe)",
     "error": null
   },
   {
@@ -1219,7 +1241,7 @@
         "content": "Hello everyone,\nOne thing that really shocked me while reading the text was the claim that 40% of major business decisions are still made based on gut instinct rather than data.  While I understand and appreciate the value of intuition, especially for experienced leaders, it feels very risky to override data when so many tools are available to make sound, informed decisions.  A great example of an organization putting analytics to work is Spotify, which I have used daily for the past decade.  They use individual user data to create highly personalized playlists like \"Discover Weekly,\"  which drive engagement and increase brand loyalty.  This ties directly into the \"D\" in DELTA - high-quality, accessible data is the foundation of strong analytics.  There is something special about humans' connection to music, and having the app you use leverage your likes well enough to make lists and suggestions for you is special.  This article titled \"Spotify's Data-Driven Marketing Campaigns Personalizing the Listening Experience\n    \n\nLinks to an external site..  It reinforces the reading's message that better use of data starts with asking the right questions and creating systems that connect analysis to action.  After reading the text, I have questions: if even the most advanced organizations don't have perfect data, how do they decide when it's \"good enough\" to rely on for strategic decisions?  Also, what frameworks or thresholds would guide that judgment?"
       }
     ],
-    "status": "Successfully extracted 1 entries.",
+    "status": "Successfully extracted 1 entries for student 1808793. (from iframe)",
     "error": null
   },
   {
@@ -1237,7 +1259,7 @@
         "content": "Offer an alternative or supporting opinion, supported by reason and/or evidence, on something you found interesting in the readings.\n\nSomething I found interesting in this week’s reading comes from chapter one of the book Analytics at Work by Thomas H. Davenport, Jeanne G. Harris, and Robert Morison. The book lists four typical decision-making errors: 1. not asking the right questions; 2. making incorrect assumptions and failing to test them; 3. using analytics to justify what you want instead of letting facts guide you to the correct answer; and 4. failing to take the time to understand all the alternatives or interrupt the data correctly.\nThese four points have brought attention to my decision-making and how often I fail to take the time to consider each point thoroughly. Lately, I have been faced with significant decisions and have felt uncertain about how to proceed. These four points have given me a sense of direction on what to consider when facing a decision. I have not taken the time to ask the right questions or understand all the alternatives completely, which has led me to make poor decisions."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1579428. (from iframe)",
     "error": null
   },
   {
@@ -1255,7 +1277,7 @@
         "content": "My education and career both have given me an emphasis on facts and data, and the second chapter of Analytics at Work highlights data as a tool for analytics. However, my role at work is now changing and the data I work with sometimes includes the types of customer data mentioned in the text. Unlike in engineering, where all the data I could want is already out there (or could be if I run some experiments on metals or processes), the data here is personal and relates to individuals. This data is much softer, but more importantly, must be collected with permission. I appreciated that the text emphasized following laws and standards in gathering data about customers, but I wonder where the ethical line is and how we should define it. Most of us opt-in to targeted advertising on our computers and devices so we see ads of stuff we might be interested in, but where should that stop? Should we permit companies to gather all of our data, create models and analysis based on it, and predict our next desires, health outcomes, criminal activity? I don't know where American privacy law steps in already, but I look forward to learning more from you all about customer data and what we can and can't do with it."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1806842. (from iframe)",
     "error": null
   },
   {
@@ -1273,7 +1295,7 @@
         "content": "As someone without a background in data analytics, it was interesting to learn about the different way companies use the data they collect, with examples from Olive Garden, Coca-Cola, health insurance companies who starting health programs to lower chances of diabetes, or Nike’s analytics using sensors in shoes to track running data. I thought an important aspect of this reading was the emphasis on data integration, and ensuring the data you collect and analyze will have a direct impact on the company. This made me think of how my employer, who manages large amounts of contracts, could benefit from actually analyzing the data collected in our system. This would help the team become more productive and efficient and allow them to be ahead of issues rather than constantly trying to solve issues after they’ve occurred. For example, data collection and analysis of end/renewal dates of contracts would be a great way to minimize delays.\nQuestion: Not every business has the time, money, or staff to effectively manage and analyze data. How can smaller organizations still use analytics in a way that makes sense for them?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1813167. (from iframe)",
     "error": null
   },
   {
@@ -1291,7 +1313,7 @@
         "content": "One point that stood out to me in Analytics at Work is how the authors emphasize leadership as a key driver of successful analytics adoption. It’s not enough to invest in tools or data; leaders need to consistently model and reinforce data-driven thinking across all levels of the organization. The DELTA model helps clarify how enterprise focus and leadership must work together to embed analytics into daily decisions. At Pick PT, we’ve implemented basic EHR reporting tools, but without strong leadership direction, they’re often overlooked in strategy meetings. I believe this shows how analytics can fail to deliver value if they’re treated as an add-on rather than a core part of operations. I’ve seen larger companies like Amazon use analytics not just for optimization but to drive their entire culture and decision-making process. This makes me wonder: how can small businesses begin building a data-driven culture with limited resources and staff?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 128006. (from iframe)",
     "error": null
   },
   {
@@ -1309,7 +1331,7 @@
         "content": "As I was reading through Chapter 2 I was reminded of an experience at work where our company's analysis of a situation was only as good as the quality of data our team had given them.  We use a task management system called Jira, and one of the metrics it gives for a team is called \"burndown rate\" which basically means how many of your tasks you are able to complete before a deadline.  Our team was doing better than many other teams in this regard, and became apparent when someone from our training said \"I've never seen a burndown rate that good.\" Well, as the book states, \"You may have to undertake some detective work to identify persistent sources of poor-quality data\" applied here.  We had been viewing the requirements in a different lens from other teams and approving our work when it didn't meet the correct criteria.  To our disappointment we were more like the other teams even though our metrics are good.  This reinforces the point that your analysis is only as good as your data. \nWith the busy nature of modern work, what are some ways that you find time to make sure that your data is good?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 671873. (from iframe)",
     "error": null
   },
   {
@@ -1332,7 +1354,7 @@
         "content": "That is an interesting question. Clearly there is value to analyzing data, but there is also a risk to analyzing data that does not benefit the bottom line of the company.\nI think that step one might be to consider what questions are worth answering. Not just that, but how much is the answer worth?  The book 'How to Measure Anything' pointed out how, less accurate, but 'good enough' data gathering and analysis can be done far more quickly and on the cheap compared to a seriously funded study.  I think a small organization should seek out the 'good enough' analysis that would benefit decision makers. It is comparatively low risk for potential high returns - even if the data isn't perfect."
       }
     ],
-    "status": "Successfully extracted 3 entries.",
+    "status": "Successfully extracted 3 entries for student 94179. (from iframe)",
     "error": null
   },
   {
@@ -1350,7 +1372,7 @@
         "content": "Looking into chapter 1 at the DELTA framework and comparing that to other parts of Unit 1 talking about intangibles. I agree with the need for high-quality data, its analysis, and integrating it to improve strategic objectives. Companies that are not using data are at a disadvantage. I feel that the more data-driven we go, the more it can hurt the workers. Many companies track and assess their workers on so many metrics that determine their longevity at the company based on how they perform under those measurements against their peers. At Amazon, employees have their bathroom breaks timed, as that was a piece of data the company saw as a loss and worked on a way to reduce the loss of labor hours from it. When we move into the future, I feel that it comes down to the leadership to make good decisions with the data they choose to use and how it will affect the culture and climate at the organization. There is no doubt that the more you can effectively use data can and will increase profits by minimizing waste and optimizing aspects of the business. But, when it goes too far that the employees have to constantly live in fear that they need to hit certain marks on so many metrics, then the company is at risk of having high employee turnover, which incurs new costs that were not seen when trying to use data to optimize.\nHow do you feel about how leadership plays a critical role in integrating data and analytics while still building a company culture that people want to work for?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1778688. (from iframe)",
     "error": null
   },
   {
@@ -1368,7 +1390,7 @@
         "content": "After reading Chapters 1 and 2 of How to Measure Anything by Douglas W. Hubbard, what really stood out to me was the idea that anything can be measured, even things we think are intangible like customer satisfaction or employee morale. Hubbard’s point that the main barrier to measurement is our own uncertainty, not the nature of the thing itself, was eye-opening. It made me rethink how often we say something can’t be measured just because we don’t know how.\nA good example is how Amazon uses customer data to measure satisfaction. By analyzing browsing history and feedback, they can quantify how happy a customer is and adjust their strategies. This shows how even something as subjective as satisfaction can be turned into measurable data.\nI found a great article from Harvard Business Review called you cant manage what you cant measure. It reinforces Hubbard’s point by discussing how data-driven decisions help companies perform better. It’s a reminder that just because something is hard to measure doesn’t mean it isn’t worth trying.\nOne thing I’m still thinking about is how precise we really need to be when measuring intangibles. Hubbard suggests that even rough estimates can be useful, but how do we know when “good enough” data is actually good enough? For example, if a company wants to measure employee morale, is a quarterly survey sufficient, or would more frequent checks be more effective? Where do we draw the line between too little and too much data?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 323064. (from iframe)",
     "error": null
   },
   {
@@ -1391,7 +1413,7 @@
         "content": "Chris,I am honored to be grouped with you again and hope all is well!\nThat's a strong summary, and I agree entirely with your point. Having data is only part of the equation; it's how you interpret and act on that data that matters most. The 2007 housing crisis is a textbook case of misaligned incentives overriding strong, pointed analytics. Many institutions had access to risk indicators, but either ignored them or failed to ask the right questions. Your example of Wells Fargo is a great contrast: it shows that disciplined, long-term thinking rooted in analytics can protect a company even when it means going against the crowd. It’s a reminder that data-informed decisions require not just tools and dashboards, but also leadership willing to prioritize long-term value over short-term wins."
       }
     ],
-    "status": "Successfully extracted 3 entries.",
+    "status": "Successfully extracted 3 entries for student 1805036. (from iframe)",
     "error": null
   },
   {
@@ -1414,7 +1436,7 @@
         "content": "Carey,\nI am not going to lie I was excited to see we were placed in the same group. I like your post and it is something that is a sensitive subject for me. One word that I would use to describe data at my work is siloed. Each department has a different way that we look at and collect data. It has caused unnecessary tests to be ran, money to be spent and time to be lost. We are getting better, but it is hard to see/hear that an unnecessary test was ran to gather data that was already gathered. It is interesting that sometimes the hardest part of a company is not to make a quality product but to communicate basic information."
       }
     ],
-    "status": "Successfully extracted 3 entries.",
+    "status": "Successfully extracted 3 entries for student 1726038. (from iframe)",
     "error": null
   },
   {
@@ -1432,7 +1454,7 @@
         "content": "Keven, you make a great point by stating that sometimes we choose the expensive path when it was not really needed. I have seen this happen time and time again at my company. Engineers will spend hours upon hours creating elaborate spreadsheets and models with advanced software in order to make a calculation or QC someone's work. I will say that sometimes the spreadsheets/models are needed, but certainly not every time. There are plenty of instances where the old school way of using paper, pencil, and a calculator will get you what you need in under an hour. Not only is it a simpler method, but it is cheap and fast. Time = money and the more time we spend getting fancy with our measurements when it wasn't needed, the more time lost that could have been spent on another project or in another positive way at the firm."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1843817. (from iframe)",
     "error": null
   },
   {
@@ -1450,7 +1472,7 @@
         "content": "I liked the comparison to the Moneyball theme. I related to the scene of Billy Beane trying to change the minds with data rather than the traditional ways of making decisions. Thanks for your link to the Money ball report on data and analytics in professional sports. I believe that there are many activities that we participate in where data would help to productively make better decisions. Sports are one example but work is another. Figuring out how to make measurements that lead to productivity improvements are important for a company to succeed and to help employees to be more productive.\nPer your question, I often see data manipulated when dealing with construction companies. It seems that you are led to choosing certain options because other ones would be “just too expensive” to consider or “can’t be done”. I believe that many times that the construction folks were honest in their estimates. They have experience and know what they can do easily and profitably.  In other situations, I think that there was no data to back up the claims. Or the data are manipulated to fit the profile of the person performing the work. I often times find myself asking the question, “How much extra would it really cost to do things that were suggested?” “How could we get some data to compare?” “Are alternatives available that we haven’t considered yet?” Nice question."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1780727. (from iframe)",
     "error": null
   },
   {
@@ -1468,7 +1490,7 @@
         "content": "Data Governance is important in ensuring the data you use is quality.  Garbage in and garbage out is often the term we use for data that is not quality. At my organization, we have a whole team dedicated to fixing errors when they are found in our data. Most of these are caused my human error when entering the information.  I have seen firsthand the issues that are caused when data is missing, inaccurate, or is not well defined. \nLeaders often struggle with investing money into data governance, in my experience, because they believe that smart people can analyze this erroneous information out.  My opinion is that the data should be correct upon entry and that we should update our systems to restrict the entry of bad data. It does take resources and time to update the code and ensure that the restrictions are appropriate, but it can be done.  How have your companies dealt with data integrity, and does your leadership support quality at the source? What helped to make that happen?"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1781214. (from iframe)",
     "error": null
   },
   {
@@ -1486,21 +1508,32 @@
         "content": "Hi everyone,\n \nThis week I would love to discuss how relying solely on intuition in the workplace is increasingly risky and not a good idea - especially in a data-rich world where better decisions come from better information. While intuition is shaped by experience, it’s also limited by personal bias and lacks the scalability that data analytics provides. For example, companies like Amazon use predictive analytics to anticipate customer needs and tailor marketing efforts, something no gut feeling could replicate with the same accuracy. As discussed in our book, data-driven organizations outperform those that lean on instinct by grounding decisions in evidence, identifying trends, and reducing uncertainty. Embedding analytics into everyday decision-making not only increases efficiency but also helps leaders avoid costly assumptions—making data not just helpful, but essential. I think this is paramount and something I am guilty of doing in the past (relying solely on intuition and brushing aside data). \nMy question is this - How can an individual measure something like confidence or expected/anticipated success? I feel this would lower anxiety levels for students around the world as well as employees."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1210291. (from iframe)",
     "error": null
   },
   {
     "student_id": "1447951",
     "student_name": "Nick Spaulding",
     "entries": [],
-    "status": "No discussion entry elements found in the determined content area.",
+    "status": "This student does not have a submission for this assignment (explicit indicator).",
     "error": null
   },
   {
     "student_id": "1830918",
     "student_name": "Taylor Stanard",
-    "entries": [],
-    "status": "No discussion entry elements found in the determined content area.",
+    "entries": [
+      {
+        "author": "Taylor Stanard",
+        "post_date": "2025-05-08T09:57:45-06:00",
+        "content": "I thought you posed a good question, I work for General Motors as an engineer, and in my plant I work at many of our machines have fantastic data outputs available, because of this many people assume we are very data driven, because we have access to this information, yet the reality is we don't even export it to spreadsheet to analyze. Its like how Davenport said in chapter 2, data consists of structured content. Access and observation of data alone is not truly data analytics, rather the usage and structure of them are. I thought it was interesting that the criteria you gave brought up another intangible measurement, meaningful. Clean and easy to find could be measured, but is it meaningful? This is more difficult to measure. This is where the 5 steps given Hubbard come into play, where after you assess what you know you have to go back and find how to measure those. (step 2 in Hubbards 5 steps)"
+      },
+      {
+        "author": "Taylor Stanard",
+        "post_date": "2025-05-08T09:50:11-06:00",
+        "content": "The principles of Eratosthenes experiment ring true, in fact by metrics of his time it incredible that he could come to such remarkable find. However I propose the question that in today’s world, is it difficult to further measure intangibles because there is insatiable need for perfect information. When any factor of doubt is proposed it is the common trend to throw the baby out with the bathwater. To prove this point, I found a Harvard study titled “The Significance and Errors of Eratosthenes Method For The Measurement Of The Size And Shape Of The Earths Surface” in this, the author suggests that while a significant experiment for its time, the errors of calculation (such as inaccurate measuring tools, seasons, etc) create moot point for the experiment, implying that today it would not be valid. I think this is less because of the experiment and more because of the people (another great example of an intangible measurement) who would see an inaccurate measurement tool and say the whole entire experiment is useless. So as we continually see this trend increase in a linear fashion, a more interesting questions is would Eratosthenes’ experiment have been accepted the same in late 1800’s as it would have been in the 1900’s? How has modern science made it harder to accept basic scientific finds?\nhttps://adsabs.harvard.edu/full/2006JAHH....9...57P"
+      }
+    ],
+    "status": "Successfully extracted 2 entries for student 1830918. (from iframe)",
     "error": null
   },
   {
@@ -1518,7 +1551,7 @@
         "content": "Alison,I really enjoyed the way you described the structure of analytics teams within your company. It sounds like a strong example of the DELTA model in action—specifically in how your organization prioritizes data infrastructure, technology, and analytics talent across departments. I also appreciated your point about how essential this is in fast-paced industries like food, where unexpected events (like tariffs or pandemics) can quickly shift the playing field.\nYour question about whether companies should become full-on analytical competitors versus using analytics as a support tool really made me pause. Personally, I think the answer often depends on the industry and organizational culture. Some sectors, like logistics, e-commerce, or finance, can thrive with analytics deeply embedded into every decision. Others might benefit from a more balanced approach that leaves room for intuition, creativity, and flexibility, especially in roles like marketing or design.\nWhat do you think makes a company ready to make the leap toward becoming an analytical competitor? Is it about tools, leadership, or something else?Great post!"
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1449098. (from iframe)",
     "error": null
   },
   {
@@ -1536,21 +1569,37 @@
         "content": "Hello Bryson,\nAI is something that I had expected to feel hesitant and fearful of. However, the more I utilize AI, the more I appreciate all the possibilities it presents. I cannot believe how easy AI has made aspects of my life. I was recently introduced to the idea of AI as a secretary/intern. You will have to guide it, teach it, and check it, but it will ultimately help with the workload and get you to your goal with far less effort. I feel your article presented this very thing. AI is a tool that presents an opportunity for forward movement and growth. Using AI in its early years will ensure that the company is successfully utilizing it in the years to come. Ultimately, the hesitation and fear of AI will prevent desirable and long-sustained results, which is something no company wants. \nI had also reviewed the importance of high-quality data, and it became very clear to me that small errors along a chain of data can create massive impacts on data usage and company trajectory. Using AI, I do feel it presents an exciting opportunity to check and maintain the high-quality data that a company needs for success. Perhaps the thought that many companies have is that the early users will be experiencing the major issues, and there is a fear of being the first to fail because of the use of AI. I can appreciate that the misuse of AI could create issues. However, I've never thought it prudent to be afraid of something you don't understand, it is simply an opportunity to learn."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 164153. (from iframe)",
     "error": null
   },
   {
     "student_id": "1844054",
     "student_name": "Rick Twitchell",
     "entries": [],
-    "status": "No discussion entry elements found in the determined content area.",
+    "status": "This student does not have a submission for this assignment (explicit indicator).",
     "error": null
   },
   {
     "student_id": "1462469",
     "student_name": "Kevin Van Der Spek",
-    "entries": [],
-    "status": "No discussion entry elements found in the determined content area.",
+    "entries": [
+      {
+        "author": "Kevin Van Der Spek",
+        "post_date": "2025-05-08T07:32:58-06:00",
+        "content": "Great post Jared. Your description of the important of clean data with watermarks reminds me of this weeks material about the need for one source of true data. Recently, someone I work with discovered a area our data attributes that was being misunderstood. I won't go far into detail, but we were making decisions on efforts and communications with higher ups based on the wrong interpretation of data. The source of the data was good. It clearly was coming from the centralized trusted Wearhouse. My question is, should Montana State Fund trust the interpretations of the data because there was a watermark before it was downloaded?"
+      },
+      {
+        "author": "Kevin Van Der Spek",
+        "post_date": "2025-05-07T07:52:57-06:00",
+        "content": "I want to share some of my experiences with data in the workplace. I work in undergraduate recruitment and I spend a lot of time in spreadsheets. Chapter 1 talked about the key questions addressed by analytics being time frame, information, and insight. I can use the simple table provided to figure out how many students from different areas picked my campus. I can extend this process to figure out why the current incoming students are coming, which will help inform me what factors could motivate future students. From this analysis, I can see which programs are better to promote at different high schools that has and could result in high student enrollment. For example, two of the key schools have students that are interested in technical education and we know that because of how many students have selected to join those programs. We continue to promote hands on programs at those schools. I believe the simple table from chapter 1 can help me create actionable items to meet KPI’s."
+      },
+      {
+        "author": "Kevin Van Der Spek",
+        "post_date": "2025-05-08T07:35:11-06:00",
+        "content": "We do take things like sports into consideration on why students will pick a campus. There are so many things that go into a student decision on a university. I met one student that decided they feel conferrable attending because there was a local trading card store. There were other reasons they attended, but the store was a main factor for them."
+      }
+    ],
+    "status": "Successfully extracted 3 entries for student 1462469. (from iframe)",
     "error": null
   },
   {
@@ -1563,7 +1612,7 @@
         "content": "In the first chapter, the concept of data driven decision making was the most intriguing to me. Data based decision making has been utilized across various platforms, whether that be in business to make a decision for financial planning, or in football coaches use data analytics to decide whether or not to go for it or kick a field goal.  The article claims that Data based decision making, \"shows that statistically, the more data-driven a firm is, the more productive it is—even controlling for a wide range of possible confounding factors.\" Although I believe data based decision making can be very beneficial I don't believe companies should solely rely on this method, there is something about trusting your intuition in situations that remains superior."
       }
     ],
-    "status": "Successfully extracted 1 entries.",
+    "status": "Successfully extracted 1 entries for student 1805624. (from iframe)",
     "error": null
   },
   {
@@ -1581,21 +1630,32 @@
         "content": "As I read it reminded me of an internship I had a few years ago for a solar company. I was thinking about how I've used data in the past and how I've seen other companies use it. I was an intern in the Supply Chain department and saw that during the install of solar jobs some parts were missing and some parts were in excess. This led to wasted time because the installers were waiting on parts and had to make return visits. This also caused errors in ordering too much of particular materials and having surplus that now had to be tracked. Taking the data I reviewed every bill of materials to ensure it matched with what was needed for the install. I found critical errors in the tool we were using to automatically calculate parts and worked to fix that tool. By the end of the internship we had corrected quite a few of the material discrepancies and calculated the savings to be around $880k per yer. We could only fix the problem once we had data that showed errors and gave us a direction to look to fix the issues."
       }
     ],
-    "status": "Successfully extracted 2 entries.",
+    "status": "Successfully extracted 2 entries for student 1523477. (from iframe)",
     "error": null
   },
   {
     "student_id": "1843828",
     "student_name": "Test Student",
     "entries": [],
-    "status": "No discussion entry elements found in the determined content area.",
+    "status": "This student does not have a submission for this assignment (explicit indicator).",
     "error": null
   },
   {
     "student_id": "1812493",
     "student_name": "Dexter Akanno",
-    "entries": [],
-    "status": "No discussion entry elements found in the determined content area.",
+    "entries": [
+      {
+        "author": "Dexter Akanno",
+        "post_date": "2025-05-08T10:26:18-06:00",
+        "content": "A question that came up to me as I was going through the reading was: Given that many organizations collect a huge amount of data but fail to use it meaningfully, what cultural, structural, or leadership problems do you think most commonly prevent companies from making decision based off their true data collections and findings. \nThis question arose after reading through the section that says in modern businesses, despite having access to more data than ever before, many companies still make decisions based on intuition or outdated practices. I wondered whether this was because this is just how the company is set up, this is how the people in charge think, or they might just not understand how to use their data better."
+      },
+      {
+        "author": "Dexter Akanno",
+        "post_date": "2025-05-08T10:32:37-06:00",
+        "content": "Hey Matt \nI think you're definitely right that just having data or dashboards doesn’t mean much if people aren’t actually using them to make decisions. I like how you connected it to the DELTA model, especially the part about “targets.”\nI think to answer your question, one way to make sure our metrics support the right behaviors is to always ask why we're tracking something. There has to be a goal or decision of why we care about what we are tracking. I think also including the people who will be using the data is important,t as they will see if the information is relevant or not."
+      }
+    ],
+    "status": "Successfully extracted 2 entries for student 1812493. (from iframe)",
     "error": null
   }
 ]

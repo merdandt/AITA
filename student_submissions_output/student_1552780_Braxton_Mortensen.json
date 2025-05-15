@@ -13,6 +13,6 @@
       "content": "In Chapter 2 of Analytics at Work, the authors emphasize that high-quality, integrated data is foundational for effective analytics. This point reminded me of my experience as a Project Manager at Thermo Fisher Scientific, where I managed custom engineering solutions across global accounts. Initially, project cost estimates, operations schedules, customer requirements, and engineering data were siloed in disconnected systems, making it difficult to analyze project health or align pricing with corporate goals.\nTo address this, we localized critical project data within the Salesforce platform. This allowed us to track key performance metrics across departments in a centralized dashboard, giving both sales and leadership real-time visibility into project profitability, pipeline status, and customer alignment. This transformation not only improved operational efficiency, but also empowered data-driven decision-making across departments. The chapter reinforced for me how central data integration is—not just for reporting, but for embedding analytics into daily workflows."
     }
   ],
-  "status": "Successfully extracted 2 entries.",
+  "status": "Successfully extracted 2 entries for student 1552780. (from iframe)",
   "error": null
 }

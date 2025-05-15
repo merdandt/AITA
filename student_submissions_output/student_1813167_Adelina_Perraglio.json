@@ -13,6 +13,6 @@
       "content": "As someone without a background in data analytics, it was interesting to learn about the different way companies use the data they collect, with examples from Olive Garden, Coca-Cola, health insurance companies who starting health programs to lower chances of diabetes, or Nike’s analytics using sensors in shoes to track running data. I thought an important aspect of this reading was the emphasis on data integration, and ensuring the data you collect and analyze will have a direct impact on the company. This made me think of how my employer, who manages large amounts of contracts, could benefit from actually analyzing the data collected in our system. This would help the team become more productive and efficient and allow them to be ahead of issues rather than constantly trying to solve issues after they’ve occurred. For example, data collection and analysis of end/renewal dates of contracts would be a great way to minimize delays.\nQuestion: Not every business has the time, money, or staff to effectively manage and analyze data. How can smaller organizations still use analytics in a way that makes sense for them?"
     }
   ],
-  "status": "Successfully extracted 2 entries.",
+  "status": "Successfully extracted 2 entries for student 1813167. (from iframe)",
   "error": null
 }

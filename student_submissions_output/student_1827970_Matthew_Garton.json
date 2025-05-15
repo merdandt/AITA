@@ -13,6 +13,6 @@
       "content": "After reading both chapters from Analytics at Work, I have been considering which data maturity stage the company I work for is at.  We do have a large ERP system that brings functional data together, we do have data warehouses, we have functional analysts, and we do use analytics.  However, we still have data quality issues, our data consists only of internal data, I’m not sure we’re using our data for competitive purposes, and we’re still utilizing analytics in a siloed functional capacity.  I believe my company may be entering stage 4 as an analytical company.   Which analytic/data stages are the organizations you work for in?"
     }
   ],
-  "status": "Successfully extracted 2 entries.",
+  "status": "Successfully extracted 2 entries for student 1827970. (from iframe)",
   "error": null
 }

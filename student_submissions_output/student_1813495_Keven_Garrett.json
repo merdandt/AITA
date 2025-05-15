@@ -13,6 +13,6 @@
       "content": "I am thankful I don't have to work in the department of fixing bad data by hand as this can be a very tedious work especially with very large datasets. The more we are able to automate the processes and eliminate the human factor I believe can help us to remove this bad data and it's chances for error. But often times this can be the big problem of how to do that without implementing such expensive systems. In my line of work, we can't afford these errors and because I work in aerospace they are willing to invest in ways to remove these errors. If we need a machine that can accurately scan or measure the dimensions on specific tooling that has to have specific fit tolerances, we need to make sure those dimensions and what we measure them are within many degrees of accuracy."
     }
   ],
-  "status": "Successfully extracted 2 entries.",
+  "status": "Successfully extracted 2 entries for student 1813495. (from iframe)",
   "error": null
 }

@@ -13,6 +13,6 @@
       "content": "I thought it was really interesting and useful to learn how important good data is in analytics, along with the fundamentals of good data: structure, uniqueness, integration, quality, access, privacy, and governance. In my job, I work with data all the time, especially each month when I review what my teammates have been working on and track our program’s progress to share with the team and our supervisors. Lately, we’ve been having issues with some data inconsistencies, so this topic really hits close to home. Data analytics is essential for my day-to-day tasks, and if the data isn’t solid and doesn’t check all those boxes, it just looks like a bunch of numbers on a spreadsheet that don’t mean much. The two things that stood out to me the most, especially since I’ve been trying to improve how we capture data, are making sure the data is high-quality and well-structured. That’s key when it comes to planning and running global operations. For example, if we have bad or outdated inventory data for aircraft parts, it can slow down maintenance, ground aircraft, and disrupt missions. And when different bases or countries use inconsistent data formats, it can delay coordination and slow everything down. But when the data is clean and consistent, it helps us make better decisions, improve logistics, and keep everything running smoothly."
     }
   ],
-  "status": "Successfully extracted 2 entries.",
+  "status": "Successfully extracted 2 entries for student 1843529. (from iframe)",
   "error": null
 }

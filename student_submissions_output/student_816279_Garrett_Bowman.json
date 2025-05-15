@@ -13,6 +13,6 @@
       "content": "One of the points in Chapter 1 that was interesting for me was the point that “analytical decisions require scrutiny”. Even when there is data or models suggesting something, it’s still worthwhile to view them with some level of skepticism. This is something that I’ve experience in my own work – instead of taking the outcome of the analysis and running, it’s important to ensure that the assumptions and key drivers of the data have also been analyzed by the right people. If the person who is building and maintaining the model is the only one creating and assessing the driving assumptions, the data can be misleading at times.\nThis happened at my company when a member of my team helped update our financial model to look at 12/24/36 month growth curve. When I got into the data, I noticed that many of the drivers were based on historical data sets that weren’t exactly reflective of our current trajectory. One of the key issues was that in a prior year, we had a large customer that helped generate new revenue streams and the projections were including continued growth with them instead of taking their revenue baseline to $0. There were also 2 peaks in prior years where we had run promotions that we wouldn’t be continuing in the future. Once those were identified, we were able to normalize those points and rerun the model."
     }
   ],
-  "status": "Successfully extracted 2 entries.",
+  "status": "Successfully extracted 2 entries for student 816279. (from iframe)",
   "error": null
 }

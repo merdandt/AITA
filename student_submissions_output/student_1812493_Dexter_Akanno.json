@@ -13,6 +13,6 @@
       "content": "Hey Matt \nI think you're definitely right that just having data or dashboards doesn’t mean much if people aren’t actually using them to make decisions. I like how you connected it to the DELTA model, especially the part about “targets.”\nI think to answer your question, one way to make sure our metrics support the right behaviors is to always ask why we're tracking something. There has to be a goal or decision of why we care about what we are tracking. I think also including the people who will be using the data is important,t as they will see if the information is relevant or not."
     }
   ],
-  "status": "Successfully extracted 2 entries.",
+  "status": "Successfully extracted 2 entries for student 1812493. (from iframe)",
   "error": null
 }

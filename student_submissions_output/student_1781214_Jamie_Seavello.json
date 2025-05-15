@@ -13,6 +13,6 @@
       "content": "Data Governance is important in ensuring the data you use is quality.  Garbage in and garbage out is often the term we use for data that is not quality. At my organization, we have a whole team dedicated to fixing errors when they are found in our data. Most of these are caused my human error when entering the information.  I have seen firsthand the issues that are caused when data is missing, inaccurate, or is not well defined. \nLeaders often struggle with investing money into data governance, in my experience, because they believe that smart people can analyze this erroneous information out.  My opinion is that the data should be correct upon entry and that we should update our systems to restrict the entry of bad data. It does take resources and time to update the code and ensure that the restrictions are appropriate, but it can be done.  How have your companies dealt with data integrity, and does your leadership support quality at the source? What helped to make that happen?"
     }
   ],
-  "status": "Successfully extracted 2 entries.",
+  "status": "Successfully extracted 2 entries for student 1781214. (from iframe)",
   "error": null
 }

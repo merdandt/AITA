@@ -13,6 +13,6 @@
       "content": "Hi Sharon! \nTo your question about how to ensure data is trustworthy, I believe it starts with understanding the source of the data. When organizations collect data, they need to evaluate the credibility and accuracy of their sources. This could mean working with reputable vendors, using standard data collection processes, and using quality control checks to identify errors. One method could be cross-referencing it against other trusted data points to verify its accuracy. When organizations commit to thorough data verification and governance, they set themselves up to make decisions that benefit their goals and long term success!"
     }
   ],
-  "status": "Successfully extracted 2 entries.",
+  "status": "Successfully extracted 2 entries for student 1615842. (from iframe)",
   "error": null
 }

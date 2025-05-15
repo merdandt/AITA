@@ -13,6 +13,6 @@
       "content": "My education and career both have given me an emphasis on facts and data, and the second chapter of Analytics at Work highlights data as a tool for analytics. However, my role at work is now changing and the data I work with sometimes includes the types of customer data mentioned in the text. Unlike in engineering, where all the data I could want is already out there (or could be if I run some experiments on metals or processes), the data here is personal and relates to individuals. This data is much softer, but more importantly, must be collected with permission. I appreciated that the text emphasized following laws and standards in gathering data about customers, but I wonder where the ethical line is and how we should define it. Most of us opt-in to targeted advertising on our computers and devices so we see ads of stuff we might be interested in, but where should that stop? Should we permit companies to gather all of our data, create models and analysis based on it, and predict our next desires, health outcomes, criminal activity? I don't know where American privacy law steps in already, but I look forward to learning more from you all about customer data and what we can and can't do with it."
     }
   ],
-  "status": "Successfully extracted 2 entries.",
+  "status": "Successfully extracted 2 entries for student 1806842. (from iframe)",
   "error": null
 }

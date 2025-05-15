@@ -1,7 +1,23 @@
 {
   "student_id": "1462469",
   "student_name": "Kevin Van Der Spek",
-  "entries": [],
-  "status": "No discussion entry elements found in the determined content area.",
+  "entries": [
+    {
+      "author": "Kevin Van Der Spek",
+      "post_date": "2025-05-08T07:32:58-06:00",
+      "content": "Great post Jared. Your description of the important of clean data with watermarks reminds me of this weeks material about the need for one source of true data. Recently, someone I work with discovered a area our data attributes that was being misunderstood. I won't go far into detail, but we were making decisions on efforts and communications with higher ups based on the wrong interpretation of data. The source of the data was good. It clearly was coming from the centralized trusted Wearhouse. My question is, should Montana State Fund trust the interpretations of the data because there was a watermark before it was downloaded?"
+    },
+    {
+      "author": "Kevin Van Der Spek",
+      "post_date": "2025-05-07T07:52:57-06:00",
+      "content": "I want to share some of my experiences with data in the workplace. I work in undergraduate recruitment and I spend a lot of time in spreadsheets. Chapter 1 talked about the key questions addressed by analytics being time frame, information, and insight. I can use the simple table provided to figure out how many students from different areas picked my campus. I can extend this process to figure out why the current incoming students are coming, which will help inform me what factors could motivate future students. From this analysis, I can see which programs are better to promote at different high schools that has and could result in high student enrollment. For example, two of the key schools have students that are interested in technical education and we know that because of how many students have selected to join those programs. We continue to promote hands on programs at those schools. I believe the simple table from chapter 1 can help me create actionable items to meet KPI’s."
+    },
+    {
+      "author": "Kevin Van Der Spek",
+      "post_date": "2025-05-08T07:35:11-06:00",
+      "content": "We do take things like sports into consideration on why students will pick a campus. There are so many things that go into a student decision on a university. I met one student that decided they feel conferrable attending because there was a local trading card store. There were other reasons they attended, but the store was a main factor for them."
+    }
+  ],
+  "status": "Successfully extracted 3 entries for student 1462469. (from iframe)",
   "error": null
 }

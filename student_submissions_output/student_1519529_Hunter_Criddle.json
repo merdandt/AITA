@@ -13,6 +13,6 @@
       "content": "You bring up a good point, and perhaps the Achilles heal of engineers. Often collecting data in the world of engineering can be expensive and time consuming. I work in the thermal engineering field, and waiting for temperatures to stabilize makes gathering data a long process. I agree that careful planning of data collection is as or more important than the postprocessing of data.\nOne struggle is when there is uncertainty in what data will be valuable and aid in decision making. Often in this scenario, too much data is gathered, generally in the breadth of data gathered and in the process it is determined what is actually needed. However this requires additional testing to gather a depth of data in the field newly \"discovered\". Because of this I feel data collection efforts, specifically in engineering testing, are often given too little schedule to allow for adequate testing. \nThat being said, we always need to know what is \"good enough\" and when to stop."
     }
   ],
-  "status": "Successfully extracted 2 entries.",
+  "status": "Successfully extracted 2 entries for student 1519529. (from iframe)",
   "error": null
 }

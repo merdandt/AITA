@@ -13,6 +13,6 @@
       "content": "As I read it reminded me of an internship I had a few years ago for a solar company. I was thinking about how I've used data in the past and how I've seen other companies use it. I was an intern in the Supply Chain department and saw that during the install of solar jobs some parts were missing and some parts were in excess. This led to wasted time because the installers were waiting on parts and had to make return visits. This also caused errors in ordering too much of particular materials and having surplus that now had to be tracked. Taking the data I reviewed every bill of materials to ensure it matched with what was needed for the install. I found critical errors in the tool we were using to automatically calculate parts and worked to fix that tool. By the end of the internship we had corrected quite a few of the material discrepancies and calculated the savings to be around $880k per yer. We could only fix the problem once we had data that showed errors and gave us a direction to look to fix the issues."
     }
   ],
-  "status": "Successfully extracted 2 entries.",
+  "status": "Successfully extracted 2 entries for student 1523477. (from iframe)",
   "error": null
 }
