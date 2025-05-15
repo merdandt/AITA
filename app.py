@@ -58,55 +58,6 @@ def sanitize_filename(name: str) -> str:
     return name
 
 # --- Core Extraction Function ---
-async def save_debug_html(scope: Union[Page, FrameLocator, Locator], filename_prefix: str, student_id: str):
-    if not os.path.exists(OUTPUT_FOLDER_NAME):
-        os.makedirs(OUTPUT_FOLDER_NAME)
-    
-    safe_student_id = sanitize_filename(student_id or 'UNKNOWN_ID')
-    safe_prefix = sanitize_filename(filename_prefix)
-    filename = os.path.join(OUTPUT_FOLDER_NAME, f"DEBUG_{safe_prefix}_{safe_student_id}.html")
-    html_content = "Could not get HTML content."
-    content_source = "unknown"
-
-    try:
-        if isinstance(scope, Page):
-            html_content = await scope.content()
-            content_source = "Page"
-        elif isinstance(scope, FrameLocator):
-            # For FrameLocator, get content of the frame's page.
-            # Ensure body exists before getting innerHTML of body, or just get frame's page content.
-            # A simple way is to get the outerHTML of the body if it exists.
-            try:
-                html_content = await scope.locator(':root').first.evaluate('el => el.outerHTML') # Get HTML of the root element in frame
-                content_source = "FrameLocator (:root)"
-            except Exception:
-                # Fallback for FrameLocator if :root fails (e.g. if :root is not element)
-                # This might require getting the page and then content,
-                # but FrameLocator itself doesn't directly have .content().
-                # Let's try to get the body of the frame if possible
-                body_in_frame = scope.locator('body').first
-                if await body_in_frame.count() > 0:
-                    html_content = await body_in_frame.inner_html()
-                    content_source = "FrameLocator (body innerHTML)"
-                else: # As a last resort for frame, just indicate it's a frame
-                    html_content = f""
-                    content_source = f"FrameLocator (selector: {scope._selector})"
-        elif isinstance(scope, Locator):
-            if await scope.count() > 0:
-                html_content = await scope.first.evaluate('el => el.outerHTML')
-                content_source = f"Locator ({scope._selector})"
-            else:
-                html_content = f""
-                content_source = f"Locator ({scope._selector} - no elements)"
-        
-        with open(filename, "w", encoding='utf-8') as f_debug:
-            f_debug.write(html_content)
-        log_info(f"Saved debug HTML ({content_source}) to: {filename}")
-    except Exception as e_save:
-        log_error(f"Failed to save debug HTML ({content_source}) to {filename}: {e_save}")
-        traceback.print_exc()
-
-
 async def extract_data_for_current_student(page: Page) -> StudentSubmissionData:
     log_info(f"Attempting to extract data for student at URL: {page.url}")
     current_student_id = "ID not found"
@@ -144,12 +95,10 @@ async def extract_data_for_current_student(page: Page) -> StudentSubmissionData:
                 log_success(f"Successfully focused on iframe '{iframe_sel_to_check}'. New submission_scope is this FrameLocator.")
                 submission_scope = current_frame_scope
                 iframe_focused = True
-                await save_debug_html(submission_scope, f"FOCUSED_IFRAME_{sanitize_filename(iframe_sel_to_check)}", current_student_id)
             except Exception as e_iframe:
                 log_warning(f"Error interacting with iframe '{iframe_sel_to_check}': {e_iframe}.")
         if not iframe_focused:
             log_warning("No specific iframe focused. THIS IS LIKELY THE PROBLEM if content is iframed.")
-            await save_debug_html(page, "NO_IFRAME_FOCUSED_USING_PAGE_SCOPE", current_student_id)
         
 
         # 4. LOCATE THE MAIN CONTENT AREA
@@ -170,12 +119,9 @@ async def extract_data_for_current_student(page: Page) -> StudentSubmissionData:
                 search_root_locator = main_content_loc
         else:
             log_error(f"'{main_content_container_sel}' NOT FOUND or NOT VISIBLE in current scope. Search root will be broader.")
-            await save_debug_html(submission_scope, "MAIN_CONTENT_NOT_FOUND_OR_VISIBLE_IN_SCOPE", current_student_id)
             # search_root_locator remains submission_scope
 
         log_info(f"Final search_root_locator type: {type(search_root_locator)}")
-        if search_root_locator != submission_scope:
-             await save_debug_html(search_root_locator, "FINAL_SEARCH_ROOT_LOCATOR", current_student_id)
 
         # 5. Find all discussion entries
         entry_selector = 'div.discussion_entry.communication_message'
@@ -186,7 +132,6 @@ async def extract_data_for_current_student(page: Page) -> StudentSubmissionData:
 
         if not discussion_entry_locators:
             log_warning("No discussion entry elements found with ANY selector within the final search_root_locator.")
-            await save_debug_html(search_root_locator, "SEARCH_ROOT_NO_ENTRIES_FOUND_IN_IT", current_student_id)
             return StudentSubmissionData(student_id=current_student_id, student_name=current_student_name, status="No discussion entry elements found in the determined content area.")
 
         log_success(f"Found {len(discussion_entry_locators)} potential discussion entry elements. Starting parsing loop...")
@@ -283,7 +228,6 @@ async def extract_data_for_current_student(page: Page) -> StudentSubmissionData:
         if not extracted_entries and discussion_entry_locators: # Found elements, but all failed to parse
             status_msg = f"Found {len(discussion_entry_locators)} entry elements, but NO meaningful data could be extracted."
             log_error(status_msg)
-            if discussion_entry_locators: await save_debug_html(discussion_entry_locators[0], "FIRST_ENTRY_PARSE_FAILED", current_student_id)
             return StudentSubmissionData(student_id=current_student_id, student_name=current_student_name, entries=[], status=status_msg)
         
         log_success(f"Extracted {len(extracted_entries)} entries from {len(discussion_entry_locators)} potential elements.")
@@ -293,7 +237,6 @@ async def extract_data_for_current_student(page: Page) -> StudentSubmissionData:
         error_msg = f"CRITICAL Error for student {current_student_id} ({current_student_name}): {str(e)}"
         log_error(error_msg)
         traceback.print_exc()
-        await save_debug_html(page, "CRITICAL_ERROR_PAGE_CONTENT", current_student_id)
         return StudentSubmissionData(student_id=current_student_id, student_name=current_student_name, status="Extraction failed with critical error.", error=str(e))
 
                 
