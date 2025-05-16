@@ -278,6 +278,7 @@ sensitive_data = {
 }
 
 model = ChatGoogleGenerativeAI(model='gemini-2.0-flash-lite') # Keep for authenticator
+model_analyzer = ChatGoogleGenerativeAI(model='gemma-3-27b-it')
 
 
 async def main():
@@ -419,7 +420,7 @@ async def main():
         # Ensure the model is available here. You might re-initialize if needed,
         # or ensure the instance from the auth part is passed correctly if you structure it differently.
         # For simplicity, using the global `model_for_auth_and_analysis` here.
-        await run_submission_analysis(llm_instance=model)
+        run_submission_analysis(llm_instance=model_analyzer)
         log_info("--- Finished Part 2: Submission Analysis and CSV Generation ---")
     
 

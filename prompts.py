@@ -7,3 +7,13 @@ AUTH_TASK = """
             - Ensure you land on the SpeedGrader page for the first student.
         """
         
+ANALIZE_TEXT = """
+Tel me if this text is positive, offensive  or negative
+Text:
+{text}
+
+For example:
+```positive```,
+```negative```
+or ```offensive```
+"""
