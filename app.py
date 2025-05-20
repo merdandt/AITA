@@ -292,6 +292,7 @@ async def main():
         # viewport={"width": 1920, "height": 1080}, # Example: set viewport
         # user_agent="Mozilla/5.0 ...", # Example: set user agent
     ) as context: # This is browser_use.BrowserContext
+        # 1. Authentication and Navigation
         authenticator_agent = Agent(
             task=AUTH_TASK.format(
                 url="https://usu.instructure.com/courses/780705/gradebook/speed_grader?assignment_id=4809230&student_id=1812493",
@@ -324,6 +325,8 @@ async def main():
         # prev_button_selector = "button#prev-student-button, button[aria-label='Previous Student']" # For reference
         
         processed_student_ids_this_run = set()
+        
+        # 2. Student Data Extraction Loop 
         # MAX_STUDENTS = 3 # For testing, uncomment and set a small number
         # students_done_count = 0
 
@@ -398,7 +401,7 @@ async def main():
         
         log_success(f"Finished iterating. Processed {len(all_students_data)} student records.")
 
-        # Save compiled report
+        # 3. Save compiled report
         if all_students_data:
             compiled_report_path = os.path.join(OUTPUT_FOLDER_NAME, "ALL_students_compiled_report.json")
             try:
@@ -417,9 +420,8 @@ async def main():
         # Part 2: Analysis and CSV Generation
         # This part runs after the browser is closed and the JSON report is (presumably) generated.
         log_info("--- Starting Part 2: Submission Analysis and CSV Generation ---")
-        # Ensure the model is available here. You might re-initialize if needed,
-        # or ensure the instance from the auth part is passed correctly if you structure it differently.
-        # For simplicity, using the global `model_for_auth_and_analysis` here.
+      
+        # 4. Analyze and generate CSV
         run_submission_analysis(llm_instance=model_analyzer)
         log_info("--- Finished Part 2: Submission Analysis and CSV Generation ---")
     
