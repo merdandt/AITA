@@ -1,5 +1,6 @@
 import json
 import traceback
+import argparse # Added import
 from langchain_google_genai import ChatGoogleGenerativeAI
 from playwright.async_api import Page
 from dotenv import load_dotenv
@@ -272,16 +273,52 @@ async def extract_data_for_current_student(page: Page) -> StudentSubmissionData:
 browser_manager = Browser()
 # controller = Controller() # Only if authenticator agent needs to register actions not defined elsewhere
 
-sensitive_data = {
-    "ms_email": os.getenv("MS_EMAIL", "A02458093@aggies.usu.edu"), # Example: get from env or default
-    "ms_password": os.getenv("MS_PASSWORD", "4Future$100%!"),
-}
-
-model = ChatGoogleGenerativeAI(model='gemini-2.0-flash-lite') # Keep for authenticator
+# model will be defined inside main or passed as an argument if needed by other functions.
+# For now, let's define it inside main as it's used by authenticator_agent
+# model = ChatGoogleGenerativeAI(model='gemini-2.0-flash-lite') # Keep for authenticator
 model_analyzer = ChatGoogleGenerativeAI(model='gemma-3-27b-it')
 
 
 async def main():
+    # --- Argument Parsing ---
+    parser = argparse.ArgumentParser(description="Extract student submissions from Canvas SpeedGrader.")
+    parser.add_argument(
+        "--url",
+        type=str,
+        required=True,
+        help="The target URL for the assignment in Canvas SpeedGrader."
+    )
+    parser.add_argument(
+        "--email",
+        type=str,
+        required=False,
+        default=os.getenv("MS_EMAIL"), # Default to env variable
+        help="Microsoft email for authentication. Defaults to the MS_EMAIL environment variable."
+    )
+    parser.add_argument(
+        "--password",
+        type=str,
+        required=False,
+        default=os.getenv("MS_PASSWORD"), # Default to env variable
+        help="Microsoft password for authentication. Defaults to the MS_PASSWORD environment variable."
+    )
+    args = parser.parse_args()
+
+    log_info(f"Parsed arguments: URL='{args.url}', Email='{args.email}', Password provided: {'Yes' if args.password else 'No'}")
+    # --- End Argument Parsing ---
+
+    # --- Sensitive Data Setup (after args parsing) ---
+    sensitive_data = {
+        "ms_email": args.email,
+        "ms_password": args.password,
+    }
+    # --- End Sensitive Data Setup ---
+
+    # --- Model Initialization ---
+    # Moved model here as it's used by the authenticator_agent
+    model = ChatGoogleGenerativeAI(model='gemini-2.0-flash-lite') 
+    # --- End Model Initialization ---
+
     all_students_data: List[StudentSubmissionData] = []
     
     if not os.path.exists(OUTPUT_FOLDER_NAME):
@@ -295,9 +332,9 @@ async def main():
         # 1. Authentication and Navigation
         authenticator_agent = Agent(
             task=AUTH_TASK.format(
-                url="https://usu.instructure.com/courses/780705/gradebook/speed_grader?assignment_id=4809230&student_id=1812493",
-                ms_email="ms_email",
-                ms_password="ms_password",
+                url=args.url, # Use parsed URL
+                ms_email="ms_email", # This will be replaced by the key from sensitive_data
+                ms_password="ms_password", # This will be replaced by the key from sensitive_data
             ),
             llm=model, # If your agent uses an LLM
             message_context="You are a browser automation agent for login.",

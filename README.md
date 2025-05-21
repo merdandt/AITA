@@ -100,18 +100,52 @@ A tool for extracting and analyzing student discussion entries from Canvas using
 
 ### Script Mode
 
-Run the application using the Python script:
+The application is run using the `app.py` script and supports command-line arguments for configuration.
+
+**Command-Line Arguments:**
+
+*   `--url "YOUR_CANVAS_SPEEDGRADER_URL"`
+    *   **Type:** String
+    *   **Required:** Yes
+    *   **Description:** The full URL to the specific Canvas SpeedGrader page for the assignment you want to process. This URL typically includes a course ID, assignment ID, and may include an initial student ID.
+    *   Example: `"https://usu.instructure.com/courses/123456/gradebook/speed_grader?assignment_id=789012&student_id=345678"`
+
+*   `--email "your_email@example.com"`
+    *   **Type:** String
+    *   **Required:** No
+    *   **Description:** Your Microsoft email address for Canvas authentication.
+    *   **Fallback:** If not provided, the script will attempt to use the `MS_EMAIL` environment variable defined in your `.env` file.
+
+*   `--password "your_password"`
+    *   **Type:** String
+    *   **Required:** No
+    *   **Description:** Your Microsoft password for Canvas authentication.
+    *   **Security Note:** Providing your password directly on the command line can be insecure as it may be stored in your shell history. For better security, consider relying on the `MS_PASSWORD` environment variable in your `.env` file.
+    *   **Fallback:** If not provided, the script will attempt to use the `MS_PASSWORD` environment variable defined in your `.env` file.
+
+**Execution Example:**
 
 ```bash
-python app.py
+python app.py --url "https://usu.instructure.com/courses/XXXXXX/gradebook/speed_grader?assignment_id=YYYYYYY" --email "your_email@example.com" --password "your_password"
 ```
 
+**Argument Precedence:**
+
+*   For email and password, command-line arguments take precedence.
+*   If `--email` is provided, it will be used regardless of the `MS_EMAIL` environment variable.
+*   If `--password` is provided, it will be used regardless of the `MS_PASSWORD` environment variable.
+*   If `--email` is *not* provided, the `MS_EMAIL` environment variable will be used.
+*   If `--password` is *not* provided, the `MS_PASSWORD` environment variable will be used.
+
+**Script Actions:**
+
 The script will:
-1. Authenticate to Canvas using your credentials
-2. Navigate through student submissions in SpeedGrader
-3. Extract discussion entries for each student
-4. Save data to JSON files in the `student_submissions_output` folder
-5. Generate AI summaries and create a CSV file with the results
+1. Authenticate to Canvas using the provided or environment variable credentials.
+2. Navigate to the SpeedGrader URL specified by the `--url` argument.
+3. Iterate through student submissions.
+4. Extract discussion entries for each student.
+5. Save data to JSON files in the `student_submissions_output` folder.
+6. Generate AI summaries and create a CSV file with the results.
 
 ### Jupyter Notebook Mode
 
@@ -136,14 +170,14 @@ The application generates the following output files in the `student_submissions
 
 ## Customization
 
-To modify the application for different Canvas courses or assignments:
+**Target URL:**
 
-1. Update the URL in the `main()` function in `app.py` or in the notebook:
-   ```python
-   url="https://usu.instructure.com/courses/YOUR_COURSE_ID/gradebook/speed_grader?assignment_id=YOUR_ASSIGNMENT_ID&student_id=STARTING_STUDENT_ID"
-   ```
+*   The primary way to specify the target Canvas course and assignment is by using the `--url` command-line argument when running `app.py`. See the "Running the Application" section for details.
+*   If using the Jupyter Notebook (`AITA_Notebook.ipynb`), you will need to update the URL directly in the relevant cell within the notebook.
 
-2. Adjust the `max_entries` parameter in the `SubmissionAnalyzer` class if you need to extract more than 4 entries per student.
+**Number of Entries:**
+
+*   To adjust the `max_entries` parameter (if you need to extract more or fewer than the default of 4 entries per student), you will need to modify it in the `SubmissionAnalyzer` class within the `submission_analyzer.py` file.
 
 ## Troubleshooting
 
